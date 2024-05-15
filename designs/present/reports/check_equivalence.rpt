@@ -1,0 +1,920 @@
+================================================================================
+                            Verification Report
+--------------------------------------------------------------------------------
+Category                                                                  Count
+--------------------------------------------------------------------------------
+1. Non-standard modeling options used:                                      0
+--------------------------------------------------------------------------------
+2. Incomplete verification:                                                 0
+--------------------------------------------------------------------------------
+3. User modification to design:                                             0
+--------------------------------------------------------------------------------
+4. Conformal Constraint Designer clock domain crossing checks recommended:  0
+--------------------------------------------------------------------------------
+5. Design ambiguity:                                                        0
+--------------------------------------------------------------------------------
+6. Compare Results:                                                        PASS
+================================================================================
+
+Mapping and compare statistics
+================================================================================
+                     Compare Result       Golden            Revised
+--------------------------------------------------------------------------------
+Root module name                          present_encr...   present_encr...   
+
+Primary inputs                               147                147
+   Mapped                                    147                147
+
+Primary outputs                               66                 66
+   Mapped                                     66                 66
+      Equivalent                 66
+
+State key points                             153                153
+   Mapped                                    153                153
+      Equivalent                153
+================================================================================
+
+There is no unmapped point
+
+Compared points are: Equivalent
+  (G) + 148  PO   /ct[63]
+  (R) + 148  PO   /ct[63]
+
+Compared points are: Equivalent
+  (G) + 149  PO   /ct[62]
+  (R) + 149  PO   /ct[62]
+
+Compared points are: Equivalent
+  (G) + 150  PO   /ct[61]
+  (R) + 150  PO   /ct[61]
+
+Compared points are: Equivalent
+  (G) + 151  PO   /ct[60]
+  (R) + 151  PO   /ct[60]
+
+Compared points are: Equivalent
+  (G) + 152  PO   /ct[59]
+  (R) + 152  PO   /ct[59]
+
+Compared points are: Equivalent
+  (G) + 153  PO   /ct[58]
+  (R) + 153  PO   /ct[58]
+
+Compared points are: Equivalent
+  (G) + 154  PO   /ct[57]
+  (R) + 154  PO   /ct[57]
+
+Compared points are: Equivalent
+  (G) + 155  PO   /ct[56]
+  (R) + 155  PO   /ct[56]
+
+Compared points are: Equivalent
+  (G) + 156  PO   /ct[55]
+  (R) + 156  PO   /ct[55]
+
+Compared points are: Equivalent
+  (G) + 157  PO   /ct[54]
+  (R) + 157  PO   /ct[54]
+
+Compared points are: Equivalent
+  (G) + 158  PO   /ct[53]
+  (R) + 158  PO   /ct[53]
+
+Compared points are: Equivalent
+  (G) + 159  PO   /ct[52]
+  (R) + 159  PO   /ct[52]
+
+Compared points are: Equivalent
+  (G) + 160  PO   /ct[51]
+  (R) + 160  PO   /ct[51]
+
+Compared points are: Equivalent
+  (G) + 161  PO   /ct[50]
+  (R) + 161  PO   /ct[50]
+
+Compared points are: Equivalent
+  (G) + 162  PO   /ct[49]
+  (R) + 162  PO   /ct[49]
+
+Compared points are: Equivalent
+  (G) + 163  PO   /ct[48]
+  (R) + 163  PO   /ct[48]
+
+Compared points are: Equivalent
+  (G) + 164  PO   /ct[47]
+  (R) + 164  PO   /ct[47]
+
+Compared points are: Equivalent
+  (G) + 165  PO   /ct[46]
+  (R) + 165  PO   /ct[46]
+
+Compared points are: Equivalent
+  (G) + 166  PO   /ct[45]
+  (R) + 166  PO   /ct[45]
+
+Compared points are: Equivalent
+  (G) + 167  PO   /ct[44]
+  (R) + 167  PO   /ct[44]
+
+Compared points are: Equivalent
+  (G) + 168  PO   /ct[43]
+  (R) + 168  PO   /ct[43]
+
+Compared points are: Equivalent
+  (G) + 169  PO   /ct[42]
+  (R) + 169  PO   /ct[42]
+
+Compared points are: Equivalent
+  (G) + 170  PO   /ct[41]
+  (R) + 170  PO   /ct[41]
+
+Compared points are: Equivalent
+  (G) + 171  PO   /ct[40]
+  (R) + 171  PO   /ct[40]
+
+Compared points are: Equivalent
+  (G) + 172  PO   /ct[39]
+  (R) + 172  PO   /ct[39]
+
+Compared points are: Equivalent
+  (G) + 173  PO   /ct[38]
+  (R) + 173  PO   /ct[38]
+
+Compared points are: Equivalent
+  (G) + 174  PO   /ct[37]
+  (R) + 174  PO   /ct[37]
+
+Compared points are: Equivalent
+  (G) + 175  PO   /ct[36]
+  (R) + 175  PO   /ct[36]
+
+Compared points are: Equivalent
+  (G) + 176  PO   /ct[35]
+  (R) + 176  PO   /ct[35]
+
+Compared points are: Equivalent
+  (G) + 177  PO   /ct[34]
+  (R) + 177  PO   /ct[34]
+
+Compared points are: Equivalent
+  (G) + 178  PO   /ct[33]
+  (R) + 178  PO   /ct[33]
+
+Compared points are: Equivalent
+  (G) + 179  PO   /ct[32]
+  (R) + 179  PO   /ct[32]
+
+Compared points are: Equivalent
+  (G) + 180  PO   /ct[31]
+  (R) + 180  PO   /ct[31]
+
+Compared points are: Equivalent
+  (G) + 181  PO   /ct[30]
+  (R) + 181  PO   /ct[30]
+
+Compared points are: Equivalent
+  (G) + 182  PO   /ct[29]
+  (R) + 182  PO   /ct[29]
+
+Compared points are: Equivalent
+  (G) + 183  PO   /ct[28]
+  (R) + 183  PO   /ct[28]
+
+Compared points are: Equivalent
+  (G) + 184  PO   /ct[27]
+  (R) + 184  PO   /ct[27]
+
+Compared points are: Equivalent
+  (G) + 185  PO   /ct[26]
+  (R) + 185  PO   /ct[26]
+
+Compared points are: Equivalent
+  (G) + 186  PO   /ct[25]
+  (R) + 186  PO   /ct[25]
+
+Compared points are: Equivalent
+  (G) + 187  PO   /ct[24]
+  (R) + 187  PO   /ct[24]
+
+Compared points are: Equivalent
+  (G) + 188  PO   /ct[23]
+  (R) + 188  PO   /ct[23]
+
+Compared points are: Equivalent
+  (G) + 189  PO   /ct[22]
+  (R) + 189  PO   /ct[22]
+
+Compared points are: Equivalent
+  (G) + 190  PO   /ct[21]
+  (R) + 190  PO   /ct[21]
+
+Compared points are: Equivalent
+  (G) + 191  PO   /ct[20]
+  (R) + 191  PO   /ct[20]
+
+Compared points are: Equivalent
+  (G) + 192  PO   /ct[19]
+  (R) + 192  PO   /ct[19]
+
+Compared points are: Equivalent
+  (G) + 193  PO   /ct[18]
+  (R) + 193  PO   /ct[18]
+
+Compared points are: Equivalent
+  (G) + 194  PO   /ct[17]
+  (R) + 194  PO   /ct[17]
+
+Compared points are: Equivalent
+  (G) + 195  PO   /ct[16]
+  (R) + 195  PO   /ct[16]
+
+Compared points are: Equivalent
+  (G) + 196  PO   /ct[15]
+  (R) + 196  PO   /ct[15]
+
+Compared points are: Equivalent
+  (G) + 197  PO   /ct[14]
+  (R) + 197  PO   /ct[14]
+
+Compared points are: Equivalent
+  (G) + 198  PO   /ct[13]
+  (R) + 198  PO   /ct[13]
+
+Compared points are: Equivalent
+  (G) + 199  PO   /ct[12]
+  (R) + 199  PO   /ct[12]
+
+Compared points are: Equivalent
+  (G) + 200  PO   /ct[11]
+  (R) + 200  PO   /ct[11]
+
+Compared points are: Equivalent
+  (G) + 201  PO   /ct[10]
+  (R) + 201  PO   /ct[10]
+
+Compared points are: Equivalent
+  (G) + 202  PO   /ct[9]
+  (R) + 202  PO   /ct[9]
+
+Compared points are: Equivalent
+  (G) + 203  PO   /ct[8]
+  (R) + 203  PO   /ct[8]
+
+Compared points are: Equivalent
+  (G) + 204  PO   /ct[7]
+  (R) + 204  PO   /ct[7]
+
+Compared points are: Equivalent
+  (G) + 205  PO   /ct[6]
+  (R) + 205  PO   /ct[6]
+
+Compared points are: Equivalent
+  (G) + 206  PO   /ct[5]
+  (R) + 206  PO   /ct[5]
+
+Compared points are: Equivalent
+  (G) + 207  PO   /ct[4]
+  (R) + 207  PO   /ct[4]
+
+Compared points are: Equivalent
+  (G) + 208  PO   /ct[3]
+  (R) + 208  PO   /ct[3]
+
+Compared points are: Equivalent
+  (G) + 209  PO   /ct[2]
+  (R) + 209  PO   /ct[2]
+
+Compared points are: Equivalent
+  (G) + 210  PO   /ct[1]
+  (R) + 210  PO   /ct[1]
+
+Compared points are: Equivalent
+  (G) + 211  PO   /ct[0]
+  (R) + 211  PO   /ct[0]
+
+Compared points are: Equivalent
+  (G) + 212  PO   /busy
+  (R) + 212  PO   /busy
+
+Compared points are: Equivalent
+  (G) + 213  PO   /valid
+  (R) + 213  PO   /valid
+
+Compared points are: Equivalent
+  (G) + 214  DFF  /fsm_state_reg_0_/U$1
+  (R) + 214  DFF  /fsm_state_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 215  DFF  /round_reg_5_/U$1
+  (R) + 215  DFF  /round_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 216  DFF  /round_reg_4_/U$1
+  (R) + 216  DFF  /round_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 217  DFF  /round_reg_3_/U$1
+  (R) + 217  DFF  /round_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 218  DFF  /round_reg_2_/U$1
+  (R) + 218  DFF  /round_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 219  DFF  /round_reg_1_/U$1
+  (R) + 219  DFF  /round_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 220  DFF  /round_reg_0_/U$1
+  (R) + 220  DFF  /round_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 221  DFF  /current_key_reg_15_/U$1
+  (R) + 221  DFF  /current_key_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 222  DFF  /current_key_reg_76_/U$1
+  (R) + 222  DFF  /current_key_reg_76_/U$1
+
+Compared points are: Equivalent
+  (G) + 223  DFF  /current_key_reg_57_/U$1
+  (R) + 223  DFF  /current_key_reg_57_/U$1
+
+Compared points are: Equivalent
+  (G) + 224  DFF  /current_key_reg_38_/U$1
+  (R) + 224  DFF  /current_key_reg_38_/U$1
+
+Compared points are: Equivalent
+  (G) + 225  DFF  /current_key_reg_19_/U$1
+  (R) + 225  DFF  /current_key_reg_19_/U$1
+
+Compared points are: Equivalent
+  (G) + 226  DFF  /current_key_reg_0_/U$1
+  (R) + 226  DFF  /current_key_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 227  DFF  /current_key_reg_61_/U$1
+  (R) + 227  DFF  /current_key_reg_61_/U$1
+
+Compared points are: Equivalent
+  (G) + 228  DFF  /current_key_reg_42_/U$1
+  (R) + 228  DFF  /current_key_reg_42_/U$1
+
+Compared points are: Equivalent
+  (G) + 229  DFF  /current_key_reg_23_/U$1
+  (R) + 229  DFF  /current_key_reg_23_/U$1
+
+Compared points are: Equivalent
+  (G) + 230  DFF  /current_key_reg_4_/U$1
+  (R) + 230  DFF  /current_key_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 231  DFF  /current_key_reg_65_/U$1
+  (R) + 231  DFF  /current_key_reg_65_/U$1
+
+Compared points are: Equivalent
+  (G) + 232  DFF  /current_key_reg_46_/U$1
+  (R) + 232  DFF  /current_key_reg_46_/U$1
+
+Compared points are: Equivalent
+  (G) + 233  DFF  /current_key_reg_27_/U$1
+  (R) + 233  DFF  /current_key_reg_27_/U$1
+
+Compared points are: Equivalent
+  (G) + 234  DFF  /current_key_reg_8_/U$1
+  (R) + 234  DFF  /current_key_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 235  DFF  /current_key_reg_69_/U$1
+  (R) + 235  DFF  /current_key_reg_69_/U$1
+
+Compared points are: Equivalent
+  (G) + 236  DFF  /current_key_reg_50_/U$1
+  (R) + 236  DFF  /current_key_reg_50_/U$1
+
+Compared points are: Equivalent
+  (G) + 237  DFF  /current_key_reg_31_/U$1
+  (R) + 237  DFF  /current_key_reg_31_/U$1
+
+Compared points are: Equivalent
+  (G) + 238  DFF  /current_key_reg_12_/U$1
+  (R) + 238  DFF  /current_key_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 239  DFF  /current_key_reg_73_/U$1
+  (R) + 239  DFF  /current_key_reg_73_/U$1
+
+Compared points are: Equivalent
+  (G) + 240  DFF  /current_key_reg_54_/U$1
+  (R) + 240  DFF  /current_key_reg_54_/U$1
+
+Compared points are: Equivalent
+  (G) + 241  DFF  /current_key_reg_35_/U$1
+  (R) + 241  DFF  /current_key_reg_35_/U$1
+
+Compared points are: Equivalent
+  (G) + 242  DFF  /current_key_reg_16_/U$1
+  (R) + 242  DFF  /current_key_reg_16_/U$1
+
+Compared points are: Equivalent
+  (G) + 243  DFF  /current_key_reg_77_/U$1
+  (R) + 243  DFF  /current_key_reg_77_/U$1
+
+Compared points are: Equivalent
+  (G) + 244  DFF  /current_key_reg_58_/U$1
+  (R) + 244  DFF  /current_key_reg_58_/U$1
+
+Compared points are: Equivalent
+  (G) + 245  DFF  /current_key_reg_39_/U$1
+  (R) + 245  DFF  /current_key_reg_39_/U$1
+
+Compared points are: Equivalent
+  (G) + 246  DFF  /current_key_reg_20_/U$1
+  (R) + 246  DFF  /current_key_reg_20_/U$1
+
+Compared points are: Equivalent
+  (G) + 247  DFF  /current_key_reg_1_/U$1
+  (R) + 247  DFF  /current_key_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 248  DFF  /current_key_reg_62_/U$1
+  (R) + 248  DFF  /current_key_reg_62_/U$1
+
+Compared points are: Equivalent
+  (G) + 249  DFF  /current_key_reg_43_/U$1
+  (R) + 249  DFF  /current_key_reg_43_/U$1
+
+Compared points are: Equivalent
+  (G) + 250  DFF  /current_key_reg_24_/U$1
+  (R) + 250  DFF  /current_key_reg_24_/U$1
+
+Compared points are: Equivalent
+  (G) + 251  DFF  /current_key_reg_5_/U$1
+  (R) + 251  DFF  /current_key_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 252  DFF  /current_key_reg_66_/U$1
+  (R) + 252  DFF  /current_key_reg_66_/U$1
+
+Compared points are: Equivalent
+  (G) + 253  DFF  /current_key_reg_47_/U$1
+  (R) + 253  DFF  /current_key_reg_47_/U$1
+
+Compared points are: Equivalent
+  (G) + 254  DFF  /current_key_reg_28_/U$1
+  (R) + 254  DFF  /current_key_reg_28_/U$1
+
+Compared points are: Equivalent
+  (G) + 255  DFF  /current_key_reg_9_/U$1
+  (R) + 255  DFF  /current_key_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 256  DFF  /current_key_reg_70_/U$1
+  (R) + 256  DFF  /current_key_reg_70_/U$1
+
+Compared points are: Equivalent
+  (G) + 257  DFF  /current_key_reg_51_/U$1
+  (R) + 257  DFF  /current_key_reg_51_/U$1
+
+Compared points are: Equivalent
+  (G) + 258  DFF  /current_key_reg_32_/U$1
+  (R) + 258  DFF  /current_key_reg_32_/U$1
+
+Compared points are: Equivalent
+  (G) + 259  DFF  /current_key_reg_13_/U$1
+  (R) + 259  DFF  /current_key_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 260  DFF  /current_key_reg_74_/U$1
+  (R) + 260  DFF  /current_key_reg_74_/U$1
+
+Compared points are: Equivalent
+  (G) + 261  DFF  /current_key_reg_55_/U$1
+  (R) + 261  DFF  /current_key_reg_55_/U$1
+
+Compared points are: Equivalent
+  (G) + 262  DFF  /current_key_reg_36_/U$1
+  (R) + 262  DFF  /current_key_reg_36_/U$1
+
+Compared points are: Equivalent
+  (G) + 263  DFF  /current_key_reg_17_/U$1
+  (R) + 263  DFF  /current_key_reg_17_/U$1
+
+Compared points are: Equivalent
+  (G) + 264  DFF  /current_key_reg_78_/U$1
+  (R) + 264  DFF  /current_key_reg_78_/U$1
+
+Compared points are: Equivalent
+  (G) + 265  DFF  /current_key_reg_59_/U$1
+  (R) + 265  DFF  /current_key_reg_59_/U$1
+
+Compared points are: Equivalent
+  (G) + 266  DFF  /current_key_reg_40_/U$1
+  (R) + 266  DFF  /current_key_reg_40_/U$1
+
+Compared points are: Equivalent
+  (G) + 267  DFF  /current_key_reg_21_/U$1
+  (R) + 267  DFF  /current_key_reg_21_/U$1
+
+Compared points are: Equivalent
+  (G) + 268  DFF  /current_key_reg_2_/U$1
+  (R) + 268  DFF  /current_key_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 269  DFF  /current_key_reg_63_/U$1
+  (R) + 269  DFF  /current_key_reg_63_/U$1
+
+Compared points are: Equivalent
+  (G) + 270  DFF  /current_key_reg_44_/U$1
+  (R) + 270  DFF  /current_key_reg_44_/U$1
+
+Compared points are: Equivalent
+  (G) + 271  DFF  /current_key_reg_25_/U$1
+  (R) + 271  DFF  /current_key_reg_25_/U$1
+
+Compared points are: Equivalent
+  (G) + 272  DFF  /current_key_reg_6_/U$1
+  (R) + 272  DFF  /current_key_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 273  DFF  /current_key_reg_67_/U$1
+  (R) + 273  DFF  /current_key_reg_67_/U$1
+
+Compared points are: Equivalent
+  (G) + 274  DFF  /current_key_reg_48_/U$1
+  (R) + 274  DFF  /current_key_reg_48_/U$1
+
+Compared points are: Equivalent
+  (G) + 275  DFF  /current_key_reg_29_/U$1
+  (R) + 275  DFF  /current_key_reg_29_/U$1
+
+Compared points are: Equivalent
+  (G) + 276  DFF  /current_key_reg_10_/U$1
+  (R) + 276  DFF  /current_key_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 277  DFF  /current_key_reg_71_/U$1
+  (R) + 277  DFF  /current_key_reg_71_/U$1
+
+Compared points are: Equivalent
+  (G) + 278  DFF  /current_key_reg_52_/U$1
+  (R) + 278  DFF  /current_key_reg_52_/U$1
+
+Compared points are: Equivalent
+  (G) + 279  DFF  /current_key_reg_33_/U$1
+  (R) + 279  DFF  /current_key_reg_33_/U$1
+
+Compared points are: Equivalent
+  (G) + 280  DFF  /current_key_reg_14_/U$1
+  (R) + 280  DFF  /current_key_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 281  DFF  /current_key_reg_75_/U$1
+  (R) + 281  DFF  /current_key_reg_75_/U$1
+
+Compared points are: Equivalent
+  (G) + 282  DFF  /current_key_reg_56_/U$1
+  (R) + 282  DFF  /current_key_reg_56_/U$1
+
+Compared points are: Equivalent
+  (G) + 283  DFF  /current_key_reg_37_/U$1
+  (R) + 283  DFF  /current_key_reg_37_/U$1
+
+Compared points are: Equivalent
+  (G) + 284  DFF  /current_key_reg_18_/U$1
+  (R) + 284  DFF  /current_key_reg_18_/U$1
+
+Compared points are: Equivalent
+  (G) + 285  DFF  /current_key_reg_79_/U$1
+  (R) + 285  DFF  /current_key_reg_79_/U$1
+
+Compared points are: Equivalent
+  (G) + 286  DFF  /current_key_reg_60_/U$1
+  (R) + 286  DFF  /current_key_reg_60_/U$1
+
+Compared points are: Equivalent
+  (G) + 287  DFF  /current_key_reg_41_/U$1
+  (R) + 287  DFF  /current_key_reg_41_/U$1
+
+Compared points are: Equivalent
+  (G) + 288  DFF  /current_key_reg_22_/U$1
+  (R) + 288  DFF  /current_key_reg_22_/U$1
+
+Compared points are: Equivalent
+  (G) + 289  DFF  /current_key_reg_3_/U$1
+  (R) + 289  DFF  /current_key_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 290  DFF  /current_key_reg_64_/U$1
+  (R) + 290  DFF  /current_key_reg_64_/U$1
+
+Compared points are: Equivalent
+  (G) + 291  DFF  /current_key_reg_45_/U$1
+  (R) + 291  DFF  /current_key_reg_45_/U$1
+
+Compared points are: Equivalent
+  (G) + 292  DFF  /current_key_reg_26_/U$1
+  (R) + 292  DFF  /current_key_reg_26_/U$1
+
+Compared points are: Equivalent
+  (G) + 293  DFF  /current_key_reg_7_/U$1
+  (R) + 293  DFF  /current_key_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 294  DFF  /current_key_reg_68_/U$1
+  (R) + 294  DFF  /current_key_reg_68_/U$1
+
+Compared points are: Equivalent
+  (G) + 295  DFF  /current_key_reg_49_/U$1
+  (R) + 295  DFF  /current_key_reg_49_/U$1
+
+Compared points are: Equivalent
+  (G) + 296  DFF  /current_key_reg_30_/U$1
+  (R) + 296  DFF  /current_key_reg_30_/U$1
+
+Compared points are: Equivalent
+  (G) + 297  DFF  /current_key_reg_11_/U$1
+  (R) + 297  DFF  /current_key_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 298  DFF  /current_key_reg_72_/U$1
+  (R) + 298  DFF  /current_key_reg_72_/U$1
+
+Compared points are: Equivalent
+  (G) + 299  DFF  /current_key_reg_53_/U$1
+  (R) + 299  DFF  /current_key_reg_53_/U$1
+
+Compared points are: Equivalent
+  (G) + 300  DFF  /current_key_reg_34_/U$1
+  (R) + 300  DFF  /current_key_reg_34_/U$1
+
+Compared points are: Equivalent
+  (G) + 301  DFF  /state_reg_0_/U$1
+  (R) + 301  DFF  /state_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 302  DFF  /state_reg_1_/U$1
+  (R) + 302  DFF  /state_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 303  DFF  /state_reg_2_/U$1
+  (R) + 303  DFF  /state_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 304  DFF  /state_reg_3_/U$1
+  (R) + 304  DFF  /state_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 305  DFF  /state_reg_4_/U$1
+  (R) + 305  DFF  /state_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 306  DFF  /state_reg_5_/U$1
+  (R) + 306  DFF  /state_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 307  DFF  /state_reg_6_/U$1
+  (R) + 307  DFF  /state_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 308  DFF  /state_reg_7_/U$1
+  (R) + 308  DFF  /state_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 309  DFF  /state_reg_8_/U$1
+  (R) + 309  DFF  /state_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 310  DFF  /state_reg_9_/U$1
+  (R) + 310  DFF  /state_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 311  DFF  /state_reg_10_/U$1
+  (R) + 311  DFF  /state_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 312  DFF  /state_reg_11_/U$1
+  (R) + 312  DFF  /state_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 313  DFF  /state_reg_12_/U$1
+  (R) + 313  DFF  /state_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 314  DFF  /state_reg_13_/U$1
+  (R) + 314  DFF  /state_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 315  DFF  /state_reg_14_/U$1
+  (R) + 315  DFF  /state_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 316  DFF  /state_reg_15_/U$1
+  (R) + 316  DFF  /state_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 317  DFF  /state_reg_16_/U$1
+  (R) + 317  DFF  /state_reg_16_/U$1
+
+Compared points are: Equivalent
+  (G) + 318  DFF  /state_reg_17_/U$1
+  (R) + 318  DFF  /state_reg_17_/U$1
+
+Compared points are: Equivalent
+  (G) + 319  DFF  /state_reg_18_/U$1
+  (R) + 319  DFF  /state_reg_18_/U$1
+
+Compared points are: Equivalent
+  (G) + 320  DFF  /state_reg_19_/U$1
+  (R) + 320  DFF  /state_reg_19_/U$1
+
+Compared points are: Equivalent
+  (G) + 321  DFF  /state_reg_20_/U$1
+  (R) + 321  DFF  /state_reg_20_/U$1
+
+Compared points are: Equivalent
+  (G) + 322  DFF  /state_reg_21_/U$1
+  (R) + 322  DFF  /state_reg_21_/U$1
+
+Compared points are: Equivalent
+  (G) + 323  DFF  /state_reg_22_/U$1
+  (R) + 323  DFF  /state_reg_22_/U$1
+
+Compared points are: Equivalent
+  (G) + 324  DFF  /state_reg_23_/U$1
+  (R) + 324  DFF  /state_reg_23_/U$1
+
+Compared points are: Equivalent
+  (G) + 325  DFF  /state_reg_24_/U$1
+  (R) + 325  DFF  /state_reg_24_/U$1
+
+Compared points are: Equivalent
+  (G) + 326  DFF  /state_reg_25_/U$1
+  (R) + 326  DFF  /state_reg_25_/U$1
+
+Compared points are: Equivalent
+  (G) + 327  DFF  /state_reg_26_/U$1
+  (R) + 327  DFF  /state_reg_26_/U$1
+
+Compared points are: Equivalent
+  (G) + 328  DFF  /state_reg_27_/U$1
+  (R) + 328  DFF  /state_reg_27_/U$1
+
+Compared points are: Equivalent
+  (G) + 329  DFF  /state_reg_28_/U$1
+  (R) + 329  DFF  /state_reg_28_/U$1
+
+Compared points are: Equivalent
+  (G) + 330  DFF  /state_reg_29_/U$1
+  (R) + 330  DFF  /state_reg_29_/U$1
+
+Compared points are: Equivalent
+  (G) + 331  DFF  /state_reg_30_/U$1
+  (R) + 331  DFF  /state_reg_30_/U$1
+
+Compared points are: Equivalent
+  (G) + 332  DFF  /state_reg_31_/U$1
+  (R) + 332  DFF  /state_reg_31_/U$1
+
+Compared points are: Equivalent
+  (G) + 333  DFF  /state_reg_32_/U$1
+  (R) + 333  DFF  /state_reg_32_/U$1
+
+Compared points are: Equivalent
+  (G) + 334  DFF  /state_reg_33_/U$1
+  (R) + 334  DFF  /state_reg_33_/U$1
+
+Compared points are: Equivalent
+  (G) + 335  DFF  /state_reg_34_/U$1
+  (R) + 335  DFF  /state_reg_34_/U$1
+
+Compared points are: Equivalent
+  (G) + 336  DFF  /state_reg_35_/U$1
+  (R) + 336  DFF  /state_reg_35_/U$1
+
+Compared points are: Equivalent
+  (G) + 337  DFF  /state_reg_36_/U$1
+  (R) + 337  DFF  /state_reg_36_/U$1
+
+Compared points are: Equivalent
+  (G) + 338  DFF  /state_reg_37_/U$1
+  (R) + 338  DFF  /state_reg_37_/U$1
+
+Compared points are: Equivalent
+  (G) + 339  DFF  /state_reg_38_/U$1
+  (R) + 339  DFF  /state_reg_38_/U$1
+
+Compared points are: Equivalent
+  (G) + 340  DFF  /state_reg_39_/U$1
+  (R) + 340  DFF  /state_reg_39_/U$1
+
+Compared points are: Equivalent
+  (G) + 341  DFF  /state_reg_40_/U$1
+  (R) + 341  DFF  /state_reg_40_/U$1
+
+Compared points are: Equivalent
+  (G) + 342  DFF  /state_reg_41_/U$1
+  (R) + 342  DFF  /state_reg_41_/U$1
+
+Compared points are: Equivalent
+  (G) + 343  DFF  /state_reg_42_/U$1
+  (R) + 343  DFF  /state_reg_42_/U$1
+
+Compared points are: Equivalent
+  (G) + 344  DFF  /state_reg_43_/U$1
+  (R) + 344  DFF  /state_reg_43_/U$1
+
+Compared points are: Equivalent
+  (G) + 345  DFF  /state_reg_44_/U$1
+  (R) + 345  DFF  /state_reg_44_/U$1
+
+Compared points are: Equivalent
+  (G) + 346  DFF  /state_reg_45_/U$1
+  (R) + 346  DFF  /state_reg_45_/U$1
+
+Compared points are: Equivalent
+  (G) + 347  DFF  /state_reg_47_/U$1
+  (R) + 347  DFF  /state_reg_47_/U$1
+
+Compared points are: Equivalent
+  (G) + 348  DFF  /state_reg_48_/U$1
+  (R) + 348  DFF  /state_reg_48_/U$1
+
+Compared points are: Equivalent
+  (G) + 349  DFF  /state_reg_49_/U$1
+  (R) + 349  DFF  /state_reg_49_/U$1
+
+Compared points are: Equivalent
+  (G) + 350  DFF  /state_reg_50_/U$1
+  (R) + 350  DFF  /state_reg_50_/U$1
+
+Compared points are: Equivalent
+  (G) + 351  DFF  /state_reg_51_/U$1
+  (R) + 351  DFF  /state_reg_51_/U$1
+
+Compared points are: Equivalent
+  (G) + 352  DFF  /state_reg_52_/U$1
+  (R) + 352  DFF  /state_reg_52_/U$1
+
+Compared points are: Equivalent
+  (G) + 353  DFF  /state_reg_53_/U$1
+  (R) + 353  DFF  /state_reg_53_/U$1
+
+Compared points are: Equivalent
+  (G) + 354  DFF  /state_reg_54_/U$1
+  (R) + 354  DFF  /state_reg_54_/U$1
+
+Compared points are: Equivalent
+  (G) + 355  DFF  /state_reg_55_/U$1
+  (R) + 355  DFF  /state_reg_55_/U$1
+
+Compared points are: Equivalent
+  (G) + 356  DFF  /state_reg_56_/U$1
+  (R) + 356  DFF  /state_reg_56_/U$1
+
+Compared points are: Equivalent
+  (G) + 357  DFF  /state_reg_57_/U$1
+  (R) + 357  DFF  /state_reg_57_/U$1
+
+Compared points are: Equivalent
+  (G) + 358  DFF  /state_reg_58_/U$1
+  (R) + 358  DFF  /state_reg_58_/U$1
+
+Compared points are: Equivalent
+  (G) + 359  DFF  /state_reg_60_/U$1
+  (R) + 359  DFF  /state_reg_60_/U$1
+
+Compared points are: Equivalent
+  (G) + 360  DFF  /state_reg_61_/U$1
+  (R) + 360  DFF  /state_reg_61_/U$1
+
+Compared points are: Equivalent
+  (G) + 361  DFF  /state_reg_62_/U$1
+  (R) + 361  DFF  /state_reg_62_/U$1
+
+Compared points are: Equivalent
+  (G) + 362  DFF  /state_reg_63_/U$1
+  (R) + 362  DFF  /state_reg_63_/U$1
+
+Compared points are: Equivalent
+  (G) + 363  DFF  /valid_reg/U$1
+  (R) + 363  DFF  /valid_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 364  DFF  /state_reg_59_/U$1
+  (R) + 364  DFF  /state_reg_59_/U$1
+
+Compared points are: Equivalent
+  (G) + 365  DFF  /fsm_state_reg_1_/U$1
+  (R) + 365  DFF  /fsm_state_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 366  DFF  /state_reg_46_/U$1
+  (R) + 366  DFF  /state_reg_46_/U$1
+
+219 compared point(s) reported
+================================================================================
+Compared points      PO     DFF       Total   
+--------------------------------------------------------------------------------
+Equivalent           66     153       219     
+================================================================================

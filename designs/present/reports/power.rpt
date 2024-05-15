@@ -1,0 +1,216 @@
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    0.95V	    VDD
+Using Power View: generic_view.
+Load RC corner of view generic_view
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    0.95V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=756.89MB/1732.20MB/756.91MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+CRYPTOCLK(100MHz) CK: assigning clock CRYPTOCLK to net clock
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=757.01MB/1732.20MB/757.02MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=757.07MB/1732.20MB/757.07MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT)
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 10%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 20%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 30%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 40%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 50%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 60%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 70%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 80%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 90%
+
+Finished Levelizing
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT)
+
+Starting Activity Propagation
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 10%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 20%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 30%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 40%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 50%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 60%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 70%
+2022-Mar-12 16:26:50 (2022-Mar-12 21:26:50 GMT): 80%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 90%
+
+Finished Activity Propagation
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=757.35MB/1732.20MB/757.35MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 2
+      # of cell(s) missing leakage table: 2
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+CellName                                  Missing Table(s)
+LOGIC0_X1                                 internal power, leakge power, 
+LOGIC1_X1                                 internal power, leakge power, 
+
+
+
+Starting Calculating power
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT)
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 10%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 20%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 30%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 40%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 50%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 60%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 70%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 80%
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT): 90%
+
+Finished Calculating power
+2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=767.02MB/1744.79MB/767.02MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=767.02MB/1744.79MB/767.07MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=767.07MB/1744.79MB/767.07MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=767.08MB/1744.79MB/767.08MB)
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 18.13-s088_1 (64bit) 03/05/2019 11:30 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2022-Mar-12 16:26:51 (2022-Mar-12 21:26:51 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: present_encryption
+*
+*	Liberty Libraries used:
+*	        generic_view: NangateOpenCellLibrary.lib
+*
+*	Parasitic Files used:
+*
+*       Power View : generic_view
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+  2 instances have no static power
+** WARN:  (VOLTUS_POWR-2152): Instance TIE_CELL_LTIELO (LOGIC0_X1) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance TIE_CELL_LTIEHI (LOGIC1_X1) has no static power. 
+
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.20350102 	   53.9766%
+Total Switching Power:       0.15230521 	   40.3974%
+Total Leakage Power:         0.02121118 	    5.6260%
+Total Power:                 0.37701740
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                        0.1087     0.02454    0.008593      0.1418       37.61
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                    0.09005      0.1088     0.01248      0.2113       56.06
+Clock (Combinational)           0.004803     0.01894   0.0001379     0.02389       6.335
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                             0.2035      0.1523     0.02121       0.377         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                      0.95     0.2035      0.1523     0.02121       0.377         100
+
+
+Clock                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+CRYPTOCLK                       0.004803     0.01894   0.0001379     0.02389       6.335
+-----------------------------------------------------------------------------------------
+Total                           0.004803     0.01894   0.0001379     0.02389       6.335
+-----------------------------------------------------------------------------------------
+Clock: CRYPTOCLK
+Clock Period: 0.010000 usec 
+Clock Toggle Rate:   200.0000 Mhz 
+Clock Static Probability:  0.5000
+  
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+*              Highest Average Power: CTS_ccl_BUF_CRYPTOCLK_G0_L1_5 (CLKBUF_X3):         0.004322
+*              Highest Leakage Power:              FE_OFC9_n581 (BUF_X16):        0.0002421
+*                Total Cap:      4.85547e-12 F
+*                Total instances in design:   868
+*                Total instances in design with no power:     2
+*                Total instances in design with no activty:     2
+
+*                Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=767.52MB/1744.79MB/767.56MB)
+
