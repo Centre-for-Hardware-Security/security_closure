@@ -1,0 +1,11 @@
+# log files
+*.log*
+
+# cmd files
+*.cmd*
+
+# temporary and swaps
+*.swp
+*.back
+*.old
+
