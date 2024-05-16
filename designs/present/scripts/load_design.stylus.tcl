@@ -1,4 +1,4 @@
-# this is provided by the contest organizer. nor sure which version of innovus this works with. 
+# this is provided by the contest organizer. not sure which version of innovus this works with. 
 # this script assumes innovus is launched with the -common_ui flag
 
 ####
