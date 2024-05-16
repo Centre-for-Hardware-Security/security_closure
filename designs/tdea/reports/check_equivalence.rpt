@@ -1,0 +1,995 @@
+================================================================================
+                            Verification Report
+--------------------------------------------------------------------------------
+Category                                                                  Count
+--------------------------------------------------------------------------------
+1. Non-standard modeling options used:                                      0
+--------------------------------------------------------------------------------
+2. Incomplete verification:                                                 0
+--------------------------------------------------------------------------------
+3. User modification to design:                                             0
+--------------------------------------------------------------------------------
+4. Conformal Constraint Designer clock domain crossing checks recommended:  0
+--------------------------------------------------------------------------------
+5. Design ambiguity:                                                        0
+--------------------------------------------------------------------------------
+6. Compare Results:                                                        PASS
+================================================================================
+
+Mapping and compare statistics
+================================================================================
+                     Compare Result       Golden            Revised
+--------------------------------------------------------------------------------
+Root module name                          TDES              TDES              
+
+Primary inputs                               238                238
+   Mapped                                    238                238
+
+Tri-state (Z) key points                       2                  2
+   Mapped                                      2                  2
+
+Primary outputs                               66                 66
+   Mapped                                     66                 66
+      Equivalent                 66
+
+State key points                             250                250
+   Mapped                                    250                250
+      Equivalent                250
+================================================================================
+
+There is no unmapped point
+
+Compared points are: Equivalent
+  + 239  PO   /dout[1]              + 239  PO   /dout[1]              
+
+Compared points are: Equivalent
+  + 240  PO   /dout[2]              + 240  PO   /dout[2]              
+
+Compared points are: Equivalent
+  + 241  PO   /dout[3]              + 241  PO   /dout[3]              
+
+Compared points are: Equivalent
+  + 242  PO   /dout[4]              + 242  PO   /dout[4]              
+
+Compared points are: Equivalent
+  + 243  PO   /dout[5]              + 243  PO   /dout[5]              
+
+Compared points are: Equivalent
+  + 244  PO   /dout[6]              + 244  PO   /dout[6]              
+
+Compared points are: Equivalent
+  + 245  PO   /dout[7]              + 245  PO   /dout[7]              
+
+Compared points are: Equivalent
+  + 246  PO   /dout[8]              + 246  PO   /dout[8]              
+
+Compared points are: Equivalent
+  + 247  PO   /dout[9]              + 247  PO   /dout[9]              
+
+Compared points are: Equivalent
+  + 248  PO   /dout[10]             + 248  PO   /dout[10]             
+
+Compared points are: Equivalent
+  + 249  PO   /dout[11]             + 249  PO   /dout[11]             
+
+Compared points are: Equivalent
+  + 250  PO   /dout[12]             + 250  PO   /dout[12]             
+
+Compared points are: Equivalent
+  + 251  PO   /dout[13]             + 251  PO   /dout[13]             
+
+Compared points are: Equivalent
+  + 252  PO   /dout[14]             + 252  PO   /dout[14]             
+
+Compared points are: Equivalent
+  + 253  PO   /dout[15]             + 253  PO   /dout[15]             
+
+Compared points are: Equivalent
+  + 254  PO   /dout[16]             + 254  PO   /dout[16]             
+
+Compared points are: Equivalent
+  + 255  PO   /dout[17]             + 255  PO   /dout[17]             
+
+Compared points are: Equivalent
+  + 256  PO   /dout[18]             + 256  PO   /dout[18]             
+
+Compared points are: Equivalent
+  + 257  PO   /dout[19]             + 257  PO   /dout[19]             
+
+Compared points are: Equivalent
+  + 258  PO   /dout[20]             + 258  PO   /dout[20]             
+
+Compared points are: Equivalent
+  + 259  PO   /dout[21]             + 259  PO   /dout[21]             
+
+Compared points are: Equivalent
+  + 260  PO   /dout[22]             + 260  PO   /dout[22]             
+
+Compared points are: Equivalent
+  + 261  PO   /dout[23]             + 261  PO   /dout[23]             
+
+Compared points are: Equivalent
+  + 262  PO   /dout[24]             + 262  PO   /dout[24]             
+
+Compared points are: Equivalent
+  + 263  PO   /dout[25]             + 263  PO   /dout[25]             
+
+Compared points are: Equivalent
+  + 264  PO   /dout[26]             + 264  PO   /dout[26]             
+
+Compared points are: Equivalent
+  + 265  PO   /dout[27]             + 265  PO   /dout[27]             
+
+Compared points are: Equivalent
+  + 266  PO   /dout[28]             + 266  PO   /dout[28]             
+
+Compared points are: Equivalent
+  + 267  PO   /dout[29]             + 267  PO   /dout[29]             
+
+Compared points are: Equivalent
+  + 268  PO   /dout[30]             + 268  PO   /dout[30]             
+
+Compared points are: Equivalent
+  + 269  PO   /dout[31]             + 269  PO   /dout[31]             
+
+Compared points are: Equivalent
+  + 270  PO   /dout[32]             + 270  PO   /dout[32]             
+
+Compared points are: Equivalent
+  + 271  PO   /dout[33]             + 271  PO   /dout[33]             
+
+Compared points are: Equivalent
+  + 272  PO   /dout[34]             + 272  PO   /dout[34]             
+
+Compared points are: Equivalent
+  + 273  PO   /dout[35]             + 273  PO   /dout[35]             
+
+Compared points are: Equivalent
+  + 274  PO   /dout[36]             + 274  PO   /dout[36]             
+
+Compared points are: Equivalent
+  + 275  PO   /dout[37]             + 275  PO   /dout[37]             
+
+Compared points are: Equivalent
+  + 276  PO   /dout[38]             + 276  PO   /dout[38]             
+
+Compared points are: Equivalent
+  + 277  PO   /dout[39]             + 277  PO   /dout[39]             
+
+Compared points are: Equivalent
+  + 278  PO   /dout[40]             + 278  PO   /dout[40]             
+
+Compared points are: Equivalent
+  + 279  PO   /dout[41]             + 279  PO   /dout[41]             
+
+Compared points are: Equivalent
+  + 280  PO   /dout[42]             + 280  PO   /dout[42]             
+
+Compared points are: Equivalent
+  + 281  PO   /dout[43]             + 281  PO   /dout[43]             
+
+Compared points are: Equivalent
+  + 282  PO   /dout[44]             + 282  PO   /dout[44]             
+
+Compared points are: Equivalent
+  + 283  PO   /dout[45]             + 283  PO   /dout[45]             
+
+Compared points are: Equivalent
+  + 284  PO   /dout[46]             + 284  PO   /dout[46]             
+
+Compared points are: Equivalent
+  + 285  PO   /dout[47]             + 285  PO   /dout[47]             
+
+Compared points are: Equivalent
+  + 286  PO   /dout[48]             + 286  PO   /dout[48]             
+
+Compared points are: Equivalent
+  + 287  PO   /dout[49]             + 287  PO   /dout[49]             
+
+Compared points are: Equivalent
+  + 288  PO   /dout[50]             + 288  PO   /dout[50]             
+
+Compared points are: Equivalent
+  + 289  PO   /dout[51]             + 289  PO   /dout[51]             
+
+Compared points are: Equivalent
+  + 290  PO   /dout[52]             + 290  PO   /dout[52]             
+
+Compared points are: Equivalent
+  + 291  PO   /dout[53]             + 291  PO   /dout[53]             
+
+Compared points are: Equivalent
+  + 292  PO   /dout[54]             + 292  PO   /dout[54]             
+
+Compared points are: Equivalent
+  + 293  PO   /dout[55]             + 293  PO   /dout[55]             
+
+Compared points are: Equivalent
+  + 294  PO   /dout[56]             + 294  PO   /dout[56]             
+
+Compared points are: Equivalent
+  + 295  PO   /dout[57]             + 295  PO   /dout[57]             
+
+Compared points are: Equivalent
+  + 296  PO   /dout[58]             + 296  PO   /dout[58]             
+
+Compared points are: Equivalent
+  + 297  PO   /dout[59]             + 297  PO   /dout[59]             
+
+Compared points are: Equivalent
+  + 298  PO   /dout[60]             + 298  PO   /dout[60]             
+
+Compared points are: Equivalent
+  + 299  PO   /dout[61]             + 299  PO   /dout[61]             
+
+Compared points are: Equivalent
+  + 300  PO   /dout[62]             + 300  PO   /dout[62]             
+
+Compared points are: Equivalent
+  + 301  PO   /dout[63]             + 301  PO   /dout[63]             
+
+Compared points are: Equivalent
+  + 302  PO   /dout[64]             + 302  PO   /dout[64]             
+
+Compared points are: Equivalent
+  + 303  PO   /bsy                  + 303  PO   /bsy                  
+
+Compared points are: Equivalent
+  + 304  PO   /dvld                 + 304  PO   /dvld                 
+
+Compared points are: Equivalent
+  + 305  DFF  /state_reg_reg_2_/U$1 + 305  DFF  /state_reg_reg_2_/U$1 
+
+Compared points are: Equivalent
+  + 306  DFF  /rrg_reg_1_/U$1       + 306  DFF  /rrg_reg_1_/U$1       
+
+Compared points are: Equivalent
+  + 307  DFF  /rrg_reg_2_/U$1       + 307  DFF  /rrg_reg_2_/U$1       
+
+Compared points are: Equivalent
+  + 308  DFF  /rrg_reg_3_/U$1       + 308  DFF  /rrg_reg_3_/U$1       
+
+Compared points are: Equivalent
+  + 309  DFF  /rrg_reg_4_/U$1       + 309  DFF  /rrg_reg_4_/U$1       
+
+Compared points are: Equivalent
+  + 310  DFF  /rrg_reg_5_/U$1       + 310  DFF  /rrg_reg_5_/U$1       
+
+Compared points are: Equivalent
+  + 311  DFF  /rrg_reg_6_/U$1       + 311  DFF  /rrg_reg_6_/U$1       
+
+Compared points are: Equivalent
+  + 312  DFF  /rrg_reg_7_/U$1       + 312  DFF  /rrg_reg_7_/U$1       
+
+Compared points are: Equivalent
+  + 313  DFF  /rrg_reg_8_/U$1       + 313  DFF  /rrg_reg_8_/U$1       
+
+Compared points are: Equivalent
+  + 314  DFF  /rrg_reg_9_/U$1       + 314  DFF  /rrg_reg_9_/U$1       
+
+Compared points are: Equivalent
+  + 315  DFF  /rrg_reg_10_/U$1      + 315  DFF  /rrg_reg_10_/U$1      
+
+Compared points are: Equivalent
+  + 316  DFF  /rrg_reg_11_/U$1      + 316  DFF  /rrg_reg_11_/U$1      
+
+Compared points are: Equivalent
+  + 317  DFF  /rrg_reg_12_/U$1      + 317  DFF  /rrg_reg_12_/U$1      
+
+Compared points are: Equivalent
+  + 318  DFF  /rrg_reg_13_/U$1      + 318  DFF  /rrg_reg_13_/U$1      
+
+Compared points are: Equivalent
+  + 319  DFF  /rrg_reg_14_/U$1      + 319  DFF  /rrg_reg_14_/U$1      
+
+Compared points are: Equivalent
+  + 320  DFF  /rrg_reg_15_/U$1      + 320  DFF  /rrg_reg_15_/U$1      
+
+Compared points are: Equivalent
+  + 321  DFF  /rrg_reg_16_/U$1      + 321  DFF  /rrg_reg_16_/U$1      
+
+Compared points are: Equivalent
+  + 322  DFF  /state_reg_reg_1_/U$1 + 322  DFF  /state_reg_reg_1_/U$1 
+
+Compared points are: Equivalent
+  + 323  DFF  /krg3_reg_28_/U$1     + 323  DFF  /krg3_reg_28_/U$1     
+
+Compared points are: Equivalent
+  + 324  DFF  /krg3_reg_1_/U$1      + 324  DFF  /krg3_reg_1_/U$1      
+
+Compared points are: Equivalent
+  + 325  DFF  /krg3_reg_2_/U$1      + 325  DFF  /krg3_reg_2_/U$1      
+
+Compared points are: Equivalent
+  + 326  DFF  /krg3_reg_3_/U$1      + 326  DFF  /krg3_reg_3_/U$1      
+
+Compared points are: Equivalent
+  + 327  DFF  /krg3_reg_4_/U$1      + 327  DFF  /krg3_reg_4_/U$1      
+
+Compared points are: Equivalent
+  + 328  DFF  /krg3_reg_5_/U$1      + 328  DFF  /krg3_reg_5_/U$1      
+
+Compared points are: Equivalent
+  + 329  DFF  /krg3_reg_6_/U$1      + 329  DFF  /krg3_reg_6_/U$1      
+
+Compared points are: Equivalent
+  + 330  DFF  /krg3_reg_7_/U$1      + 330  DFF  /krg3_reg_7_/U$1      
+
+Compared points are: Equivalent
+  + 331  DFF  /krg3_reg_8_/U$1      + 331  DFF  /krg3_reg_8_/U$1      
+
+Compared points are: Equivalent
+  + 332  DFF  /krg3_reg_9_/U$1      + 332  DFF  /krg3_reg_9_/U$1      
+
+Compared points are: Equivalent
+  + 333  DFF  /krg3_reg_10_/U$1     + 333  DFF  /krg3_reg_10_/U$1     
+
+Compared points are: Equivalent
+  + 334  DFF  /krg3_reg_11_/U$1     + 334  DFF  /krg3_reg_11_/U$1     
+
+Compared points are: Equivalent
+  + 335  DFF  /krg3_reg_12_/U$1     + 335  DFF  /krg3_reg_12_/U$1     
+
+Compared points are: Equivalent
+  + 336  DFF  /krg3_reg_13_/U$1     + 336  DFF  /krg3_reg_13_/U$1     
+
+Compared points are: Equivalent
+  + 337  DFF  /krg3_reg_14_/U$1     + 337  DFF  /krg3_reg_14_/U$1     
+
+Compared points are: Equivalent
+  + 338  DFF  /krg3_reg_15_/U$1     + 338  DFF  /krg3_reg_15_/U$1     
+
+Compared points are: Equivalent
+  + 339  DFF  /krg3_reg_16_/U$1     + 339  DFF  /krg3_reg_16_/U$1     
+
+Compared points are: Equivalent
+  + 340  DFF  /krg3_reg_17_/U$1     + 340  DFF  /krg3_reg_17_/U$1     
+
+Compared points are: Equivalent
+  + 341  DFF  /krg3_reg_18_/U$1     + 341  DFF  /krg3_reg_18_/U$1     
+
+Compared points are: Equivalent
+  + 342  DFF  /krg3_reg_19_/U$1     + 342  DFF  /krg3_reg_19_/U$1     
+
+Compared points are: Equivalent
+  + 343  DFF  /krg3_reg_20_/U$1     + 343  DFF  /krg3_reg_20_/U$1     
+
+Compared points are: Equivalent
+  + 344  DFF  /krg3_reg_21_/U$1     + 344  DFF  /krg3_reg_21_/U$1     
+
+Compared points are: Equivalent
+  + 345  DFF  /krg3_reg_22_/U$1     + 345  DFF  /krg3_reg_22_/U$1     
+
+Compared points are: Equivalent
+  + 346  DFF  /krg3_reg_23_/U$1     + 346  DFF  /krg3_reg_23_/U$1     
+
+Compared points are: Equivalent
+  + 347  DFF  /krg3_reg_24_/U$1     + 347  DFF  /krg3_reg_24_/U$1     
+
+Compared points are: Equivalent
+  + 348  DFF  /krg3_reg_25_/U$1     + 348  DFF  /krg3_reg_25_/U$1     
+
+Compared points are: Equivalent
+  + 349  DFF  /krg3_reg_26_/U$1     + 349  DFF  /krg3_reg_26_/U$1     
+
+Compared points are: Equivalent
+  + 350  DFF  /krg3_reg_27_/U$1     + 350  DFF  /krg3_reg_27_/U$1     
+
+Compared points are: Equivalent
+  + 351  DFF  /krg3_reg_56_/U$1     + 351  DFF  /krg3_reg_56_/U$1     
+
+Compared points are: Equivalent
+  + 352  DFF  /krg3_reg_29_/U$1     + 352  DFF  /krg3_reg_29_/U$1     
+
+Compared points are: Equivalent
+  + 353  DFF  /krg3_reg_30_/U$1     + 353  DFF  /krg3_reg_30_/U$1     
+
+Compared points are: Equivalent
+  + 354  DFF  /krg3_reg_31_/U$1     + 354  DFF  /krg3_reg_31_/U$1     
+
+Compared points are: Equivalent
+  + 355  DFF  /krg3_reg_32_/U$1     + 355  DFF  /krg3_reg_32_/U$1     
+
+Compared points are: Equivalent
+  + 356  DFF  /krg3_reg_33_/U$1     + 356  DFF  /krg3_reg_33_/U$1     
+
+Compared points are: Equivalent
+  + 357  DFF  /krg3_reg_34_/U$1     + 357  DFF  /krg3_reg_34_/U$1     
+
+Compared points are: Equivalent
+  + 358  DFF  /krg3_reg_35_/U$1     + 358  DFF  /krg3_reg_35_/U$1     
+
+Compared points are: Equivalent
+  + 359  DFF  /krg3_reg_36_/U$1     + 359  DFF  /krg3_reg_36_/U$1     
+
+Compared points are: Equivalent
+  + 360  DFF  /krg3_reg_37_/U$1     + 360  DFF  /krg3_reg_37_/U$1     
+
+Compared points are: Equivalent
+  + 361  DFF  /krg3_reg_38_/U$1     + 361  DFF  /krg3_reg_38_/U$1     
+
+Compared points are: Equivalent
+  + 362  DFF  /krg3_reg_39_/U$1     + 362  DFF  /krg3_reg_39_/U$1     
+
+Compared points are: Equivalent
+  + 363  DFF  /krg3_reg_40_/U$1     + 363  DFF  /krg3_reg_40_/U$1     
+
+Compared points are: Equivalent
+  + 364  DFF  /krg3_reg_41_/U$1     + 364  DFF  /krg3_reg_41_/U$1     
+
+Compared points are: Equivalent
+  + 365  DFF  /krg3_reg_42_/U$1     + 365  DFF  /krg3_reg_42_/U$1     
+
+Compared points are: Equivalent
+  + 366  DFF  /krg3_reg_43_/U$1     + 366  DFF  /krg3_reg_43_/U$1     
+
+Compared points are: Equivalent
+  + 367  DFF  /krg3_reg_44_/U$1     + 367  DFF  /krg3_reg_44_/U$1     
+
+Compared points are: Equivalent
+  + 368  DFF  /krg3_reg_45_/U$1     + 368  DFF  /krg3_reg_45_/U$1     
+
+Compared points are: Equivalent
+  + 369  DFF  /krg3_reg_46_/U$1     + 369  DFF  /krg3_reg_46_/U$1     
+
+Compared points are: Equivalent
+  + 370  DFF  /krg3_reg_47_/U$1     + 370  DFF  /krg3_reg_47_/U$1     
+
+Compared points are: Equivalent
+  + 371  DFF  /krg3_reg_48_/U$1     + 371  DFF  /krg3_reg_48_/U$1     
+
+Compared points are: Equivalent
+  + 372  DFF  /krg3_reg_49_/U$1     + 372  DFF  /krg3_reg_49_/U$1     
+
+Compared points are: Equivalent
+  + 373  DFF  /krg3_reg_50_/U$1     + 373  DFF  /krg3_reg_50_/U$1     
+
+Compared points are: Equivalent
+  + 374  DFF  /krg3_reg_51_/U$1     + 374  DFF  /krg3_reg_51_/U$1     
+
+Compared points are: Equivalent
+  + 375  DFF  /krg3_reg_52_/U$1     + 375  DFF  /krg3_reg_52_/U$1     
+
+Compared points are: Equivalent
+  + 376  DFF  /krg3_reg_53_/U$1     + 376  DFF  /krg3_reg_53_/U$1     
+
+Compared points are: Equivalent
+  + 377  DFF  /krg3_reg_54_/U$1     + 377  DFF  /krg3_reg_54_/U$1     
+
+Compared points are: Equivalent
+  + 378  DFF  /krg3_reg_55_/U$1     + 378  DFF  /krg3_reg_55_/U$1     
+
+Compared points are: Equivalent
+  + 379  DFF  /krg1_reg_28_/U$1     + 379  DFF  /krg1_reg_28_/U$1     
+
+Compared points are: Equivalent
+  + 380  DFF  /krg1_reg_1_/U$1      + 380  DFF  /krg1_reg_1_/U$1      
+
+Compared points are: Equivalent
+  + 381  DFF  /krg1_reg_2_/U$1      + 381  DFF  /krg1_reg_2_/U$1      
+
+Compared points are: Equivalent
+  + 382  DFF  /krg1_reg_3_/U$1      + 382  DFF  /krg1_reg_3_/U$1      
+
+Compared points are: Equivalent
+  + 383  DFF  /krg1_reg_4_/U$1      + 383  DFF  /krg1_reg_4_/U$1      
+
+Compared points are: Equivalent
+  + 384  DFF  /krg1_reg_5_/U$1      + 384  DFF  /krg1_reg_5_/U$1      
+
+Compared points are: Equivalent
+  + 385  DFF  /krg1_reg_6_/U$1      + 385  DFF  /krg1_reg_6_/U$1      
+
+Compared points are: Equivalent
+  + 386  DFF  /krg1_reg_7_/U$1      + 386  DFF  /krg1_reg_7_/U$1      
+
+Compared points are: Equivalent
+  + 387  DFF  /krg1_reg_8_/U$1      + 387  DFF  /krg1_reg_8_/U$1      
+
+Compared points are: Equivalent
+  + 388  DFF  /krg1_reg_9_/U$1      + 388  DFF  /krg1_reg_9_/U$1      
+
+Compared points are: Equivalent
+  + 389  DFF  /krg1_reg_10_/U$1     + 389  DFF  /krg1_reg_10_/U$1     
+
+Compared points are: Equivalent
+  + 390  DFF  /krg1_reg_11_/U$1     + 390  DFF  /krg1_reg_11_/U$1     
+
+Compared points are: Equivalent
+  + 391  DFF  /krg1_reg_12_/U$1     + 391  DFF  /krg1_reg_12_/U$1     
+
+Compared points are: Equivalent
+  + 392  DFF  /krg1_reg_13_/U$1     + 392  DFF  /krg1_reg_13_/U$1     
+
+Compared points are: Equivalent
+  + 393  DFF  /krg1_reg_14_/U$1     + 393  DFF  /krg1_reg_14_/U$1     
+
+Compared points are: Equivalent
+  + 394  DFF  /krg1_reg_15_/U$1     + 394  DFF  /krg1_reg_15_/U$1     
+
+Compared points are: Equivalent
+  + 395  DFF  /krg1_reg_16_/U$1     + 395  DFF  /krg1_reg_16_/U$1     
+
+Compared points are: Equivalent
+  + 396  DFF  /krg1_reg_17_/U$1     + 396  DFF  /krg1_reg_17_/U$1     
+
+Compared points are: Equivalent
+  + 397  DFF  /krg1_reg_18_/U$1     + 397  DFF  /krg1_reg_18_/U$1     
+
+Compared points are: Equivalent
+  + 398  DFF  /krg1_reg_19_/U$1     + 398  DFF  /krg1_reg_19_/U$1     
+
+Compared points are: Equivalent
+  + 399  DFF  /krg1_reg_20_/U$1     + 399  DFF  /krg1_reg_20_/U$1     
+
+Compared points are: Equivalent
+  + 400  DFF  /krg1_reg_21_/U$1     + 400  DFF  /krg1_reg_21_/U$1     
+
+Compared points are: Equivalent
+  + 401  DFF  /krg1_reg_22_/U$1     + 401  DFF  /krg1_reg_22_/U$1     
+
+Compared points are: Equivalent
+  + 402  DFF  /krg1_reg_23_/U$1     + 402  DFF  /krg1_reg_23_/U$1     
+
+Compared points are: Equivalent
+  + 403  DFF  /krg1_reg_24_/U$1     + 403  DFF  /krg1_reg_24_/U$1     
+
+Compared points are: Equivalent
+  + 404  DFF  /krg1_reg_25_/U$1     + 404  DFF  /krg1_reg_25_/U$1     
+
+Compared points are: Equivalent
+  + 405  DFF  /krg1_reg_26_/U$1     + 405  DFF  /krg1_reg_26_/U$1     
+
+Compared points are: Equivalent
+  + 406  DFF  /krg1_reg_27_/U$1     + 406  DFF  /krg1_reg_27_/U$1     
+
+Compared points are: Equivalent
+  + 407  DFF  /krg1_reg_56_/U$1     + 407  DFF  /krg1_reg_56_/U$1     
+
+Compared points are: Equivalent
+  + 408  DFF  /krg1_reg_29_/U$1     + 408  DFF  /krg1_reg_29_/U$1     
+
+Compared points are: Equivalent
+  + 409  DFF  /krg1_reg_30_/U$1     + 409  DFF  /krg1_reg_30_/U$1     
+
+Compared points are: Equivalent
+  + 410  DFF  /krg1_reg_31_/U$1     + 410  DFF  /krg1_reg_31_/U$1     
+
+Compared points are: Equivalent
+  + 411  DFF  /krg1_reg_32_/U$1     + 411  DFF  /krg1_reg_32_/U$1     
+
+Compared points are: Equivalent
+  + 412  DFF  /krg1_reg_33_/U$1     + 412  DFF  /krg1_reg_33_/U$1     
+
+Compared points are: Equivalent
+  + 413  DFF  /krg1_reg_34_/U$1     + 413  DFF  /krg1_reg_34_/U$1     
+
+Compared points are: Equivalent
+  + 414  DFF  /krg1_reg_35_/U$1     + 414  DFF  /krg1_reg_35_/U$1     
+
+Compared points are: Equivalent
+  + 415  DFF  /krg1_reg_36_/U$1     + 415  DFF  /krg1_reg_36_/U$1     
+
+Compared points are: Equivalent
+  + 416  DFF  /krg1_reg_37_/U$1     + 416  DFF  /krg1_reg_37_/U$1     
+
+Compared points are: Equivalent
+  + 417  DFF  /krg1_reg_38_/U$1     + 417  DFF  /krg1_reg_38_/U$1     
+
+Compared points are: Equivalent
+  + 418  DFF  /krg1_reg_39_/U$1     + 418  DFF  /krg1_reg_39_/U$1     
+
+Compared points are: Equivalent
+  + 419  DFF  /krg1_reg_40_/U$1     + 419  DFF  /krg1_reg_40_/U$1     
+
+Compared points are: Equivalent
+  + 420  DFF  /krg1_reg_41_/U$1     + 420  DFF  /krg1_reg_41_/U$1     
+
+Compared points are: Equivalent
+  + 421  DFF  /krg1_reg_42_/U$1     + 421  DFF  /krg1_reg_42_/U$1     
+
+Compared points are: Equivalent
+  + 422  DFF  /krg1_reg_43_/U$1     + 422  DFF  /krg1_reg_43_/U$1     
+
+Compared points are: Equivalent
+  + 423  DFF  /krg1_reg_44_/U$1     + 423  DFF  /krg1_reg_44_/U$1     
+
+Compared points are: Equivalent
+  + 424  DFF  /krg1_reg_45_/U$1     + 424  DFF  /krg1_reg_45_/U$1     
+
+Compared points are: Equivalent
+  + 425  DFF  /krg1_reg_46_/U$1     + 425  DFF  /krg1_reg_46_/U$1     
+
+Compared points are: Equivalent
+  + 426  DFF  /krg1_reg_47_/U$1     + 426  DFF  /krg1_reg_47_/U$1     
+
+Compared points are: Equivalent
+  + 427  DFF  /krg1_reg_48_/U$1     + 427  DFF  /krg1_reg_48_/U$1     
+
+Compared points are: Equivalent
+  + 428  DFF  /krg1_reg_49_/U$1     + 428  DFF  /krg1_reg_49_/U$1     
+
+Compared points are: Equivalent
+  + 429  DFF  /krg1_reg_50_/U$1     + 429  DFF  /krg1_reg_50_/U$1     
+
+Compared points are: Equivalent
+  + 430  DFF  /krg1_reg_51_/U$1     + 430  DFF  /krg1_reg_51_/U$1     
+
+Compared points are: Equivalent
+  + 431  DFF  /krg1_reg_52_/U$1     + 431  DFF  /krg1_reg_52_/U$1     
+
+Compared points are: Equivalent
+  + 432  DFF  /krg1_reg_53_/U$1     + 432  DFF  /krg1_reg_53_/U$1     
+
+Compared points are: Equivalent
+  + 433  DFF  /krg1_reg_54_/U$1     + 433  DFF  /krg1_reg_54_/U$1     
+
+Compared points are: Equivalent
+  + 434  DFF  /krg1_reg_55_/U$1     + 434  DFF  /krg1_reg_55_/U$1     
+
+Compared points are: Equivalent
+  + 435  DFF  /krg2_reg_28_/U$1     + 435  DFF  /krg2_reg_28_/U$1     
+
+Compared points are: Equivalent
+  + 436  DFF  /krg2_reg_1_/U$1      + 436  DFF  /krg2_reg_1_/U$1      
+
+Compared points are: Equivalent
+  + 437  DFF  /krg2_reg_2_/U$1      + 437  DFF  /krg2_reg_2_/U$1      
+
+Compared points are: Equivalent
+  + 438  DFF  /krg2_reg_3_/U$1      + 438  DFF  /krg2_reg_3_/U$1      
+
+Compared points are: Equivalent
+  + 439  DFF  /krg2_reg_4_/U$1      + 439  DFF  /krg2_reg_4_/U$1      
+
+Compared points are: Equivalent
+  + 440  DFF  /krg2_reg_5_/U$1      + 440  DFF  /krg2_reg_5_/U$1      
+
+Compared points are: Equivalent
+  + 441  DFF  /krg2_reg_6_/U$1      + 441  DFF  /krg2_reg_6_/U$1      
+
+Compared points are: Equivalent
+  + 442  DFF  /krg2_reg_7_/U$1      + 442  DFF  /krg2_reg_7_/U$1      
+
+Compared points are: Equivalent
+  + 443  DFF  /krg2_reg_8_/U$1      + 443  DFF  /krg2_reg_8_/U$1      
+
+Compared points are: Equivalent
+  + 444  DFF  /krg2_reg_9_/U$1      + 444  DFF  /krg2_reg_9_/U$1      
+
+Compared points are: Equivalent
+  + 445  DFF  /krg2_reg_10_/U$1     + 445  DFF  /krg2_reg_10_/U$1     
+
+Compared points are: Equivalent
+  + 446  DFF  /krg2_reg_11_/U$1     + 446  DFF  /krg2_reg_11_/U$1     
+
+Compared points are: Equivalent
+  + 447  DFF  /krg2_reg_12_/U$1     + 447  DFF  /krg2_reg_12_/U$1     
+
+Compared points are: Equivalent
+  + 448  DFF  /krg2_reg_13_/U$1     + 448  DFF  /krg2_reg_13_/U$1     
+
+Compared points are: Equivalent
+  + 449  DFF  /krg2_reg_14_/U$1     + 449  DFF  /krg2_reg_14_/U$1     
+
+Compared points are: Equivalent
+  + 450  DFF  /krg2_reg_15_/U$1     + 450  DFF  /krg2_reg_15_/U$1     
+
+Compared points are: Equivalent
+  + 451  DFF  /krg2_reg_16_/U$1     + 451  DFF  /krg2_reg_16_/U$1     
+
+Compared points are: Equivalent
+  + 452  DFF  /krg2_reg_17_/U$1     + 452  DFF  /krg2_reg_17_/U$1     
+
+Compared points are: Equivalent
+  + 453  DFF  /krg2_reg_18_/U$1     + 453  DFF  /krg2_reg_18_/U$1     
+
+Compared points are: Equivalent
+  + 454  DFF  /krg2_reg_19_/U$1     + 454  DFF  /krg2_reg_19_/U$1     
+
+Compared points are: Equivalent
+  + 455  DFF  /krg2_reg_20_/U$1     + 455  DFF  /krg2_reg_20_/U$1     
+
+Compared points are: Equivalent
+  + 456  DFF  /krg2_reg_21_/U$1     + 456  DFF  /krg2_reg_21_/U$1     
+
+Compared points are: Equivalent
+  + 457  DFF  /krg2_reg_22_/U$1     + 457  DFF  /krg2_reg_22_/U$1     
+
+Compared points are: Equivalent
+  + 458  DFF  /krg2_reg_23_/U$1     + 458  DFF  /krg2_reg_23_/U$1     
+
+Compared points are: Equivalent
+  + 459  DFF  /krg2_reg_24_/U$1     + 459  DFF  /krg2_reg_24_/U$1     
+
+Compared points are: Equivalent
+  + 460  DFF  /krg2_reg_25_/U$1     + 460  DFF  /krg2_reg_25_/U$1     
+
+Compared points are: Equivalent
+  + 461  DFF  /krg2_reg_26_/U$1     + 461  DFF  /krg2_reg_26_/U$1     
+
+Compared points are: Equivalent
+  + 462  DFF  /krg2_reg_27_/U$1     + 462  DFF  /krg2_reg_27_/U$1     
+
+Compared points are: Equivalent
+  + 463  DFF  /krg2_reg_56_/U$1     + 463  DFF  /krg2_reg_56_/U$1     
+
+Compared points are: Equivalent
+  + 464  DFF  /krg2_reg_29_/U$1     + 464  DFF  /krg2_reg_29_/U$1     
+
+Compared points are: Equivalent
+  + 465  DFF  /krg2_reg_30_/U$1     + 465  DFF  /krg2_reg_30_/U$1     
+
+Compared points are: Equivalent
+  + 466  DFF  /krg2_reg_31_/U$1     + 466  DFF  /krg2_reg_31_/U$1     
+
+Compared points are: Equivalent
+  + 467  DFF  /krg2_reg_32_/U$1     + 467  DFF  /krg2_reg_32_/U$1     
+
+Compared points are: Equivalent
+  + 468  DFF  /krg2_reg_33_/U$1     + 468  DFF  /krg2_reg_33_/U$1     
+
+Compared points are: Equivalent
+  + 469  DFF  /krg2_reg_34_/U$1     + 469  DFF  /krg2_reg_34_/U$1     
+
+Compared points are: Equivalent
+  + 470  DFF  /krg2_reg_35_/U$1     + 470  DFF  /krg2_reg_35_/U$1     
+
+Compared points are: Equivalent
+  + 471  DFF  /krg2_reg_36_/U$1     + 471  DFF  /krg2_reg_36_/U$1     
+
+Compared points are: Equivalent
+  + 472  DFF  /krg2_reg_37_/U$1     + 472  DFF  /krg2_reg_37_/U$1     
+
+Compared points are: Equivalent
+  + 473  DFF  /krg2_reg_38_/U$1     + 473  DFF  /krg2_reg_38_/U$1     
+
+Compared points are: Equivalent
+  + 474  DFF  /krg2_reg_39_/U$1     + 474  DFF  /krg2_reg_39_/U$1     
+
+Compared points are: Equivalent
+  + 475  DFF  /krg2_reg_40_/U$1     + 475  DFF  /krg2_reg_40_/U$1     
+
+Compared points are: Equivalent
+  + 476  DFF  /krg2_reg_41_/U$1     + 476  DFF  /krg2_reg_41_/U$1     
+
+Compared points are: Equivalent
+  + 477  DFF  /krg2_reg_42_/U$1     + 477  DFF  /krg2_reg_42_/U$1     
+
+Compared points are: Equivalent
+  + 478  DFF  /krg2_reg_43_/U$1     + 478  DFF  /krg2_reg_43_/U$1     
+
+Compared points are: Equivalent
+  + 479  DFF  /krg2_reg_44_/U$1     + 479  DFF  /krg2_reg_44_/U$1     
+
+Compared points are: Equivalent
+  + 480  DFF  /krg2_reg_45_/U$1     + 480  DFF  /krg2_reg_45_/U$1     
+
+Compared points are: Equivalent
+  + 481  DFF  /krg2_reg_46_/U$1     + 481  DFF  /krg2_reg_46_/U$1     
+
+Compared points are: Equivalent
+  + 482  DFF  /krg2_reg_47_/U$1     + 482  DFF  /krg2_reg_47_/U$1     
+
+Compared points are: Equivalent
+  + 483  DFF  /krg2_reg_48_/U$1     + 483  DFF  /krg2_reg_48_/U$1     
+
+Compared points are: Equivalent
+  + 484  DFF  /krg2_reg_49_/U$1     + 484  DFF  /krg2_reg_49_/U$1     
+
+Compared points are: Equivalent
+  + 485  DFF  /krg2_reg_50_/U$1     + 485  DFF  /krg2_reg_50_/U$1     
+
+Compared points are: Equivalent
+  + 486  DFF  /krg2_reg_51_/U$1     + 486  DFF  /krg2_reg_51_/U$1     
+
+Compared points are: Equivalent
+  + 487  DFF  /krg2_reg_52_/U$1     + 487  DFF  /krg2_reg_52_/U$1     
+
+Compared points are: Equivalent
+  + 488  DFF  /krg2_reg_53_/U$1     + 488  DFF  /krg2_reg_53_/U$1     
+
+Compared points are: Equivalent
+  + 489  DFF  /krg2_reg_54_/U$1     + 489  DFF  /krg2_reg_54_/U$1     
+
+Compared points are: Equivalent
+  + 490  DFF  /krg2_reg_55_/U$1     + 490  DFF  /krg2_reg_55_/U$1     
+
+Compared points are: Equivalent
+  + 491  DFF  /drg_reg_64_/U$1      + 491  DFF  /drg_reg_64_/U$1      
+
+Compared points are: Equivalent
+  + 492  DFF  /drg_reg_63_/U$1      + 492  DFF  /drg_reg_63_/U$1      
+
+Compared points are: Equivalent
+  + 493  DFF  /drg_reg_31_/U$1      + 493  DFF  /drg_reg_31_/U$1      
+
+Compared points are: Equivalent
+  + 494  DFF  /drg_reg_62_/U$1      + 494  DFF  /drg_reg_62_/U$1      
+
+Compared points are: Equivalent
+  + 495  DFF  /drg_reg_30_/U$1      + 495  DFF  /drg_reg_30_/U$1      
+
+Compared points are: Equivalent
+  + 496  DFF  /drg_reg_61_/U$1      + 496  DFF  /drg_reg_61_/U$1      
+
+Compared points are: Equivalent
+  + 497  DFF  /drg_reg_29_/U$1      + 497  DFF  /drg_reg_29_/U$1      
+
+Compared points are: Equivalent
+  + 498  DFF  /drg_reg_60_/U$1      + 498  DFF  /drg_reg_60_/U$1      
+
+Compared points are: Equivalent
+  + 499  DFF  /drg_reg_28_/U$1      + 499  DFF  /drg_reg_28_/U$1      
+
+Compared points are: Equivalent
+  + 500  DFF  /drg_reg_59_/U$1      + 500  DFF  /drg_reg_59_/U$1      
+
+Compared points are: Equivalent
+  + 501  DFF  /drg_reg_27_/U$1      + 501  DFF  /drg_reg_27_/U$1      
+
+Compared points are: Equivalent
+  + 502  DFF  /drg_reg_58_/U$1      + 502  DFF  /drg_reg_58_/U$1      
+
+Compared points are: Equivalent
+  + 503  DFF  /drg_reg_26_/U$1      + 503  DFF  /drg_reg_26_/U$1      
+
+Compared points are: Equivalent
+  + 504  DFF  /drg_reg_57_/U$1      + 504  DFF  /drg_reg_57_/U$1      
+
+Compared points are: Equivalent
+  + 505  DFF  /drg_reg_25_/U$1      + 505  DFF  /drg_reg_25_/U$1      
+
+Compared points are: Equivalent
+  + 506  DFF  /drg_reg_56_/U$1      + 506  DFF  /drg_reg_56_/U$1      
+
+Compared points are: Equivalent
+  + 507  DFF  /drg_reg_24_/U$1      + 507  DFF  /drg_reg_24_/U$1      
+
+Compared points are: Equivalent
+  + 508  DFF  /drg_reg_55_/U$1      + 508  DFF  /drg_reg_55_/U$1      
+
+Compared points are: Equivalent
+  + 509  DFF  /drg_reg_23_/U$1      + 509  DFF  /drg_reg_23_/U$1      
+
+Compared points are: Equivalent
+  + 510  DFF  /drg_reg_54_/U$1      + 510  DFF  /drg_reg_54_/U$1      
+
+Compared points are: Equivalent
+  + 511  DFF  /drg_reg_22_/U$1      + 511  DFF  /drg_reg_22_/U$1      
+
+Compared points are: Equivalent
+  + 512  DFF  /drg_reg_53_/U$1      + 512  DFF  /drg_reg_53_/U$1      
+
+Compared points are: Equivalent
+  + 513  DFF  /drg_reg_21_/U$1      + 513  DFF  /drg_reg_21_/U$1      
+
+Compared points are: Equivalent
+  + 514  DFF  /drg_reg_52_/U$1      + 514  DFF  /drg_reg_52_/U$1      
+
+Compared points are: Equivalent
+  + 515  DFF  /drg_reg_20_/U$1      + 515  DFF  /drg_reg_20_/U$1      
+
+Compared points are: Equivalent
+  + 516  DFF  /drg_reg_51_/U$1      + 516  DFF  /drg_reg_51_/U$1      
+
+Compared points are: Equivalent
+  + 517  DFF  /drg_reg_19_/U$1      + 517  DFF  /drg_reg_19_/U$1      
+
+Compared points are: Equivalent
+  + 518  DFF  /drg_reg_50_/U$1      + 518  DFF  /drg_reg_50_/U$1      
+
+Compared points are: Equivalent
+  + 519  DFF  /drg_reg_18_/U$1      + 519  DFF  /drg_reg_18_/U$1      
+
+Compared points are: Equivalent
+  + 520  DFF  /drg_reg_49_/U$1      + 520  DFF  /drg_reg_49_/U$1      
+
+Compared points are: Equivalent
+  + 521  DFF  /drg_reg_17_/U$1      + 521  DFF  /drg_reg_17_/U$1      
+
+Compared points are: Equivalent
+  + 522  DFF  /drg_reg_48_/U$1      + 522  DFF  /drg_reg_48_/U$1      
+
+Compared points are: Equivalent
+  + 523  DFF  /drg_reg_16_/U$1      + 523  DFF  /drg_reg_16_/U$1      
+
+Compared points are: Equivalent
+  + 524  DFF  /drg_reg_47_/U$1      + 524  DFF  /drg_reg_47_/U$1      
+
+Compared points are: Equivalent
+  + 525  DFF  /drg_reg_15_/U$1      + 525  DFF  /drg_reg_15_/U$1      
+
+Compared points are: Equivalent
+  + 526  DFF  /drg_reg_46_/U$1      + 526  DFF  /drg_reg_46_/U$1      
+
+Compared points are: Equivalent
+  + 527  DFF  /drg_reg_14_/U$1      + 527  DFF  /drg_reg_14_/U$1      
+
+Compared points are: Equivalent
+  + 528  DFF  /drg_reg_45_/U$1      + 528  DFF  /drg_reg_45_/U$1      
+
+Compared points are: Equivalent
+  + 529  DFF  /drg_reg_13_/U$1      + 529  DFF  /drg_reg_13_/U$1      
+
+Compared points are: Equivalent
+  + 530  DFF  /drg_reg_44_/U$1      + 530  DFF  /drg_reg_44_/U$1      
+
+Compared points are: Equivalent
+  + 531  DFF  /drg_reg_12_/U$1      + 531  DFF  /drg_reg_12_/U$1      
+
+Compared points are: Equivalent
+  + 532  DFF  /drg_reg_43_/U$1      + 532  DFF  /drg_reg_43_/U$1      
+
+Compared points are: Equivalent
+  + 533  DFF  /drg_reg_11_/U$1      + 533  DFF  /drg_reg_11_/U$1      
+
+Compared points are: Equivalent
+  + 534  DFF  /drg_reg_42_/U$1      + 534  DFF  /drg_reg_42_/U$1      
+
+Compared points are: Equivalent
+  + 535  DFF  /drg_reg_10_/U$1      + 535  DFF  /drg_reg_10_/U$1      
+
+Compared points are: Equivalent
+  + 536  DFF  /drg_reg_41_/U$1      + 536  DFF  /drg_reg_41_/U$1      
+
+Compared points are: Equivalent
+  + 537  DFF  /drg_reg_9_/U$1       + 537  DFF  /drg_reg_9_/U$1       
+
+Compared points are: Equivalent
+  + 538  DFF  /drg_reg_40_/U$1      + 538  DFF  /drg_reg_40_/U$1      
+
+Compared points are: Equivalent
+  + 539  DFF  /drg_reg_8_/U$1       + 539  DFF  /drg_reg_8_/U$1       
+
+Compared points are: Equivalent
+  + 540  DFF  /drg_reg_39_/U$1      + 540  DFF  /drg_reg_39_/U$1      
+
+Compared points are: Equivalent
+  + 541  DFF  /drg_reg_7_/U$1       + 541  DFF  /drg_reg_7_/U$1       
+
+Compared points are: Equivalent
+  + 542  DFF  /drg_reg_38_/U$1      + 542  DFF  /drg_reg_38_/U$1      
+
+Compared points are: Equivalent
+  + 543  DFF  /drg_reg_6_/U$1       + 543  DFF  /drg_reg_6_/U$1       
+
+Compared points are: Equivalent
+  + 544  DFF  /drg_reg_37_/U$1      + 544  DFF  /drg_reg_37_/U$1      
+
+Compared points are: Equivalent
+  + 545  DFF  /drg_reg_5_/U$1       + 545  DFF  /drg_reg_5_/U$1       
+
+Compared points are: Equivalent
+  + 546  DFF  /drg_reg_36_/U$1      + 546  DFF  /drg_reg_36_/U$1      
+
+Compared points are: Equivalent
+  + 547  DFF  /drg_reg_4_/U$1       + 547  DFF  /drg_reg_4_/U$1       
+
+Compared points are: Equivalent
+  + 548  DFF  /drg_reg_35_/U$1      + 548  DFF  /drg_reg_35_/U$1      
+
+Compared points are: Equivalent
+  + 549  DFF  /drg_reg_3_/U$1       + 549  DFF  /drg_reg_3_/U$1       
+
+Compared points are: Equivalent
+  + 550  DFF  /drg_reg_34_/U$1      + 550  DFF  /drg_reg_34_/U$1      
+
+Compared points are: Equivalent
+  + 551  DFF  /drg_reg_2_/U$1       + 551  DFF  /drg_reg_2_/U$1       
+
+Compared points are: Equivalent
+  + 552  DFF  /drg_reg_33_/U$1      + 552  DFF  /drg_reg_33_/U$1      
+
+Compared points are: Equivalent
+  + 553  DFF  /drg_reg_1_/U$1       + 553  DFF  /drg_reg_1_/U$1       
+
+Compared points are: Equivalent
+  + 554  DFF  /drg_reg_32_/U$1      + 554  DFF  /drg_reg_32_/U$1      
+
+316 compared point(s) reported
+================================================================================
+Compared points      PO     DFF       Total   
+--------------------------------------------------------------------------------
+Equivalent           66     250       316     
+================================================================================
