@@ -1,0 +1,14 @@
+key_rdy
+key_valid
+round_reg[0]
+round_reg[1]
+round_reg[2]
+round_reg[3]
+round_reg[4]
+round_reg[5]
+round_reg[6]
+round_reg[7]
+round_reg[8]
+state_reg[0]
+state_reg[1]
+state_reg[2]

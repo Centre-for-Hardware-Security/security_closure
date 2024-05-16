@@ -1,0 +1,19 @@
+Total exposed area across net assets: 13.6525
+Max exposure [%] across net assets: 94.6442
+Avg exposure [%] across net assets: 74.8826
+
+#NetName TotalAreaNet PercentageExposedAreaNet
+key_valid 0.98035 83.0061
+key_rdy 1.4014 82.7672
+round_reg[8] 1.8886 94.6442
+round_reg[7] 1.81125 51.9517
+round_reg[6] 0.7644 86.0806
+round_reg[5] 1.87915 71.5762
+round_reg[4] 1.83155 54.2273
+round_reg[3] 0.7308 47.5096
+round_reg[2] 1.3139 75.666
+round_reg[1] 0.40915 76.219
+round_reg[0] 2.01425 84.2398
+state_reg[2] 1.03215 78.2808
+state_reg[1] 1.029 86.7347
+state_reg[0] 1.1977 75.453
