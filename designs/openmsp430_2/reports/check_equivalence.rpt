@@ -1,0 +1,3661 @@
+================================================================================
+                            Verification Report
+--------------------------------------------------------------------------------
+Category                                                                  Count
+--------------------------------------------------------------------------------
+1. Non-standard modeling options used:                                      0
+--------------------------------------------------------------------------------
+2. Incomplete verification:                                                 0
+--------------------------------------------------------------------------------
+3. User modification to design:                                             0
+--------------------------------------------------------------------------------
+4. Conformal Constraint Designer clock domain crossing checks recommended:  1
+     Multiple clocks in the design:                            yes
+--------------------------------------------------------------------------------
+5. Design ambiguity:                                                        0
+--------------------------------------------------------------------------------
+6. Compare Results:                                                        PASS
+================================================================================
+
+Mapping and compare statistics
+================================================================================
+                     Compare Result       Golden            Revised
+--------------------------------------------------------------------------------
+Root module name                          openMSP430        openMSP430        
+
+Primary inputs                               124                124
+   Mapped                                    124                124
+
+Primary outputs                              136                136
+   Mapped                                    136                136
+      Equivalent                136
+
+State key points                             768                768
+   Mapped                                    768                768
+      Equivalent                768
+================================================================================
+
+There is no unmapped point
+
+Compared points are: Equivalent
+  (G) + 125   PO   /aclk
+  (R) + 125   PO   /aclk
+
+Compared points are: Equivalent
+  (G) + 126   PO   /aclk_en
+  (R) + 126   PO   /aclk_en
+
+Compared points are: Equivalent
+  (G) + 127   PO   /dbg_freeze
+  (R) + 127   PO   /dbg_freeze
+
+Compared points are: Equivalent
+  (G) + 128   PO   /dbg_i2c_sda_out
+  (R) + 128   PO   /dbg_i2c_sda_out
+
+Compared points are: Equivalent
+  (G) + 129   PO   /dbg_uart_txd
+  (R) + 129   PO   /dbg_uart_txd
+
+Compared points are: Equivalent
+  (G) + 130   PO   /dco_enable
+  (R) + 130   PO   /dco_enable
+
+Compared points are: Equivalent
+  (G) + 131   PO   /dco_wkup
+  (R) + 131   PO   /dco_wkup
+
+Compared points are: Equivalent
+  (G) + 132   PO   /dmem_addr[8]
+  (R) + 132   PO   /dmem_addr[8]
+
+Compared points are: Equivalent
+  (G) + 133   PO   /dmem_addr[7]
+  (R) + 133   PO   /dmem_addr[7]
+
+Compared points are: Equivalent
+  (G) + 134   PO   /dmem_addr[6]
+  (R) + 134   PO   /dmem_addr[6]
+
+Compared points are: Equivalent
+  (G) + 135   PO   /dmem_addr[5]
+  (R) + 135   PO   /dmem_addr[5]
+
+Compared points are: Equivalent
+  (G) + 136   PO   /dmem_addr[4]
+  (R) + 136   PO   /dmem_addr[4]
+
+Compared points are: Equivalent
+  (G) + 137   PO   /dmem_addr[3]
+  (R) + 137   PO   /dmem_addr[3]
+
+Compared points are: Equivalent
+  (G) + 138   PO   /dmem_addr[2]
+  (R) + 138   PO   /dmem_addr[2]
+
+Compared points are: Equivalent
+  (G) + 139   PO   /dmem_addr[1]
+  (R) + 139   PO   /dmem_addr[1]
+
+Compared points are: Equivalent
+  (G) + 140   PO   /dmem_addr[0]
+  (R) + 140   PO   /dmem_addr[0]
+
+Compared points are: Equivalent
+  (G) + 141   PO   /dmem_cen
+  (R) + 141   PO   /dmem_cen
+
+Compared points are: Equivalent
+  (G) + 142   PO   /dmem_din[15]
+  (R) + 142   PO   /dmem_din[15]
+
+Compared points are: Equivalent
+  (G) + 143   PO   /dmem_din[14]
+  (R) + 143   PO   /dmem_din[14]
+
+Compared points are: Equivalent
+  (G) + 144   PO   /dmem_din[13]
+  (R) + 144   PO   /dmem_din[13]
+
+Compared points are: Equivalent
+  (G) + 145   PO   /dmem_din[12]
+  (R) + 145   PO   /dmem_din[12]
+
+Compared points are: Equivalent
+  (G) + 146   PO   /dmem_din[11]
+  (R) + 146   PO   /dmem_din[11]
+
+Compared points are: Equivalent
+  (G) + 147   PO   /dmem_din[10]
+  (R) + 147   PO   /dmem_din[10]
+
+Compared points are: Equivalent
+  (G) + 148   PO   /dmem_din[9]
+  (R) + 148   PO   /dmem_din[9]
+
+Compared points are: Equivalent
+  (G) + 149   PO   /dmem_din[8]
+  (R) + 149   PO   /dmem_din[8]
+
+Compared points are: Equivalent
+  (G) + 150   PO   /dmem_din[7]
+  (R) + 150   PO   /dmem_din[7]
+
+Compared points are: Equivalent
+  (G) + 151   PO   /dmem_din[6]
+  (R) + 151   PO   /dmem_din[6]
+
+Compared points are: Equivalent
+  (G) + 152   PO   /dmem_din[5]
+  (R) + 152   PO   /dmem_din[5]
+
+Compared points are: Equivalent
+  (G) + 153   PO   /dmem_din[4]
+  (R) + 153   PO   /dmem_din[4]
+
+Compared points are: Equivalent
+  (G) + 154   PO   /dmem_din[3]
+  (R) + 154   PO   /dmem_din[3]
+
+Compared points are: Equivalent
+  (G) + 155   PO   /dmem_din[2]
+  (R) + 155   PO   /dmem_din[2]
+
+Compared points are: Equivalent
+  (G) + 156   PO   /dmem_din[1]
+  (R) + 156   PO   /dmem_din[1]
+
+Compared points are: Equivalent
+  (G) + 157   PO   /dmem_din[0]
+  (R) + 157   PO   /dmem_din[0]
+
+Compared points are: Equivalent
+  (G) + 158   PO   /dmem_wen[1]
+  (R) + 158   PO   /dmem_wen[1]
+
+Compared points are: Equivalent
+  (G) + 159   PO   /dmem_wen[0]
+  (R) + 159   PO   /dmem_wen[0]
+
+Compared points are: Equivalent
+  (G) + 160   PO   /irq_acc[13]
+  (R) + 160   PO   /irq_acc[13]
+
+Compared points are: Equivalent
+  (G) + 161   PO   /irq_acc[12]
+  (R) + 161   PO   /irq_acc[12]
+
+Compared points are: Equivalent
+  (G) + 162   PO   /irq_acc[11]
+  (R) + 162   PO   /irq_acc[11]
+
+Compared points are: Equivalent
+  (G) + 163   PO   /irq_acc[10]
+  (R) + 163   PO   /irq_acc[10]
+
+Compared points are: Equivalent
+  (G) + 164   PO   /irq_acc[9]
+  (R) + 164   PO   /irq_acc[9]
+
+Compared points are: Equivalent
+  (G) + 165   PO   /irq_acc[8]
+  (R) + 165   PO   /irq_acc[8]
+
+Compared points are: Equivalent
+  (G) + 166   PO   /irq_acc[7]
+  (R) + 166   PO   /irq_acc[7]
+
+Compared points are: Equivalent
+  (G) + 167   PO   /irq_acc[6]
+  (R) + 167   PO   /irq_acc[6]
+
+Compared points are: Equivalent
+  (G) + 168   PO   /irq_acc[5]
+  (R) + 168   PO   /irq_acc[5]
+
+Compared points are: Equivalent
+  (G) + 169   PO   /irq_acc[4]
+  (R) + 169   PO   /irq_acc[4]
+
+Compared points are: Equivalent
+  (G) + 170   PO   /irq_acc[3]
+  (R) + 170   PO   /irq_acc[3]
+
+Compared points are: Equivalent
+  (G) + 171   PO   /irq_acc[2]
+  (R) + 171   PO   /irq_acc[2]
+
+Compared points are: Equivalent
+  (G) + 172   PO   /irq_acc[1]
+  (R) + 172   PO   /irq_acc[1]
+
+Compared points are: Equivalent
+  (G) + 173   PO   /irq_acc[0]
+  (R) + 173   PO   /irq_acc[0]
+
+Compared points are: Equivalent
+  (G) + 174   PO   /lfxt_enable
+  (R) + 174   PO   /lfxt_enable
+
+Compared points are: Equivalent
+  (G) + 175   PO   /lfxt_wkup
+  (R) + 175   PO   /lfxt_wkup
+
+Compared points are: Equivalent
+  (G) + 176   PO   /mclk
+  (R) + 176   PO   /mclk
+
+Compared points are: Equivalent
+  (G) + 177   PO   /dma_dout[15]
+  (R) + 177   PO   /dma_dout[15]
+
+Compared points are: Equivalent
+  (G) + 178   PO   /dma_dout[14]
+  (R) + 178   PO   /dma_dout[14]
+
+Compared points are: Equivalent
+  (G) + 179   PO   /dma_dout[13]
+  (R) + 179   PO   /dma_dout[13]
+
+Compared points are: Equivalent
+  (G) + 180   PO   /dma_dout[12]
+  (R) + 180   PO   /dma_dout[12]
+
+Compared points are: Equivalent
+  (G) + 181   PO   /dma_dout[11]
+  (R) + 181   PO   /dma_dout[11]
+
+Compared points are: Equivalent
+  (G) + 182   PO   /dma_dout[10]
+  (R) + 182   PO   /dma_dout[10]
+
+Compared points are: Equivalent
+  (G) + 183   PO   /dma_dout[9]
+  (R) + 183   PO   /dma_dout[9]
+
+Compared points are: Equivalent
+  (G) + 184   PO   /dma_dout[8]
+  (R) + 184   PO   /dma_dout[8]
+
+Compared points are: Equivalent
+  (G) + 185   PO   /dma_dout[7]
+  (R) + 185   PO   /dma_dout[7]
+
+Compared points are: Equivalent
+  (G) + 186   PO   /dma_dout[6]
+  (R) + 186   PO   /dma_dout[6]
+
+Compared points are: Equivalent
+  (G) + 187   PO   /dma_dout[5]
+  (R) + 187   PO   /dma_dout[5]
+
+Compared points are: Equivalent
+  (G) + 188   PO   /dma_dout[4]
+  (R) + 188   PO   /dma_dout[4]
+
+Compared points are: Equivalent
+  (G) + 189   PO   /dma_dout[3]
+  (R) + 189   PO   /dma_dout[3]
+
+Compared points are: Equivalent
+  (G) + 190   PO   /dma_dout[2]
+  (R) + 190   PO   /dma_dout[2]
+
+Compared points are: Equivalent
+  (G) + 191   PO   /dma_dout[1]
+  (R) + 191   PO   /dma_dout[1]
+
+Compared points are: Equivalent
+  (G) + 192   PO   /dma_dout[0]
+  (R) + 192   PO   /dma_dout[0]
+
+Compared points are: Equivalent
+  (G) + 193   PO   /dma_ready
+  (R) + 193   PO   /dma_ready
+
+Compared points are: Equivalent
+  (G) + 194   PO   /dma_resp
+  (R) + 194   PO   /dma_resp
+
+Compared points are: Equivalent
+  (G) + 195   PO   /per_addr[13]
+  (R) + 195   PO   /per_addr[13]
+
+Compared points are: Equivalent
+  (G) + 196   PO   /per_addr[12]
+  (R) + 196   PO   /per_addr[12]
+
+Compared points are: Equivalent
+  (G) + 197   PO   /per_addr[11]
+  (R) + 197   PO   /per_addr[11]
+
+Compared points are: Equivalent
+  (G) + 198   PO   /per_addr[10]
+  (R) + 198   PO   /per_addr[10]
+
+Compared points are: Equivalent
+  (G) + 199   PO   /per_addr[9]
+  (R) + 199   PO   /per_addr[9]
+
+Compared points are: Equivalent
+  (G) + 200   PO   /per_addr[8]
+  (R) + 200   PO   /per_addr[8]
+
+Compared points are: Equivalent
+  (G) + 201   PO   /per_addr[7]
+  (R) + 201   PO   /per_addr[7]
+
+Compared points are: Equivalent
+  (G) + 202   PO   /per_addr[6]
+  (R) + 202   PO   /per_addr[6]
+
+Compared points are: Equivalent
+  (G) + 203   PO   /per_addr[5]
+  (R) + 203   PO   /per_addr[5]
+
+Compared points are: Equivalent
+  (G) + 204   PO   /per_addr[4]
+  (R) + 204   PO   /per_addr[4]
+
+Compared points are: Equivalent
+  (G) + 205   PO   /per_addr[3]
+  (R) + 205   PO   /per_addr[3]
+
+Compared points are: Equivalent
+  (G) + 206   PO   /per_addr[2]
+  (R) + 206   PO   /per_addr[2]
+
+Compared points are: Equivalent
+  (G) + 207   PO   /per_addr[1]
+  (R) + 207   PO   /per_addr[1]
+
+Compared points are: Equivalent
+  (G) + 208   PO   /per_addr[0]
+  (R) + 208   PO   /per_addr[0]
+
+Compared points are: Equivalent
+  (G) + 209   PO   /per_din[15]
+  (R) + 209   PO   /per_din[15]
+
+Compared points are: Equivalent
+  (G) + 210   PO   /per_din[14]
+  (R) + 210   PO   /per_din[14]
+
+Compared points are: Equivalent
+  (G) + 211   PO   /per_din[13]
+  (R) + 211   PO   /per_din[13]
+
+Compared points are: Equivalent
+  (G) + 212   PO   /per_din[12]
+  (R) + 212   PO   /per_din[12]
+
+Compared points are: Equivalent
+  (G) + 213   PO   /per_din[11]
+  (R) + 213   PO   /per_din[11]
+
+Compared points are: Equivalent
+  (G) + 214   PO   /per_din[10]
+  (R) + 214   PO   /per_din[10]
+
+Compared points are: Equivalent
+  (G) + 215   PO   /per_din[9]
+  (R) + 215   PO   /per_din[9]
+
+Compared points are: Equivalent
+  (G) + 216   PO   /per_din[8]
+  (R) + 216   PO   /per_din[8]
+
+Compared points are: Equivalent
+  (G) + 217   PO   /per_din[7]
+  (R) + 217   PO   /per_din[7]
+
+Compared points are: Equivalent
+  (G) + 218   PO   /per_din[6]
+  (R) + 218   PO   /per_din[6]
+
+Compared points are: Equivalent
+  (G) + 219   PO   /per_din[5]
+  (R) + 219   PO   /per_din[5]
+
+Compared points are: Equivalent
+  (G) + 220   PO   /per_din[4]
+  (R) + 220   PO   /per_din[4]
+
+Compared points are: Equivalent
+  (G) + 221   PO   /per_din[3]
+  (R) + 221   PO   /per_din[3]
+
+Compared points are: Equivalent
+  (G) + 222   PO   /per_din[2]
+  (R) + 222   PO   /per_din[2]
+
+Compared points are: Equivalent
+  (G) + 223   PO   /per_din[1]
+  (R) + 223   PO   /per_din[1]
+
+Compared points are: Equivalent
+  (G) + 224   PO   /per_din[0]
+  (R) + 224   PO   /per_din[0]
+
+Compared points are: Equivalent
+  (G) + 225   PO   /per_en
+  (R) + 225   PO   /per_en
+
+Compared points are: Equivalent
+  (G) + 226   PO   /per_we[1]
+  (R) + 226   PO   /per_we[1]
+
+Compared points are: Equivalent
+  (G) + 227   PO   /per_we[0]
+  (R) + 227   PO   /per_we[0]
+
+Compared points are: Equivalent
+  (G) + 228   PO   /pmem_addr[10]
+  (R) + 228   PO   /pmem_addr[10]
+
+Compared points are: Equivalent
+  (G) + 229   PO   /pmem_addr[9]
+  (R) + 229   PO   /pmem_addr[9]
+
+Compared points are: Equivalent
+  (G) + 230   PO   /pmem_addr[8]
+  (R) + 230   PO   /pmem_addr[8]
+
+Compared points are: Equivalent
+  (G) + 231   PO   /pmem_addr[7]
+  (R) + 231   PO   /pmem_addr[7]
+
+Compared points are: Equivalent
+  (G) + 232   PO   /pmem_addr[6]
+  (R) + 232   PO   /pmem_addr[6]
+
+Compared points are: Equivalent
+  (G) + 233   PO   /pmem_addr[5]
+  (R) + 233   PO   /pmem_addr[5]
+
+Compared points are: Equivalent
+  (G) + 234   PO   /pmem_addr[4]
+  (R) + 234   PO   /pmem_addr[4]
+
+Compared points are: Equivalent
+  (G) + 235   PO   /pmem_addr[3]
+  (R) + 235   PO   /pmem_addr[3]
+
+Compared points are: Equivalent
+  (G) + 236   PO   /pmem_addr[2]
+  (R) + 236   PO   /pmem_addr[2]
+
+Compared points are: Equivalent
+  (G) + 237   PO   /pmem_addr[1]
+  (R) + 237   PO   /pmem_addr[1]
+
+Compared points are: Equivalent
+  (G) + 238   PO   /pmem_addr[0]
+  (R) + 238   PO   /pmem_addr[0]
+
+Compared points are: Equivalent
+  (G) + 239   PO   /pmem_cen
+  (R) + 239   PO   /pmem_cen
+
+Compared points are: Equivalent
+  (G) + 240   PO   /pmem_din[15]
+  (R) + 240   PO   /pmem_din[15]
+
+Compared points are: Equivalent
+  (G) + 241   PO   /pmem_din[14]
+  (R) + 241   PO   /pmem_din[14]
+
+Compared points are: Equivalent
+  (G) + 242   PO   /pmem_din[13]
+  (R) + 242   PO   /pmem_din[13]
+
+Compared points are: Equivalent
+  (G) + 243   PO   /pmem_din[12]
+  (R) + 243   PO   /pmem_din[12]
+
+Compared points are: Equivalent
+  (G) + 244   PO   /pmem_din[11]
+  (R) + 244   PO   /pmem_din[11]
+
+Compared points are: Equivalent
+  (G) + 245   PO   /pmem_din[10]
+  (R) + 245   PO   /pmem_din[10]
+
+Compared points are: Equivalent
+  (G) + 246   PO   /pmem_din[9]
+  (R) + 246   PO   /pmem_din[9]
+
+Compared points are: Equivalent
+  (G) + 247   PO   /pmem_din[8]
+  (R) + 247   PO   /pmem_din[8]
+
+Compared points are: Equivalent
+  (G) + 248   PO   /pmem_din[7]
+  (R) + 248   PO   /pmem_din[7]
+
+Compared points are: Equivalent
+  (G) + 249   PO   /pmem_din[6]
+  (R) + 249   PO   /pmem_din[6]
+
+Compared points are: Equivalent
+  (G) + 250   PO   /pmem_din[5]
+  (R) + 250   PO   /pmem_din[5]
+
+Compared points are: Equivalent
+  (G) + 251   PO   /pmem_din[4]
+  (R) + 251   PO   /pmem_din[4]
+
+Compared points are: Equivalent
+  (G) + 252   PO   /pmem_din[3]
+  (R) + 252   PO   /pmem_din[3]
+
+Compared points are: Equivalent
+  (G) + 253   PO   /pmem_din[2]
+  (R) + 253   PO   /pmem_din[2]
+
+Compared points are: Equivalent
+  (G) + 254   PO   /pmem_din[1]
+  (R) + 254   PO   /pmem_din[1]
+
+Compared points are: Equivalent
+  (G) + 255   PO   /pmem_din[0]
+  (R) + 255   PO   /pmem_din[0]
+
+Compared points are: Equivalent
+  (G) + 256   PO   /pmem_wen[1]
+  (R) + 256   PO   /pmem_wen[1]
+
+Compared points are: Equivalent
+  (G) + 257   PO   /pmem_wen[0]
+  (R) + 257   PO   /pmem_wen[0]
+
+Compared points are: Equivalent
+  (G) + 258   PO   /puc_rst
+  (R) + 258   PO   /puc_rst
+
+Compared points are: Equivalent
+  (G) + 259   PO   /smclk
+  (R) + 259   PO   /smclk
+
+Compared points are: Equivalent
+  (G) + 260   PO   /smclk_en
+  (R) + 260   PO   /smclk_en
+
+Compared points are: Equivalent
+  (G) + 261   DFF  /clock_module_0/sync_cell_dco_wkup/data_sync_reg_0_/U$1
+  (R) + 261   DFF  /clock_module_0/sync_cell_dco_wkup/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 262   DFF  /clock_module_0/sync_cell_dco_wkup/data_sync_reg_1_/U$1
+  (R) + 262   DFF  /clock_module_0/sync_cell_dco_wkup/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 263   DFF  /clock_module_0/sync_cell_lfxt_disable/data_sync_reg_0_/U$1
+  (R) + 263   DFF  /clock_module_0/sync_cell_lfxt_disable/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 264   DFF  /clock_module_0/sync_cell_lfxt_disable/data_sync_reg_1_/U$1
+  (R) + 264   DFF  /clock_module_0/sync_cell_lfxt_disable/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 265   DFF  /clock_module_0/sync_cell_lfxt_wkup/data_sync_reg_0_/U$1
+  (R) + 265   DFF  /clock_module_0/sync_cell_lfxt_wkup/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 266   DFF  /clock_module_0/sync_cell_lfxt_wkup/data_sync_reg_1_/U$1
+  (R) + 266   DFF  /clock_module_0/sync_cell_lfxt_wkup/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 267   DFF  /clock_module_0/sync_cell_cpu_aux_en/data_sync_reg_0_/U$1
+  (R) + 267   DFF  /clock_module_0/sync_cell_cpu_aux_en/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 268   DFF  /clock_module_0/sync_cell_cpu_aux_en/data_sync_reg_1_/U$1
+  (R) + 268   DFF  /clock_module_0/sync_cell_cpu_aux_en/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 269   DFF  /clock_module_0/sync_cell_mclk_dma_wkup/data_sync_reg_0_/U$1
+  (R) + 269   DFF  /clock_module_0/sync_cell_mclk_dma_wkup/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 270   DFF  /clock_module_0/sync_cell_mclk_dma_wkup/data_sync_reg_1_/U$1
+  (R) + 270   DFF  /clock_module_0/sync_cell_mclk_dma_wkup/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 271   DFF  /clock_module_0/sync_cell_mclk_wkup/data_sync_reg_0_/U$1
+  (R) + 271   DFF  /clock_module_0/sync_cell_mclk_wkup/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 272   DFF  /clock_module_0/sync_cell_mclk_wkup/data_sync_reg_1_/U$1
+  (R) + 272   DFF  /clock_module_0/sync_cell_mclk_wkup/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 273   DFF  /clock_module_0/sync_cell_puc_lfxt/data_sync_reg_0_/U$1
+  (R) + 273   DFF  /clock_module_0/sync_cell_puc_lfxt/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 274   DFF  /clock_module_0/sync_cell_puc_lfxt/data_sync_reg_1_/U$1
+  (R) + 274   DFF  /clock_module_0/sync_cell_puc_lfxt/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 275   DFF  /clock_module_0/sync_cell_oscoff/data_sync_reg_0_/U$1
+  (R) + 275   DFF  /clock_module_0/sync_cell_oscoff/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 276   DFF  /clock_module_0/sync_cell_oscoff/data_sync_reg_1_/U$1
+  (R) + 276   DFF  /clock_module_0/sync_cell_oscoff/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 277   DFF  /clock_module_0/sync_cell_aclk_dma_wkup/data_sync_reg_0_/U$1
+  (R) + 277   DFF  /clock_module_0/sync_cell_aclk_dma_wkup/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 278   DFF  /clock_module_0/sync_cell_aclk_dma_wkup/data_sync_reg_1_/U$1
+  (R) + 278   DFF  /clock_module_0/sync_cell_aclk_dma_wkup/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 279   DFF  /clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_0_/U$1
+  (R) + 279   DFF  /clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 280   DFF  /clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_1_/U$1
+  (R) + 280   DFF  /clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 281   DFF  /clock_module_0/sync_reset_por/data_sync_reg_0_/U$1
+  (R) + 281   DFF  /clock_module_0/sync_reset_por/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 282   DFF  /clock_module_0/sync_reset_por/data_sync_reg_1_/U$1
+  (R) + 282   DFF  /clock_module_0/sync_reset_por/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 283   DFF  /clock_module_0/sync_cell_puc/data_sync_reg_0_/U$1
+  (R) + 283   DFF  /clock_module_0/sync_cell_puc/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 284   DFF  /clock_module_0/sync_cell_puc/data_sync_reg_1_/U$1
+  (R) + 284   DFF  /clock_module_0/sync_cell_puc/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 285   DFF  /clock_module_0/dbg_rst_noscan_reg/U$1
+  (R) + 285   DFF  /clock_module_0/dbg_rst_noscan_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 286   DFF  /clock_module_0/dco_disable_reg/U$1
+  (R) + 286   DFF  /clock_module_0/dco_disable_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 287   DFF  /clock_module_0/lfxt_disable_reg/U$1
+  (R) + 287   DFF  /clock_module_0/lfxt_disable_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 288   DFF  /clock_module_0/bcsctl1_reg_5_/U$1
+  (R) + 288   DFF  /clock_module_0/bcsctl1_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 289   DFF  /clock_module_0/bcsctl1_reg_4_/U$1
+  (R) + 289   DFF  /clock_module_0/bcsctl1_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 290   DFF  /clock_module_0/aclk_div_reg_0_/U$1
+  (R) + 290   DFF  /clock_module_0/aclk_div_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 291   DFF  /clock_module_0/aclk_div_reg_1_/U$1
+  (R) + 291   DFF  /clock_module_0/aclk_div_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 292   DFF  /clock_module_0/aclk_div_reg_2_/U$1
+  (R) + 292   DFF  /clock_module_0/aclk_div_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 293   DFF  /clock_module_0/bcsctl1_reg_3_/U$1
+  (R) + 293   DFF  /clock_module_0/bcsctl1_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 294   DFF  /clock_module_0/bcsctl1_reg_2_/U$1
+  (R) + 294   DFF  /clock_module_0/bcsctl1_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 295   DFF  /clock_module_0/bcsctl1_reg_1_/U$1
+  (R) + 295   DFF  /clock_module_0/bcsctl1_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 296   DFF  /clock_module_0/bcsctl1_reg_0_/U$1
+  (R) + 296   DFF  /clock_module_0/bcsctl1_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 297   DFF  /clock_module_0/bcsctl2_reg_5_/U$1
+  (R) + 297   DFF  /clock_module_0/bcsctl2_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 298   DFF  /clock_module_0/bcsctl2_reg_4_/U$1
+  (R) + 298   DFF  /clock_module_0/bcsctl2_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 299   DFF  /clock_module_0/mclk_div_reg_0_/U$1
+  (R) + 299   DFF  /clock_module_0/mclk_div_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 300   DFF  /clock_module_0/mclk_div_reg_1_/U$1
+  (R) + 300   DFF  /clock_module_0/mclk_div_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 301   DFF  /clock_module_0/mclk_div_reg_2_/U$1
+  (R) + 301   DFF  /clock_module_0/mclk_div_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 302   DFF  /clock_module_0/bcsctl2_reg_2_/U$1
+  (R) + 302   DFF  /clock_module_0/bcsctl2_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 303   DFF  /clock_module_0/bcsctl2_reg_1_/U$1
+  (R) + 303   DFF  /clock_module_0/bcsctl2_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 304   DFF  /clock_module_0/smclk_div_reg_0_/U$1
+  (R) + 304   DFF  /clock_module_0/smclk_div_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 305   DFF  /clock_module_0/smclk_div_reg_1_/U$1
+  (R) + 305   DFF  /clock_module_0/smclk_div_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 306   DFF  /clock_module_0/smclk_div_reg_2_/U$1
+  (R) + 306   DFF  /clock_module_0/smclk_div_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 307   DFF  /clock_module_0/divax_s_reg_1_/U$1
+  (R) + 307   DFF  /clock_module_0/divax_s_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 308   DFF  /clock_module_0/divax_ss_reg_1_/U$1
+  (R) + 308   DFF  /clock_module_0/divax_ss_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 309   DFF  /clock_module_0/divax_s_reg_0_/U$1
+  (R) + 309   DFF  /clock_module_0/divax_s_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 310   DFF  /clock_module_0/divax_ss_reg_0_/U$1
+  (R) + 310   DFF  /clock_module_0/divax_ss_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 311   DFF  /clock_module_0/dco_enable_reg/U$1
+  (R) + 311   DFF  /clock_module_0/dco_enable_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 312   DFF  /frontend_0/pmem_busy_reg/U$1
+  (R) + 312   DFF  /frontend_0/pmem_busy_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 313   DFF  /frontend_0/inst_type_reg_2_/U$1
+  (R) + 313   DFF  /frontend_0/inst_type_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 314   DFF  /frontend_0/inst_type_reg_1_/U$1
+  (R) + 314   DFF  /frontend_0/inst_type_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 315   DFF  /frontend_0/inst_type_reg_0_/U$1
+  (R) + 315   DFF  /frontend_0/inst_type_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 316   DFF  /frontend_0/inst_so_reg_7_/U$1
+  (R) + 316   DFF  /frontend_0/inst_so_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 317   DFF  /frontend_0/inst_so_reg_6_/U$1
+  (R) + 317   DFF  /frontend_0/inst_so_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 318   DFF  /frontend_0/inst_so_reg_5_/U$1
+  (R) + 318   DFF  /frontend_0/inst_so_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 319   DFF  /frontend_0/inst_so_reg_4_/U$1
+  (R) + 319   DFF  /frontend_0/inst_so_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 320   DFF  /frontend_0/inst_so_reg_3_/U$1
+  (R) + 320   DFF  /frontend_0/inst_so_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 321   DFF  /frontend_0/inst_so_reg_1_/U$1
+  (R) + 321   DFF  /frontend_0/inst_so_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 322   DFF  /frontend_0/inst_so_reg_0_/U$1
+  (R) + 322   DFF  /frontend_0/inst_so_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 323   DFF  /frontend_0/inst_jmp_bin_reg_2_/U$1
+  (R) + 323   DFF  /frontend_0/inst_jmp_bin_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 324   DFF  /frontend_0/inst_mov_reg/U$1
+  (R) + 324   DFF  /frontend_0/inst_mov_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 325   DFF  /frontend_0/inst_dest_bin_reg_3_/U$1
+  (R) + 325   DFF  /frontend_0/inst_dest_bin_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 326   DFF  /frontend_0/inst_dest_bin_reg_2_/U$1
+  (R) + 326   DFF  /frontend_0/inst_dest_bin_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 327   DFF  /frontend_0/inst_dest_bin_reg_1_/U$1
+  (R) + 327   DFF  /frontend_0/inst_dest_bin_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 328   DFF  /frontend_0/inst_dest_bin_reg_0_/U$1
+  (R) + 328   DFF  /frontend_0/inst_dest_bin_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 329   DFF  /frontend_0/inst_src_bin_reg_3_/U$1
+  (R) + 329   DFF  /frontend_0/inst_src_bin_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 330   DFF  /frontend_0/inst_src_bin_reg_2_/U$1
+  (R) + 330   DFF  /frontend_0/inst_src_bin_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 331   DFF  /frontend_0/inst_src_bin_reg_1_/U$1
+  (R) + 331   DFF  /frontend_0/inst_src_bin_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 332   DFF  /frontend_0/inst_src_bin_reg_0_/U$1
+  (R) + 332   DFF  /frontend_0/inst_src_bin_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 333   DFF  /frontend_0/inst_as_reg_7_/U$1
+  (R) + 333   DFF  /frontend_0/inst_as_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 334   DFF  /frontend_0/inst_as_reg_6_/U$1
+  (R) + 334   DFF  /frontend_0/inst_as_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 335   DFF  /frontend_0/inst_as_reg_5_/U$1
+  (R) + 335   DFF  /frontend_0/inst_as_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 336   DFF  /frontend_0/inst_as_reg_4_/U$1
+  (R) + 336   DFF  /frontend_0/inst_as_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 337   DFF  /frontend_0/inst_as_reg_3_/U$1
+  (R) + 337   DFF  /frontend_0/inst_as_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 338   DFF  /frontend_0/inst_as_reg_2_/U$1
+  (R) + 338   DFF  /frontend_0/inst_as_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 339   DFF  /frontend_0/inst_as_reg_1_/U$1
+  (R) + 339   DFF  /frontend_0/inst_as_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 340   DFF  /frontend_0/inst_as_reg_0_/U$1
+  (R) + 340   DFF  /frontend_0/inst_as_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 341   DFF  /frontend_0/inst_ad_reg_6_/U$1
+  (R) + 341   DFF  /frontend_0/inst_ad_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 342   DFF  /frontend_0/inst_ad_reg_4_/U$1
+  (R) + 342   DFF  /frontend_0/inst_ad_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 343   DFF  /frontend_0/inst_ad_reg_1_/U$1
+  (R) + 343   DFF  /frontend_0/inst_ad_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 344   DFF  /frontend_0/inst_ad_reg_0_/U$1
+  (R) + 344   DFF  /frontend_0/inst_ad_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 345   DFF  /frontend_0/inst_sz_reg_1_/U$1
+  (R) + 345   DFF  /frontend_0/inst_sz_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 346   DFF  /frontend_0/inst_sz_reg_0_/U$1
+  (R) + 346   DFF  /frontend_0/inst_sz_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 347   DFF  /frontend_0/inst_bw_reg/U$1
+  (R) + 347   DFF  /frontend_0/inst_bw_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 348   DFF  /frontend_0/exec_jmp_reg/U$1
+  (R) + 348   DFF  /frontend_0/exec_jmp_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 349   DFF  /frontend_0/exec_src_wr_reg/U$1
+  (R) + 349   DFF  /frontend_0/exec_src_wr_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 350   DFF  /frontend_0/e_state_reg_2_/U$1
+  (R) + 350   DFF  /frontend_0/e_state_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 351   DFF  /frontend_0/exec_dst_wr_reg/U$1
+  (R) + 351   DFF  /frontend_0/exec_dst_wr_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 352   DFF  /frontend_0/i_state_reg_0_/U$1
+  (R) + 352   DFF  /frontend_0/i_state_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 353   DFF  /frontend_0/i_state_reg_2_/U$1
+  (R) + 353   DFF  /frontend_0/i_state_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 354   DFF  /frontend_0/i_state_reg_1_/U$1
+  (R) + 354   DFF  /frontend_0/i_state_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 355   DFF  /frontend_0/inst_sext_reg_15_/U$1
+  (R) + 355   DFF  /frontend_0/inst_sext_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 356   DFF  /frontend_0/inst_sext_reg_14_/U$1
+  (R) + 356   DFF  /frontend_0/inst_sext_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 357   DFF  /frontend_0/inst_sext_reg_13_/U$1
+  (R) + 357   DFF  /frontend_0/inst_sext_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 358   DFF  /frontend_0/inst_sext_reg_12_/U$1
+  (R) + 358   DFF  /frontend_0/inst_sext_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 359   DFF  /frontend_0/inst_sext_reg_11_/U$1
+  (R) + 359   DFF  /frontend_0/inst_sext_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 360   DFF  /frontend_0/inst_sext_reg_10_/U$1
+  (R) + 360   DFF  /frontend_0/inst_sext_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 361   DFF  /frontend_0/inst_sext_reg_9_/U$1
+  (R) + 361   DFF  /frontend_0/inst_sext_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 362   DFF  /frontend_0/inst_sext_reg_8_/U$1
+  (R) + 362   DFF  /frontend_0/inst_sext_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 363   DFF  /frontend_0/inst_sext_reg_7_/U$1
+  (R) + 363   DFF  /frontend_0/inst_sext_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 364   DFF  /frontend_0/inst_sext_reg_6_/U$1
+  (R) + 364   DFF  /frontend_0/inst_sext_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 365   DFF  /frontend_0/inst_sext_reg_5_/U$1
+  (R) + 365   DFF  /frontend_0/inst_sext_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 366   DFF  /frontend_0/inst_sext_reg_4_/U$1
+  (R) + 366   DFF  /frontend_0/inst_sext_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 367   DFF  /frontend_0/inst_sext_reg_3_/U$1
+  (R) + 367   DFF  /frontend_0/inst_sext_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 368   DFF  /frontend_0/inst_sext_reg_2_/U$1
+  (R) + 368   DFF  /frontend_0/inst_sext_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 369   DFF  /frontend_0/inst_sext_reg_1_/U$1
+  (R) + 369   DFF  /frontend_0/inst_sext_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 370   DFF  /frontend_0/inst_sext_reg_0_/U$1
+  (R) + 370   DFF  /frontend_0/inst_sext_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 371   DFF  /frontend_0/inst_dext_reg_15_/U$1
+  (R) + 371   DFF  /frontend_0/inst_dext_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 372   DFF  /frontend_0/inst_dext_reg_14_/U$1
+  (R) + 372   DFF  /frontend_0/inst_dext_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 373   DFF  /frontend_0/inst_dext_reg_13_/U$1
+  (R) + 373   DFF  /frontend_0/inst_dext_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 374   DFF  /frontend_0/inst_dext_reg_12_/U$1
+  (R) + 374   DFF  /frontend_0/inst_dext_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 375   DFF  /frontend_0/inst_dext_reg_11_/U$1
+  (R) + 375   DFF  /frontend_0/inst_dext_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 376   DFF  /frontend_0/inst_dext_reg_10_/U$1
+  (R) + 376   DFF  /frontend_0/inst_dext_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 377   DFF  /frontend_0/inst_dext_reg_9_/U$1
+  (R) + 377   DFF  /frontend_0/inst_dext_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 378   DFF  /frontend_0/inst_dext_reg_8_/U$1
+  (R) + 378   DFF  /frontend_0/inst_dext_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 379   DFF  /frontend_0/inst_dext_reg_7_/U$1
+  (R) + 379   DFF  /frontend_0/inst_dext_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 380   DFF  /frontend_0/inst_dext_reg_6_/U$1
+  (R) + 380   DFF  /frontend_0/inst_dext_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 381   DFF  /frontend_0/inst_dext_reg_5_/U$1
+  (R) + 381   DFF  /frontend_0/inst_dext_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 382   DFF  /frontend_0/inst_dext_reg_4_/U$1
+  (R) + 382   DFF  /frontend_0/inst_dext_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 383   DFF  /frontend_0/inst_dext_reg_3_/U$1
+  (R) + 383   DFF  /frontend_0/inst_dext_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 384   DFF  /frontend_0/inst_dext_reg_2_/U$1
+  (R) + 384   DFF  /frontend_0/inst_dext_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 385   DFF  /frontend_0/inst_dext_reg_1_/U$1
+  (R) + 385   DFF  /frontend_0/inst_dext_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 386   DFF  /frontend_0/inst_dext_reg_0_/U$1
+  (R) + 386   DFF  /frontend_0/inst_dext_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 387   DFF  /frontend_0/exec_dext_rdy_reg/U$1
+  (R) + 387   DFF  /frontend_0/exec_dext_rdy_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 388   DFF  /frontend_0/pc_reg_14_/U$1
+  (R) + 388   DFF  /frontend_0/pc_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 389   DFF  /frontend_0/pc_reg_13_/U$1
+  (R) + 389   DFF  /frontend_0/pc_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 390   DFF  /frontend_0/pc_reg_12_/U$1
+  (R) + 390   DFF  /frontend_0/pc_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 391   DFF  /frontend_0/pc_reg_11_/U$1
+  (R) + 391   DFF  /frontend_0/pc_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 392   DFF  /frontend_0/pc_reg_10_/U$1
+  (R) + 392   DFF  /frontend_0/pc_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 393   DFF  /frontend_0/pc_reg_9_/U$1
+  (R) + 393   DFF  /frontend_0/pc_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 394   DFF  /frontend_0/pc_reg_8_/U$1
+  (R) + 394   DFF  /frontend_0/pc_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 395   DFF  /frontend_0/pc_reg_7_/U$1
+  (R) + 395   DFF  /frontend_0/pc_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 396   DFF  /frontend_0/pc_reg_6_/U$1
+  (R) + 396   DFF  /frontend_0/pc_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 397   DFF  /frontend_0/pc_reg_5_/U$1
+  (R) + 397   DFF  /frontend_0/pc_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 398   DFF  /frontend_0/pc_reg_4_/U$1
+  (R) + 398   DFF  /frontend_0/pc_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 399   DFF  /frontend_0/pc_reg_3_/U$1
+  (R) + 399   DFF  /frontend_0/pc_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 400   DFF  /frontend_0/pc_reg_2_/U$1
+  (R) + 400   DFF  /frontend_0/pc_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 401   DFF  /frontend_0/pc_reg_1_/U$1
+  (R) + 401   DFF  /frontend_0/pc_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 402   DFF  /frontend_0/pc_reg_0_/U$1
+  (R) + 402   DFF  /frontend_0/pc_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 403   DFF  /frontend_0/inst_alu_reg_11_/U$1
+  (R) + 403   DFF  /frontend_0/inst_alu_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 404   DFF  /frontend_0/inst_alu_reg_10_/U$1
+  (R) + 404   DFF  /frontend_0/inst_alu_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 405   DFF  /frontend_0/inst_alu_reg_9_/U$1
+  (R) + 405   DFF  /frontend_0/inst_alu_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 406   DFF  /frontend_0/inst_alu_reg_8_/U$1
+  (R) + 406   DFF  /frontend_0/inst_alu_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 407   DFF  /frontend_0/inst_alu_reg_7_/U$1
+  (R) + 407   DFF  /frontend_0/inst_alu_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 408   DFF  /frontend_0/inst_alu_reg_6_/U$1
+  (R) + 408   DFF  /frontend_0/inst_alu_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 409   DFF  /frontend_0/inst_alu_reg_5_/U$1
+  (R) + 409   DFF  /frontend_0/inst_alu_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 410   DFF  /frontend_0/inst_alu_reg_4_/U$1
+  (R) + 410   DFF  /frontend_0/inst_alu_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 411   DFF  /frontend_0/inst_alu_reg_3_/U$1
+  (R) + 411   DFF  /frontend_0/inst_alu_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 412   DFF  /frontend_0/inst_alu_reg_2_/U$1
+  (R) + 412   DFF  /frontend_0/inst_alu_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 413   DFF  /frontend_0/inst_alu_reg_1_/U$1
+  (R) + 413   DFF  /frontend_0/inst_alu_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 414   DFF  /frontend_0/inst_alu_reg_0_/U$1
+  (R) + 414   DFF  /frontend_0/inst_alu_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 415   DFF  /frontend_0/inst_irq_rst_reg/U$1
+  (R) + 415   DFF  /frontend_0/inst_irq_rst_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 416   DFF  /frontend_0/irq_num_reg_3_/U$1
+  (R) + 416   DFF  /frontend_0/irq_num_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 417   DFF  /frontend_0/irq_num_reg_2_/U$1
+  (R) + 417   DFF  /frontend_0/irq_num_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 418   DFF  /frontend_0/irq_num_reg_1_/U$1
+  (R) + 418   DFF  /frontend_0/irq_num_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 419   DFF  /frontend_0/irq_num_reg_0_/U$1
+  (R) + 419   DFF  /frontend_0/irq_num_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 420   DFF  /frontend_0/e_state_reg_1_/U$1
+  (R) + 420   DFF  /frontend_0/e_state_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 421   DFF  /frontend_0/cpu_halt_st_reg/U$1
+  (R) + 421   DFF  /frontend_0/cpu_halt_st_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 422   DFF  /frontend_0/e_state_reg_3_/U$1
+  (R) + 422   DFF  /frontend_0/e_state_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 423   DFF  /frontend_0/e_state_reg_0_/U$1
+  (R) + 423   DFF  /frontend_0/e_state_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 424   DFF  /frontend_0/pc_reg_15_/U$1
+  (R) + 424   DFF  /frontend_0/pc_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 425   DFF  /execution_unit_0/register_file_0/r1_reg_15_/U$1
+  (R) + 425   DFF  /execution_unit_0/register_file_0/r1_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 426   DFF  /execution_unit_0/register_file_0/r1_reg_14_/U$1
+  (R) + 426   DFF  /execution_unit_0/register_file_0/r1_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 427   DFF  /execution_unit_0/register_file_0/r1_reg_13_/U$1
+  (R) + 427   DFF  /execution_unit_0/register_file_0/r1_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 428   DFF  /execution_unit_0/register_file_0/r1_reg_12_/U$1
+  (R) + 428   DFF  /execution_unit_0/register_file_0/r1_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 429   DFF  /execution_unit_0/register_file_0/r1_reg_11_/U$1
+  (R) + 429   DFF  /execution_unit_0/register_file_0/r1_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 430   DFF  /execution_unit_0/register_file_0/r1_reg_10_/U$1
+  (R) + 430   DFF  /execution_unit_0/register_file_0/r1_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 431   DFF  /execution_unit_0/register_file_0/r1_reg_9_/U$1
+  (R) + 431   DFF  /execution_unit_0/register_file_0/r1_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 432   DFF  /execution_unit_0/register_file_0/r1_reg_8_/U$1
+  (R) + 432   DFF  /execution_unit_0/register_file_0/r1_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 433   DFF  /execution_unit_0/register_file_0/r1_reg_7_/U$1
+  (R) + 433   DFF  /execution_unit_0/register_file_0/r1_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 434   DFF  /execution_unit_0/register_file_0/r1_reg_6_/U$1
+  (R) + 434   DFF  /execution_unit_0/register_file_0/r1_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 435   DFF  /execution_unit_0/register_file_0/r1_reg_5_/U$1
+  (R) + 435   DFF  /execution_unit_0/register_file_0/r1_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 436   DFF  /execution_unit_0/register_file_0/r1_reg_4_/U$1
+  (R) + 436   DFF  /execution_unit_0/register_file_0/r1_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 437   DFF  /execution_unit_0/register_file_0/r1_reg_3_/U$1
+  (R) + 437   DFF  /execution_unit_0/register_file_0/r1_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 438   DFF  /execution_unit_0/register_file_0/r1_reg_2_/U$1
+  (R) + 438   DFF  /execution_unit_0/register_file_0/r1_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 439   DFF  /execution_unit_0/register_file_0/r1_reg_1_/U$1
+  (R) + 439   DFF  /execution_unit_0/register_file_0/r1_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 440   DFF  /execution_unit_0/register_file_0/r2_reg_8_/U$1
+  (R) + 440   DFF  /execution_unit_0/register_file_0/r2_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 441   DFF  /execution_unit_0/register_file_0/r2_reg_7_/U$1
+  (R) + 441   DFF  /execution_unit_0/register_file_0/r2_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 442   DFF  /execution_unit_0/register_file_0/r2_reg_6_/U$1
+  (R) + 442   DFF  /execution_unit_0/register_file_0/r2_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 443   DFF  /execution_unit_0/register_file_0/r2_reg_5_/U$1
+  (R) + 443   DFF  /execution_unit_0/register_file_0/r2_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 444   DFF  /execution_unit_0/register_file_0/r2_reg_4_/U$1
+  (R) + 444   DFF  /execution_unit_0/register_file_0/r2_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 445   DFF  /execution_unit_0/register_file_0/r2_reg_3_/U$1
+  (R) + 445   DFF  /execution_unit_0/register_file_0/r2_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 446   DFF  /execution_unit_0/register_file_0/r2_reg_2_/U$1
+  (R) + 446   DFF  /execution_unit_0/register_file_0/r2_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 447   DFF  /execution_unit_0/register_file_0/r2_reg_1_/U$1
+  (R) + 447   DFF  /execution_unit_0/register_file_0/r2_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 448   DFF  /execution_unit_0/register_file_0/r2_reg_0_/U$1
+  (R) + 448   DFF  /execution_unit_0/register_file_0/r2_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 449   DFF  /execution_unit_0/register_file_0/r3_reg_14_/U$1
+  (R) + 449   DFF  /execution_unit_0/register_file_0/r3_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 450   DFF  /execution_unit_0/register_file_0/r3_reg_13_/U$1
+  (R) + 450   DFF  /execution_unit_0/register_file_0/r3_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 451   DFF  /execution_unit_0/register_file_0/r3_reg_12_/U$1
+  (R) + 451   DFF  /execution_unit_0/register_file_0/r3_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 452   DFF  /execution_unit_0/register_file_0/r3_reg_11_/U$1
+  (R) + 452   DFF  /execution_unit_0/register_file_0/r3_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 453   DFF  /execution_unit_0/register_file_0/r3_reg_10_/U$1
+  (R) + 453   DFF  /execution_unit_0/register_file_0/r3_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 454   DFF  /execution_unit_0/register_file_0/r3_reg_9_/U$1
+  (R) + 454   DFF  /execution_unit_0/register_file_0/r3_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 455   DFF  /execution_unit_0/register_file_0/r3_reg_8_/U$1
+  (R) + 455   DFF  /execution_unit_0/register_file_0/r3_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 456   DFF  /execution_unit_0/register_file_0/r3_reg_7_/U$1
+  (R) + 456   DFF  /execution_unit_0/register_file_0/r3_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 457   DFF  /execution_unit_0/register_file_0/r3_reg_6_/U$1
+  (R) + 457   DFF  /execution_unit_0/register_file_0/r3_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 458   DFF  /execution_unit_0/register_file_0/r3_reg_5_/U$1
+  (R) + 458   DFF  /execution_unit_0/register_file_0/r3_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 459   DFF  /execution_unit_0/register_file_0/r3_reg_4_/U$1
+  (R) + 459   DFF  /execution_unit_0/register_file_0/r3_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 460   DFF  /execution_unit_0/register_file_0/r3_reg_3_/U$1
+  (R) + 460   DFF  /execution_unit_0/register_file_0/r3_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 461   DFF  /execution_unit_0/register_file_0/r3_reg_2_/U$1
+  (R) + 461   DFF  /execution_unit_0/register_file_0/r3_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 462   DFF  /execution_unit_0/register_file_0/r3_reg_1_/U$1
+  (R) + 462   DFF  /execution_unit_0/register_file_0/r3_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 463   DFF  /execution_unit_0/register_file_0/r3_reg_0_/U$1
+  (R) + 463   DFF  /execution_unit_0/register_file_0/r3_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 464   DFF  /execution_unit_0/register_file_0/r4_reg_15_/U$1
+  (R) + 464   DFF  /execution_unit_0/register_file_0/r4_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 465   DFF  /execution_unit_0/register_file_0/r4_reg_14_/U$1
+  (R) + 465   DFF  /execution_unit_0/register_file_0/r4_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 466   DFF  /execution_unit_0/register_file_0/r4_reg_13_/U$1
+  (R) + 466   DFF  /execution_unit_0/register_file_0/r4_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 467   DFF  /execution_unit_0/register_file_0/r4_reg_12_/U$1
+  (R) + 467   DFF  /execution_unit_0/register_file_0/r4_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 468   DFF  /execution_unit_0/register_file_0/r4_reg_11_/U$1
+  (R) + 468   DFF  /execution_unit_0/register_file_0/r4_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 469   DFF  /execution_unit_0/register_file_0/r4_reg_10_/U$1
+  (R) + 469   DFF  /execution_unit_0/register_file_0/r4_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 470   DFF  /execution_unit_0/register_file_0/r4_reg_9_/U$1
+  (R) + 470   DFF  /execution_unit_0/register_file_0/r4_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 471   DFF  /execution_unit_0/register_file_0/r4_reg_8_/U$1
+  (R) + 471   DFF  /execution_unit_0/register_file_0/r4_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 472   DFF  /execution_unit_0/register_file_0/r4_reg_7_/U$1
+  (R) + 472   DFF  /execution_unit_0/register_file_0/r4_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 473   DFF  /execution_unit_0/register_file_0/r4_reg_6_/U$1
+  (R) + 473   DFF  /execution_unit_0/register_file_0/r4_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 474   DFF  /execution_unit_0/register_file_0/r4_reg_5_/U$1
+  (R) + 474   DFF  /execution_unit_0/register_file_0/r4_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 475   DFF  /execution_unit_0/register_file_0/r4_reg_4_/U$1
+  (R) + 475   DFF  /execution_unit_0/register_file_0/r4_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 476   DFF  /execution_unit_0/register_file_0/r4_reg_3_/U$1
+  (R) + 476   DFF  /execution_unit_0/register_file_0/r4_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 477   DFF  /execution_unit_0/register_file_0/r4_reg_2_/U$1
+  (R) + 477   DFF  /execution_unit_0/register_file_0/r4_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 478   DFF  /execution_unit_0/register_file_0/r4_reg_1_/U$1
+  (R) + 478   DFF  /execution_unit_0/register_file_0/r4_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 479   DFF  /execution_unit_0/register_file_0/r4_reg_0_/U$1
+  (R) + 479   DFF  /execution_unit_0/register_file_0/r4_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 480   DFF  /execution_unit_0/register_file_0/r5_reg_15_/U$1
+  (R) + 480   DFF  /execution_unit_0/register_file_0/r5_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 481   DFF  /execution_unit_0/register_file_0/r5_reg_14_/U$1
+  (R) + 481   DFF  /execution_unit_0/register_file_0/r5_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 482   DFF  /execution_unit_0/register_file_0/r5_reg_13_/U$1
+  (R) + 482   DFF  /execution_unit_0/register_file_0/r5_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 483   DFF  /execution_unit_0/register_file_0/r5_reg_12_/U$1
+  (R) + 483   DFF  /execution_unit_0/register_file_0/r5_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 484   DFF  /execution_unit_0/register_file_0/r5_reg_11_/U$1
+  (R) + 484   DFF  /execution_unit_0/register_file_0/r5_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 485   DFF  /execution_unit_0/register_file_0/r5_reg_10_/U$1
+  (R) + 485   DFF  /execution_unit_0/register_file_0/r5_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 486   DFF  /execution_unit_0/register_file_0/r5_reg_9_/U$1
+  (R) + 486   DFF  /execution_unit_0/register_file_0/r5_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 487   DFF  /execution_unit_0/register_file_0/r5_reg_8_/U$1
+  (R) + 487   DFF  /execution_unit_0/register_file_0/r5_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 488   DFF  /execution_unit_0/register_file_0/r5_reg_7_/U$1
+  (R) + 488   DFF  /execution_unit_0/register_file_0/r5_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 489   DFF  /execution_unit_0/register_file_0/r5_reg_6_/U$1
+  (R) + 489   DFF  /execution_unit_0/register_file_0/r5_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 490   DFF  /execution_unit_0/register_file_0/r5_reg_5_/U$1
+  (R) + 490   DFF  /execution_unit_0/register_file_0/r5_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 491   DFF  /execution_unit_0/register_file_0/r5_reg_4_/U$1
+  (R) + 491   DFF  /execution_unit_0/register_file_0/r5_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 492   DFF  /execution_unit_0/register_file_0/r5_reg_3_/U$1
+  (R) + 492   DFF  /execution_unit_0/register_file_0/r5_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 493   DFF  /execution_unit_0/register_file_0/r5_reg_2_/U$1
+  (R) + 493   DFF  /execution_unit_0/register_file_0/r5_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 494   DFF  /execution_unit_0/register_file_0/r5_reg_1_/U$1
+  (R) + 494   DFF  /execution_unit_0/register_file_0/r5_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 495   DFF  /execution_unit_0/register_file_0/r5_reg_0_/U$1
+  (R) + 495   DFF  /execution_unit_0/register_file_0/r5_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 496   DFF  /execution_unit_0/register_file_0/r6_reg_15_/U$1
+  (R) + 496   DFF  /execution_unit_0/register_file_0/r6_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 497   DFF  /execution_unit_0/register_file_0/r6_reg_14_/U$1
+  (R) + 497   DFF  /execution_unit_0/register_file_0/r6_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 498   DFF  /execution_unit_0/register_file_0/r6_reg_13_/U$1
+  (R) + 498   DFF  /execution_unit_0/register_file_0/r6_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 499   DFF  /execution_unit_0/register_file_0/r6_reg_12_/U$1
+  (R) + 499   DFF  /execution_unit_0/register_file_0/r6_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 500   DFF  /execution_unit_0/register_file_0/r6_reg_11_/U$1
+  (R) + 500   DFF  /execution_unit_0/register_file_0/r6_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 501   DFF  /execution_unit_0/register_file_0/r6_reg_10_/U$1
+  (R) + 501   DFF  /execution_unit_0/register_file_0/r6_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 502   DFF  /execution_unit_0/register_file_0/r6_reg_9_/U$1
+  (R) + 502   DFF  /execution_unit_0/register_file_0/r6_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 503   DFF  /execution_unit_0/register_file_0/r6_reg_8_/U$1
+  (R) + 503   DFF  /execution_unit_0/register_file_0/r6_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 504   DFF  /execution_unit_0/register_file_0/r6_reg_7_/U$1
+  (R) + 504   DFF  /execution_unit_0/register_file_0/r6_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 505   DFF  /execution_unit_0/register_file_0/r6_reg_6_/U$1
+  (R) + 505   DFF  /execution_unit_0/register_file_0/r6_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 506   DFF  /execution_unit_0/register_file_0/r6_reg_5_/U$1
+  (R) + 506   DFF  /execution_unit_0/register_file_0/r6_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 507   DFF  /execution_unit_0/register_file_0/r6_reg_4_/U$1
+  (R) + 507   DFF  /execution_unit_0/register_file_0/r6_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 508   DFF  /execution_unit_0/register_file_0/r6_reg_3_/U$1
+  (R) + 508   DFF  /execution_unit_0/register_file_0/r6_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 509   DFF  /execution_unit_0/register_file_0/r6_reg_2_/U$1
+  (R) + 509   DFF  /execution_unit_0/register_file_0/r6_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 510   DFF  /execution_unit_0/register_file_0/r6_reg_1_/U$1
+  (R) + 510   DFF  /execution_unit_0/register_file_0/r6_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 511   DFF  /execution_unit_0/register_file_0/r6_reg_0_/U$1
+  (R) + 511   DFF  /execution_unit_0/register_file_0/r6_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 512   DFF  /execution_unit_0/register_file_0/r7_reg_15_/U$1
+  (R) + 512   DFF  /execution_unit_0/register_file_0/r7_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 513   DFF  /execution_unit_0/register_file_0/r7_reg_14_/U$1
+  (R) + 513   DFF  /execution_unit_0/register_file_0/r7_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 514   DFF  /execution_unit_0/register_file_0/r7_reg_13_/U$1
+  (R) + 514   DFF  /execution_unit_0/register_file_0/r7_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 515   DFF  /execution_unit_0/register_file_0/r7_reg_12_/U$1
+  (R) + 515   DFF  /execution_unit_0/register_file_0/r7_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 516   DFF  /execution_unit_0/register_file_0/r7_reg_11_/U$1
+  (R) + 516   DFF  /execution_unit_0/register_file_0/r7_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 517   DFF  /execution_unit_0/register_file_0/r7_reg_10_/U$1
+  (R) + 517   DFF  /execution_unit_0/register_file_0/r7_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 518   DFF  /execution_unit_0/register_file_0/r7_reg_9_/U$1
+  (R) + 518   DFF  /execution_unit_0/register_file_0/r7_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 519   DFF  /execution_unit_0/register_file_0/r7_reg_8_/U$1
+  (R) + 519   DFF  /execution_unit_0/register_file_0/r7_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 520   DFF  /execution_unit_0/register_file_0/r7_reg_7_/U$1
+  (R) + 520   DFF  /execution_unit_0/register_file_0/r7_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 521   DFF  /execution_unit_0/register_file_0/r7_reg_6_/U$1
+  (R) + 521   DFF  /execution_unit_0/register_file_0/r7_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 522   DFF  /execution_unit_0/register_file_0/r7_reg_5_/U$1
+  (R) + 522   DFF  /execution_unit_0/register_file_0/r7_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 523   DFF  /execution_unit_0/register_file_0/r7_reg_4_/U$1
+  (R) + 523   DFF  /execution_unit_0/register_file_0/r7_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 524   DFF  /execution_unit_0/register_file_0/r7_reg_3_/U$1
+  (R) + 524   DFF  /execution_unit_0/register_file_0/r7_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 525   DFF  /execution_unit_0/register_file_0/r7_reg_2_/U$1
+  (R) + 525   DFF  /execution_unit_0/register_file_0/r7_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 526   DFF  /execution_unit_0/register_file_0/r7_reg_1_/U$1
+  (R) + 526   DFF  /execution_unit_0/register_file_0/r7_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 527   DFF  /execution_unit_0/register_file_0/r7_reg_0_/U$1
+  (R) + 527   DFF  /execution_unit_0/register_file_0/r7_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 528   DFF  /execution_unit_0/register_file_0/r8_reg_15_/U$1
+  (R) + 528   DFF  /execution_unit_0/register_file_0/r8_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 529   DFF  /execution_unit_0/register_file_0/r8_reg_14_/U$1
+  (R) + 529   DFF  /execution_unit_0/register_file_0/r8_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 530   DFF  /execution_unit_0/register_file_0/r8_reg_13_/U$1
+  (R) + 530   DFF  /execution_unit_0/register_file_0/r8_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 531   DFF  /execution_unit_0/register_file_0/r8_reg_12_/U$1
+  (R) + 531   DFF  /execution_unit_0/register_file_0/r8_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 532   DFF  /execution_unit_0/register_file_0/r8_reg_11_/U$1
+  (R) + 532   DFF  /execution_unit_0/register_file_0/r8_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 533   DFF  /execution_unit_0/register_file_0/r8_reg_10_/U$1
+  (R) + 533   DFF  /execution_unit_0/register_file_0/r8_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 534   DFF  /execution_unit_0/register_file_0/r8_reg_9_/U$1
+  (R) + 534   DFF  /execution_unit_0/register_file_0/r8_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 535   DFF  /execution_unit_0/register_file_0/r8_reg_8_/U$1
+  (R) + 535   DFF  /execution_unit_0/register_file_0/r8_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 536   DFF  /execution_unit_0/register_file_0/r8_reg_7_/U$1
+  (R) + 536   DFF  /execution_unit_0/register_file_0/r8_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 537   DFF  /execution_unit_0/register_file_0/r8_reg_6_/U$1
+  (R) + 537   DFF  /execution_unit_0/register_file_0/r8_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 538   DFF  /execution_unit_0/register_file_0/r8_reg_5_/U$1
+  (R) + 538   DFF  /execution_unit_0/register_file_0/r8_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 539   DFF  /execution_unit_0/register_file_0/r8_reg_4_/U$1
+  (R) + 539   DFF  /execution_unit_0/register_file_0/r8_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 540   DFF  /execution_unit_0/register_file_0/r8_reg_3_/U$1
+  (R) + 540   DFF  /execution_unit_0/register_file_0/r8_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 541   DFF  /execution_unit_0/register_file_0/r8_reg_2_/U$1
+  (R) + 541   DFF  /execution_unit_0/register_file_0/r8_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 542   DFF  /execution_unit_0/register_file_0/r8_reg_1_/U$1
+  (R) + 542   DFF  /execution_unit_0/register_file_0/r8_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 543   DFF  /execution_unit_0/register_file_0/r8_reg_0_/U$1
+  (R) + 543   DFF  /execution_unit_0/register_file_0/r8_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 544   DFF  /execution_unit_0/register_file_0/r9_reg_15_/U$1
+  (R) + 544   DFF  /execution_unit_0/register_file_0/r9_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 545   DFF  /execution_unit_0/register_file_0/r9_reg_14_/U$1
+  (R) + 545   DFF  /execution_unit_0/register_file_0/r9_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 546   DFF  /execution_unit_0/register_file_0/r9_reg_13_/U$1
+  (R) + 546   DFF  /execution_unit_0/register_file_0/r9_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 547   DFF  /execution_unit_0/register_file_0/r9_reg_12_/U$1
+  (R) + 547   DFF  /execution_unit_0/register_file_0/r9_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 548   DFF  /execution_unit_0/register_file_0/r9_reg_11_/U$1
+  (R) + 548   DFF  /execution_unit_0/register_file_0/r9_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 549   DFF  /execution_unit_0/register_file_0/r9_reg_10_/U$1
+  (R) + 549   DFF  /execution_unit_0/register_file_0/r9_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 550   DFF  /execution_unit_0/register_file_0/r9_reg_9_/U$1
+  (R) + 550   DFF  /execution_unit_0/register_file_0/r9_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 551   DFF  /execution_unit_0/register_file_0/r9_reg_8_/U$1
+  (R) + 551   DFF  /execution_unit_0/register_file_0/r9_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 552   DFF  /execution_unit_0/register_file_0/r9_reg_7_/U$1
+  (R) + 552   DFF  /execution_unit_0/register_file_0/r9_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 553   DFF  /execution_unit_0/register_file_0/r9_reg_6_/U$1
+  (R) + 553   DFF  /execution_unit_0/register_file_0/r9_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 554   DFF  /execution_unit_0/register_file_0/r9_reg_5_/U$1
+  (R) + 554   DFF  /execution_unit_0/register_file_0/r9_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 555   DFF  /execution_unit_0/register_file_0/r9_reg_4_/U$1
+  (R) + 555   DFF  /execution_unit_0/register_file_0/r9_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 556   DFF  /execution_unit_0/register_file_0/r9_reg_3_/U$1
+  (R) + 556   DFF  /execution_unit_0/register_file_0/r9_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 557   DFF  /execution_unit_0/register_file_0/r9_reg_2_/U$1
+  (R) + 557   DFF  /execution_unit_0/register_file_0/r9_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 558   DFF  /execution_unit_0/register_file_0/r9_reg_1_/U$1
+  (R) + 558   DFF  /execution_unit_0/register_file_0/r9_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 559   DFF  /execution_unit_0/register_file_0/r9_reg_0_/U$1
+  (R) + 559   DFF  /execution_unit_0/register_file_0/r9_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 560   DFF  /execution_unit_0/register_file_0/r10_reg_15_/U$1
+  (R) + 560   DFF  /execution_unit_0/register_file_0/r10_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 561   DFF  /execution_unit_0/register_file_0/r10_reg_14_/U$1
+  (R) + 561   DFF  /execution_unit_0/register_file_0/r10_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 562   DFF  /execution_unit_0/register_file_0/r10_reg_12_/U$1
+  (R) + 562   DFF  /execution_unit_0/register_file_0/r10_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 563   DFF  /execution_unit_0/register_file_0/r10_reg_11_/U$1
+  (R) + 563   DFF  /execution_unit_0/register_file_0/r10_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 564   DFF  /execution_unit_0/register_file_0/r10_reg_10_/U$1
+  (R) + 564   DFF  /execution_unit_0/register_file_0/r10_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 565   DFF  /execution_unit_0/register_file_0/r10_reg_9_/U$1
+  (R) + 565   DFF  /execution_unit_0/register_file_0/r10_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 566   DFF  /execution_unit_0/register_file_0/r10_reg_8_/U$1
+  (R) + 566   DFF  /execution_unit_0/register_file_0/r10_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 567   DFF  /execution_unit_0/register_file_0/r10_reg_7_/U$1
+  (R) + 567   DFF  /execution_unit_0/register_file_0/r10_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 568   DFF  /execution_unit_0/register_file_0/r10_reg_6_/U$1
+  (R) + 568   DFF  /execution_unit_0/register_file_0/r10_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 569   DFF  /execution_unit_0/register_file_0/r10_reg_5_/U$1
+  (R) + 569   DFF  /execution_unit_0/register_file_0/r10_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 570   DFF  /execution_unit_0/register_file_0/r10_reg_4_/U$1
+  (R) + 570   DFF  /execution_unit_0/register_file_0/r10_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 571   DFF  /execution_unit_0/register_file_0/r10_reg_3_/U$1
+  (R) + 571   DFF  /execution_unit_0/register_file_0/r10_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 572   DFF  /execution_unit_0/register_file_0/r10_reg_2_/U$1
+  (R) + 572   DFF  /execution_unit_0/register_file_0/r10_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 573   DFF  /execution_unit_0/register_file_0/r10_reg_1_/U$1
+  (R) + 573   DFF  /execution_unit_0/register_file_0/r10_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 574   DFF  /execution_unit_0/register_file_0/r10_reg_0_/U$1
+  (R) + 574   DFF  /execution_unit_0/register_file_0/r10_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 575   DFF  /execution_unit_0/register_file_0/r11_reg_15_/U$1
+  (R) + 575   DFF  /execution_unit_0/register_file_0/r11_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 576   DFF  /execution_unit_0/register_file_0/r11_reg_14_/U$1
+  (R) + 576   DFF  /execution_unit_0/register_file_0/r11_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 577   DFF  /execution_unit_0/register_file_0/r11_reg_13_/U$1
+  (R) + 577   DFF  /execution_unit_0/register_file_0/r11_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 578   DFF  /execution_unit_0/register_file_0/r11_reg_12_/U$1
+  (R) + 578   DFF  /execution_unit_0/register_file_0/r11_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 579   DFF  /execution_unit_0/register_file_0/r11_reg_11_/U$1
+  (R) + 579   DFF  /execution_unit_0/register_file_0/r11_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 580   DFF  /execution_unit_0/register_file_0/r11_reg_10_/U$1
+  (R) + 580   DFF  /execution_unit_0/register_file_0/r11_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 581   DFF  /execution_unit_0/register_file_0/r11_reg_9_/U$1
+  (R) + 581   DFF  /execution_unit_0/register_file_0/r11_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 582   DFF  /execution_unit_0/register_file_0/r11_reg_8_/U$1
+  (R) + 582   DFF  /execution_unit_0/register_file_0/r11_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 583   DFF  /execution_unit_0/register_file_0/r11_reg_7_/U$1
+  (R) + 583   DFF  /execution_unit_0/register_file_0/r11_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 584   DFF  /execution_unit_0/register_file_0/r11_reg_6_/U$1
+  (R) + 584   DFF  /execution_unit_0/register_file_0/r11_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 585   DFF  /execution_unit_0/register_file_0/r11_reg_5_/U$1
+  (R) + 585   DFF  /execution_unit_0/register_file_0/r11_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 586   DFF  /execution_unit_0/register_file_0/r11_reg_4_/U$1
+  (R) + 586   DFF  /execution_unit_0/register_file_0/r11_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 587   DFF  /execution_unit_0/register_file_0/r11_reg_3_/U$1
+  (R) + 587   DFF  /execution_unit_0/register_file_0/r11_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 588   DFF  /execution_unit_0/register_file_0/r11_reg_2_/U$1
+  (R) + 588   DFF  /execution_unit_0/register_file_0/r11_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 589   DFF  /execution_unit_0/register_file_0/r11_reg_1_/U$1
+  (R) + 589   DFF  /execution_unit_0/register_file_0/r11_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 590   DFF  /execution_unit_0/register_file_0/r11_reg_0_/U$1
+  (R) + 590   DFF  /execution_unit_0/register_file_0/r11_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 591   DFF  /execution_unit_0/register_file_0/r12_reg_15_/U$1
+  (R) + 591   DFF  /execution_unit_0/register_file_0/r12_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 592   DFF  /execution_unit_0/register_file_0/r12_reg_14_/U$1
+  (R) + 592   DFF  /execution_unit_0/register_file_0/r12_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 593   DFF  /execution_unit_0/register_file_0/r12_reg_13_/U$1
+  (R) + 593   DFF  /execution_unit_0/register_file_0/r12_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 594   DFF  /execution_unit_0/register_file_0/r12_reg_12_/U$1
+  (R) + 594   DFF  /execution_unit_0/register_file_0/r12_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 595   DFF  /execution_unit_0/register_file_0/r12_reg_11_/U$1
+  (R) + 595   DFF  /execution_unit_0/register_file_0/r12_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 596   DFF  /execution_unit_0/register_file_0/r12_reg_10_/U$1
+  (R) + 596   DFF  /execution_unit_0/register_file_0/r12_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 597   DFF  /execution_unit_0/register_file_0/r12_reg_9_/U$1
+  (R) + 597   DFF  /execution_unit_0/register_file_0/r12_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 598   DFF  /execution_unit_0/register_file_0/r12_reg_8_/U$1
+  (R) + 598   DFF  /execution_unit_0/register_file_0/r12_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 599   DFF  /execution_unit_0/register_file_0/r12_reg_7_/U$1
+  (R) + 599   DFF  /execution_unit_0/register_file_0/r12_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 600   DFF  /execution_unit_0/register_file_0/r12_reg_6_/U$1
+  (R) + 600   DFF  /execution_unit_0/register_file_0/r12_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 601   DFF  /execution_unit_0/register_file_0/r12_reg_5_/U$1
+  (R) + 601   DFF  /execution_unit_0/register_file_0/r12_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 602   DFF  /execution_unit_0/register_file_0/r12_reg_4_/U$1
+  (R) + 602   DFF  /execution_unit_0/register_file_0/r12_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 603   DFF  /execution_unit_0/register_file_0/r12_reg_3_/U$1
+  (R) + 603   DFF  /execution_unit_0/register_file_0/r12_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 604   DFF  /execution_unit_0/register_file_0/r12_reg_2_/U$1
+  (R) + 604   DFF  /execution_unit_0/register_file_0/r12_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 605   DFF  /execution_unit_0/register_file_0/r12_reg_1_/U$1
+  (R) + 605   DFF  /execution_unit_0/register_file_0/r12_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 606   DFF  /execution_unit_0/register_file_0/r12_reg_0_/U$1
+  (R) + 606   DFF  /execution_unit_0/register_file_0/r12_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 607   DFF  /execution_unit_0/register_file_0/r13_reg_15_/U$1
+  (R) + 607   DFF  /execution_unit_0/register_file_0/r13_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 608   DFF  /execution_unit_0/register_file_0/r13_reg_14_/U$1
+  (R) + 608   DFF  /execution_unit_0/register_file_0/r13_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 609   DFF  /execution_unit_0/register_file_0/r13_reg_13_/U$1
+  (R) + 609   DFF  /execution_unit_0/register_file_0/r13_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 610   DFF  /execution_unit_0/register_file_0/r13_reg_12_/U$1
+  (R) + 610   DFF  /execution_unit_0/register_file_0/r13_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 611   DFF  /execution_unit_0/register_file_0/r13_reg_11_/U$1
+  (R) + 611   DFF  /execution_unit_0/register_file_0/r13_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 612   DFF  /execution_unit_0/register_file_0/r13_reg_10_/U$1
+  (R) + 612   DFF  /execution_unit_0/register_file_0/r13_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 613   DFF  /execution_unit_0/register_file_0/r13_reg_9_/U$1
+  (R) + 613   DFF  /execution_unit_0/register_file_0/r13_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 614   DFF  /execution_unit_0/register_file_0/r13_reg_8_/U$1
+  (R) + 614   DFF  /execution_unit_0/register_file_0/r13_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 615   DFF  /execution_unit_0/register_file_0/r13_reg_7_/U$1
+  (R) + 615   DFF  /execution_unit_0/register_file_0/r13_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 616   DFF  /execution_unit_0/register_file_0/r13_reg_6_/U$1
+  (R) + 616   DFF  /execution_unit_0/register_file_0/r13_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 617   DFF  /execution_unit_0/register_file_0/r13_reg_5_/U$1
+  (R) + 617   DFF  /execution_unit_0/register_file_0/r13_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 618   DFF  /execution_unit_0/register_file_0/r13_reg_4_/U$1
+  (R) + 618   DFF  /execution_unit_0/register_file_0/r13_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 619   DFF  /execution_unit_0/register_file_0/r13_reg_3_/U$1
+  (R) + 619   DFF  /execution_unit_0/register_file_0/r13_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 620   DFF  /execution_unit_0/register_file_0/r13_reg_2_/U$1
+  (R) + 620   DFF  /execution_unit_0/register_file_0/r13_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 621   DFF  /execution_unit_0/register_file_0/r13_reg_1_/U$1
+  (R) + 621   DFF  /execution_unit_0/register_file_0/r13_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 622   DFF  /execution_unit_0/register_file_0/r13_reg_0_/U$1
+  (R) + 622   DFF  /execution_unit_0/register_file_0/r13_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 623   DFF  /execution_unit_0/register_file_0/r14_reg_15_/U$1
+  (R) + 623   DFF  /execution_unit_0/register_file_0/r14_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 624   DFF  /execution_unit_0/register_file_0/r14_reg_14_/U$1
+  (R) + 624   DFF  /execution_unit_0/register_file_0/r14_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 625   DFF  /execution_unit_0/register_file_0/r14_reg_13_/U$1
+  (R) + 625   DFF  /execution_unit_0/register_file_0/r14_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 626   DFF  /execution_unit_0/register_file_0/r14_reg_12_/U$1
+  (R) + 626   DFF  /execution_unit_0/register_file_0/r14_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 627   DFF  /execution_unit_0/register_file_0/r14_reg_11_/U$1
+  (R) + 627   DFF  /execution_unit_0/register_file_0/r14_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 628   DFF  /execution_unit_0/register_file_0/r14_reg_10_/U$1
+  (R) + 628   DFF  /execution_unit_0/register_file_0/r14_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 629   DFF  /execution_unit_0/register_file_0/r14_reg_9_/U$1
+  (R) + 629   DFF  /execution_unit_0/register_file_0/r14_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 630   DFF  /execution_unit_0/register_file_0/r14_reg_8_/U$1
+  (R) + 630   DFF  /execution_unit_0/register_file_0/r14_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 631   DFF  /execution_unit_0/register_file_0/r14_reg_7_/U$1
+  (R) + 631   DFF  /execution_unit_0/register_file_0/r14_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 632   DFF  /execution_unit_0/register_file_0/r14_reg_6_/U$1
+  (R) + 632   DFF  /execution_unit_0/register_file_0/r14_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 633   DFF  /execution_unit_0/register_file_0/r14_reg_5_/U$1
+  (R) + 633   DFF  /execution_unit_0/register_file_0/r14_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 634   DFF  /execution_unit_0/register_file_0/r14_reg_4_/U$1
+  (R) + 634   DFF  /execution_unit_0/register_file_0/r14_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 635   DFF  /execution_unit_0/register_file_0/r14_reg_3_/U$1
+  (R) + 635   DFF  /execution_unit_0/register_file_0/r14_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 636   DFF  /execution_unit_0/register_file_0/r14_reg_2_/U$1
+  (R) + 636   DFF  /execution_unit_0/register_file_0/r14_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 637   DFF  /execution_unit_0/register_file_0/r14_reg_1_/U$1
+  (R) + 637   DFF  /execution_unit_0/register_file_0/r14_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 638   DFF  /execution_unit_0/register_file_0/r14_reg_0_/U$1
+  (R) + 638   DFF  /execution_unit_0/register_file_0/r14_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 639   DFF  /execution_unit_0/register_file_0/r15_reg_15_/U$1
+  (R) + 639   DFF  /execution_unit_0/register_file_0/r15_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 640   DFF  /execution_unit_0/register_file_0/r15_reg_14_/U$1
+  (R) + 640   DFF  /execution_unit_0/register_file_0/r15_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 641   DFF  /execution_unit_0/register_file_0/r15_reg_13_/U$1
+  (R) + 641   DFF  /execution_unit_0/register_file_0/r15_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 642   DFF  /execution_unit_0/register_file_0/r15_reg_12_/U$1
+  (R) + 642   DFF  /execution_unit_0/register_file_0/r15_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 643   DFF  /execution_unit_0/register_file_0/r15_reg_11_/U$1
+  (R) + 643   DFF  /execution_unit_0/register_file_0/r15_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 644   DFF  /execution_unit_0/register_file_0/r15_reg_10_/U$1
+  (R) + 644   DFF  /execution_unit_0/register_file_0/r15_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 645   DFF  /execution_unit_0/register_file_0/r15_reg_9_/U$1
+  (R) + 645   DFF  /execution_unit_0/register_file_0/r15_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 646   DFF  /execution_unit_0/register_file_0/r15_reg_8_/U$1
+  (R) + 646   DFF  /execution_unit_0/register_file_0/r15_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 647   DFF  /execution_unit_0/register_file_0/r15_reg_7_/U$1
+  (R) + 647   DFF  /execution_unit_0/register_file_0/r15_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 648   DFF  /execution_unit_0/register_file_0/r15_reg_6_/U$1
+  (R) + 648   DFF  /execution_unit_0/register_file_0/r15_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 649   DFF  /execution_unit_0/register_file_0/r15_reg_5_/U$1
+  (R) + 649   DFF  /execution_unit_0/register_file_0/r15_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 650   DFF  /execution_unit_0/register_file_0/r15_reg_4_/U$1
+  (R) + 650   DFF  /execution_unit_0/register_file_0/r15_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 651   DFF  /execution_unit_0/register_file_0/r15_reg_3_/U$1
+  (R) + 651   DFF  /execution_unit_0/register_file_0/r15_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 652   DFF  /execution_unit_0/register_file_0/r15_reg_2_/U$1
+  (R) + 652   DFF  /execution_unit_0/register_file_0/r15_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 653   DFF  /execution_unit_0/register_file_0/r15_reg_1_/U$1
+  (R) + 653   DFF  /execution_unit_0/register_file_0/r15_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 654   DFF  /execution_unit_0/register_file_0/r15_reg_0_/U$1
+  (R) + 654   DFF  /execution_unit_0/register_file_0/r15_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 655   DFF  /execution_unit_0/register_file_0/r10_reg_13_/U$1
+  (R) + 655   DFF  /execution_unit_0/register_file_0/r10_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 656   DFF  /execution_unit_0/register_file_0/r3_reg_15_/U$1
+  (R) + 656   DFF  /execution_unit_0/register_file_0/r3_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 657   DFF  /execution_unit_0/mdb_in_buf_en_reg/U$1
+  (R) + 657   DFF  /execution_unit_0/mdb_in_buf_en_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 658   DFF  /execution_unit_0/mdb_in_buf_valid_reg/U$1
+  (R) + 658   DFF  /execution_unit_0/mdb_in_buf_valid_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 659   DFF  /execution_unit_0/mdb_in_buf_reg_15_/U$1
+  (R) + 659   DFF  /execution_unit_0/mdb_in_buf_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 660   DFF  /execution_unit_0/mdb_in_buf_reg_14_/U$1
+  (R) + 660   DFF  /execution_unit_0/mdb_in_buf_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 661   DFF  /execution_unit_0/mdb_in_buf_reg_13_/U$1
+  (R) + 661   DFF  /execution_unit_0/mdb_in_buf_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 662   DFF  /execution_unit_0/mdb_in_buf_reg_12_/U$1
+  (R) + 662   DFF  /execution_unit_0/mdb_in_buf_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 663   DFF  /execution_unit_0/mdb_in_buf_reg_11_/U$1
+  (R) + 663   DFF  /execution_unit_0/mdb_in_buf_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 664   DFF  /execution_unit_0/mdb_in_buf_reg_8_/U$1
+  (R) + 664   DFF  /execution_unit_0/mdb_in_buf_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 665   DFF  /execution_unit_0/mdb_in_buf_reg_0_/U$1
+  (R) + 665   DFF  /execution_unit_0/mdb_in_buf_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 666   DFF  /execution_unit_0/mab_lsb_reg/U$1
+  (R) + 666   DFF  /execution_unit_0/mab_lsb_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 667   DFF  /execution_unit_0/mdb_in_buf_reg_1_/U$1
+  (R) + 667   DFF  /execution_unit_0/mdb_in_buf_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 668   DFF  /execution_unit_0/mdb_in_buf_reg_2_/U$1
+  (R) + 668   DFF  /execution_unit_0/mdb_in_buf_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 669   DFF  /execution_unit_0/mdb_in_buf_reg_3_/U$1
+  (R) + 669   DFF  /execution_unit_0/mdb_in_buf_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 670   DFF  /execution_unit_0/mdb_in_buf_reg_4_/U$1
+  (R) + 670   DFF  /execution_unit_0/mdb_in_buf_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 671   DFF  /execution_unit_0/mdb_in_buf_reg_5_/U$1
+  (R) + 671   DFF  /execution_unit_0/mdb_in_buf_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 672   DFF  /execution_unit_0/mdb_in_buf_reg_6_/U$1
+  (R) + 672   DFF  /execution_unit_0/mdb_in_buf_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 673   DFF  /execution_unit_0/mdb_in_buf_reg_7_/U$1
+  (R) + 673   DFF  /execution_unit_0/mdb_in_buf_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 674   DFF  /execution_unit_0/mdb_out_nxt_reg_0_/U$1
+  (R) + 674   DFF  /execution_unit_0/mdb_out_nxt_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 675   DFF  /execution_unit_0/mdb_out_nxt_reg_1_/U$1
+  (R) + 675   DFF  /execution_unit_0/mdb_out_nxt_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 676   DFF  /execution_unit_0/mdb_out_nxt_reg_2_/U$1
+  (R) + 676   DFF  /execution_unit_0/mdb_out_nxt_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 677   DFF  /execution_unit_0/mdb_out_nxt_reg_3_/U$1
+  (R) + 677   DFF  /execution_unit_0/mdb_out_nxt_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 678   DFF  /execution_unit_0/mdb_out_nxt_reg_4_/U$1
+  (R) + 678   DFF  /execution_unit_0/mdb_out_nxt_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 679   DFF  /execution_unit_0/mdb_out_nxt_reg_5_/U$1
+  (R) + 679   DFF  /execution_unit_0/mdb_out_nxt_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 680   DFF  /execution_unit_0/mdb_out_nxt_reg_6_/U$1
+  (R) + 680   DFF  /execution_unit_0/mdb_out_nxt_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 681   DFF  /execution_unit_0/mdb_out_nxt_reg_7_/U$1
+  (R) + 681   DFF  /execution_unit_0/mdb_out_nxt_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 682   DFF  /execution_unit_0/mdb_out_nxt_reg_8_/U$1
+  (R) + 682   DFF  /execution_unit_0/mdb_out_nxt_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 683   DFF  /execution_unit_0/mdb_out_nxt_reg_9_/U$1
+  (R) + 683   DFF  /execution_unit_0/mdb_out_nxt_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 684   DFF  /execution_unit_0/mdb_out_nxt_reg_10_/U$1
+  (R) + 684   DFF  /execution_unit_0/mdb_out_nxt_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 685   DFF  /execution_unit_0/mdb_out_nxt_reg_11_/U$1
+  (R) + 685   DFF  /execution_unit_0/mdb_out_nxt_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 686   DFF  /execution_unit_0/mdb_out_nxt_reg_12_/U$1
+  (R) + 686   DFF  /execution_unit_0/mdb_out_nxt_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 687   DFF  /execution_unit_0/mdb_out_nxt_reg_13_/U$1
+  (R) + 687   DFF  /execution_unit_0/mdb_out_nxt_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 688   DFF  /execution_unit_0/mdb_out_nxt_reg_14_/U$1
+  (R) + 688   DFF  /execution_unit_0/mdb_out_nxt_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 689   DFF  /execution_unit_0/mdb_out_nxt_reg_15_/U$1
+  (R) + 689   DFF  /execution_unit_0/mdb_out_nxt_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 690   DFF  /execution_unit_0/mdb_in_buf_reg_10_/U$1
+  (R) + 690   DFF  /execution_unit_0/mdb_in_buf_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 691   DFF  /execution_unit_0/mdb_in_buf_reg_9_/U$1
+  (R) + 691   DFF  /execution_unit_0/mdb_in_buf_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 692   DFF  /mem_backbone_0/per_dout_val_reg_14_/U$1
+  (R) + 692   DFF  /mem_backbone_0/per_dout_val_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 693   DFF  /mem_backbone_0/per_dout_val_reg_13_/U$1
+  (R) + 693   DFF  /mem_backbone_0/per_dout_val_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 694   DFF  /mem_backbone_0/per_dout_val_reg_12_/U$1
+  (R) + 694   DFF  /mem_backbone_0/per_dout_val_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 695   DFF  /mem_backbone_0/per_dout_val_reg_11_/U$1
+  (R) + 695   DFF  /mem_backbone_0/per_dout_val_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 696   DFF  /mem_backbone_0/per_dout_val_reg_10_/U$1
+  (R) + 696   DFF  /mem_backbone_0/per_dout_val_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 697   DFF  /mem_backbone_0/per_dout_val_reg_9_/U$1
+  (R) + 697   DFF  /mem_backbone_0/per_dout_val_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 698   DFF  /mem_backbone_0/per_dout_val_reg_8_/U$1
+  (R) + 698   DFF  /mem_backbone_0/per_dout_val_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 699   DFF  /mem_backbone_0/per_dout_val_reg_7_/U$1
+  (R) + 699   DFF  /mem_backbone_0/per_dout_val_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 700   DFF  /mem_backbone_0/per_dout_val_reg_6_/U$1
+  (R) + 700   DFF  /mem_backbone_0/per_dout_val_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 701   DFF  /mem_backbone_0/per_dout_val_reg_5_/U$1
+  (R) + 701   DFF  /mem_backbone_0/per_dout_val_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 702   DFF  /mem_backbone_0/per_dout_val_reg_4_/U$1
+  (R) + 702   DFF  /mem_backbone_0/per_dout_val_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 703   DFF  /mem_backbone_0/per_dout_val_reg_3_/U$1
+  (R) + 703   DFF  /mem_backbone_0/per_dout_val_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 704   DFF  /mem_backbone_0/per_dout_val_reg_2_/U$1
+  (R) + 704   DFF  /mem_backbone_0/per_dout_val_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 705   DFF  /mem_backbone_0/per_dout_val_reg_1_/U$1
+  (R) + 705   DFF  /mem_backbone_0/per_dout_val_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 706   DFF  /mem_backbone_0/per_dout_val_reg_0_/U$1
+  (R) + 706   DFF  /mem_backbone_0/per_dout_val_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 707   DFF  /mem_backbone_0/pmem_dout_bckup_reg_15_/U$1
+  (R) + 707   DFF  /mem_backbone_0/pmem_dout_bckup_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 708   DFF  /mem_backbone_0/pmem_dout_bckup_reg_14_/U$1
+  (R) + 708   DFF  /mem_backbone_0/pmem_dout_bckup_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 709   DFF  /mem_backbone_0/pmem_dout_bckup_reg_13_/U$1
+  (R) + 709   DFF  /mem_backbone_0/pmem_dout_bckup_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 710   DFF  /mem_backbone_0/pmem_dout_bckup_reg_12_/U$1
+  (R) + 710   DFF  /mem_backbone_0/pmem_dout_bckup_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 711   DFF  /mem_backbone_0/pmem_dout_bckup_reg_11_/U$1
+  (R) + 711   DFF  /mem_backbone_0/pmem_dout_bckup_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 712   DFF  /mem_backbone_0/pmem_dout_bckup_reg_10_/U$1
+  (R) + 712   DFF  /mem_backbone_0/pmem_dout_bckup_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 713   DFF  /mem_backbone_0/pmem_dout_bckup_reg_9_/U$1
+  (R) + 713   DFF  /mem_backbone_0/pmem_dout_bckup_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 714   DFF  /mem_backbone_0/pmem_dout_bckup_reg_8_/U$1
+  (R) + 714   DFF  /mem_backbone_0/pmem_dout_bckup_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 715   DFF  /mem_backbone_0/pmem_dout_bckup_reg_7_/U$1
+  (R) + 715   DFF  /mem_backbone_0/pmem_dout_bckup_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 716   DFF  /mem_backbone_0/pmem_dout_bckup_reg_6_/U$1
+  (R) + 716   DFF  /mem_backbone_0/pmem_dout_bckup_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 717   DFF  /mem_backbone_0/pmem_dout_bckup_reg_5_/U$1
+  (R) + 717   DFF  /mem_backbone_0/pmem_dout_bckup_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 718   DFF  /mem_backbone_0/pmem_dout_bckup_reg_4_/U$1
+  (R) + 718   DFF  /mem_backbone_0/pmem_dout_bckup_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 719   DFF  /mem_backbone_0/pmem_dout_bckup_reg_3_/U$1
+  (R) + 719   DFF  /mem_backbone_0/pmem_dout_bckup_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 720   DFF  /mem_backbone_0/pmem_dout_bckup_reg_2_/U$1
+  (R) + 720   DFF  /mem_backbone_0/pmem_dout_bckup_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 721   DFF  /mem_backbone_0/pmem_dout_bckup_reg_1_/U$1
+  (R) + 721   DFF  /mem_backbone_0/pmem_dout_bckup_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 722   DFF  /mem_backbone_0/pmem_dout_bckup_reg_0_/U$1
+  (R) + 722   DFF  /mem_backbone_0/pmem_dout_bckup_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 723   DFF  /mem_backbone_0/eu_mdb_in_sel_reg_0_/U$1
+  (R) + 723   DFF  /mem_backbone_0/eu_mdb_in_sel_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 724   DFF  /mem_backbone_0/pmem_dout_bckup_sel_reg/U$1
+  (R) + 724   DFF  /mem_backbone_0/pmem_dout_bckup_sel_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 725   DFF  /mem_backbone_0/ext_mem_din_sel_reg_1_/U$1
+  (R) + 725   DFF  /mem_backbone_0/ext_mem_din_sel_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 726   DFF  /mem_backbone_0/dma_ready_dly_reg/U$1
+  (R) + 726   DFF  /mem_backbone_0/dma_ready_dly_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 727   DFF  /mem_backbone_0/fe_pmem_en_dly_reg/U$1
+  (R) + 727   DFF  /mem_backbone_0/fe_pmem_en_dly_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 728   DFF  /mem_backbone_0/ext_mem_din_sel_reg_0_/U$1
+  (R) + 728   DFF  /mem_backbone_0/ext_mem_din_sel_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 729   DFF  /mem_backbone_0/per_dout_val_reg_15_/U$1
+  (R) + 729   DFF  /mem_backbone_0/per_dout_val_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 730   DFF  /mem_backbone_0/eu_mdb_in_sel_reg_1_/U$1
+  (R) + 730   DFF  /mem_backbone_0/eu_mdb_in_sel_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 731   DFF  /sfr_0/wakeup_cell_nmi/wkup_out_reg/U$1
+  (R) + 731   DFF  /sfr_0/wakeup_cell_nmi/wkup_out_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 732   DFF  /sfr_0/sync_cell_nmi/data_sync_reg_0_/U$1
+  (R) + 732   DFF  /sfr_0/sync_cell_nmi/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 733   DFF  /sfr_0/sync_cell_nmi/data_sync_reg_1_/U$1
+  (R) + 733   DFF  /sfr_0/sync_cell_nmi/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 734   DFF  /sfr_0/nmie_reg/U$1
+  (R) + 734   DFF  /sfr_0/nmie_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 735   DFF  /sfr_0/nmi_dly_reg/U$1
+  (R) + 735   DFF  /sfr_0/nmi_dly_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 736   DFF  /sfr_0/nmiifg_reg/U$1
+  (R) + 736   DFF  /sfr_0/nmiifg_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 737   DFF  /sfr_0/wdtie_reg/U$1
+  (R) + 737   DFF  /sfr_0/wdtie_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 738   DFF  /sfr_0/nmi_capture_rst_reg/U$1
+  (R) + 738   DFF  /sfr_0/nmi_capture_rst_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 739   DFF  /watchdog_0/sync_reset_por/data_sync_reg_0_/U$1
+  (R) + 739   DFF  /watchdog_0/sync_reset_por/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 740   DFF  /watchdog_0/sync_reset_por/data_sync_reg_1_/U$1
+  (R) + 740   DFF  /watchdog_0/sync_reset_por/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 741   DFF  /watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_0_/U$1
+  (R) + 741   DFF  /watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 742   DFF  /watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_1_/U$1
+  (R) + 742   DFF  /watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 743   DFF  /watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_0_/U$1
+  (R) + 743   DFF  /watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 744   DFF  /watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_1_/U$1
+  (R) + 744   DFF  /watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 745   DFF  /watchdog_0/sync_cell_wdt_evt/data_sync_reg_0_/U$1
+  (R) + 745   DFF  /watchdog_0/sync_cell_wdt_evt/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 746   DFF  /watchdog_0/sync_cell_wdt_evt/data_sync_reg_1_/U$1
+  (R) + 746   DFF  /watchdog_0/sync_cell_wdt_evt/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 747   DFF  /watchdog_0/wakeup_cell_wdog/wkup_out_reg/U$1
+  (R) + 747   DFF  /watchdog_0/wakeup_cell_wdog/wkup_out_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 748   DFF  /watchdog_0/wdtcnt_clr_sync_dly_reg/U$1
+  (R) + 748   DFF  /watchdog_0/wdtcnt_clr_sync_dly_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 749   DFF  /watchdog_0/wdtisx_ss_reg_0_/U$1
+  (R) + 749   DFF  /watchdog_0/wdtisx_ss_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 750   DFF  /watchdog_0/wdtisx_s_reg_1_/U$1
+  (R) + 750   DFF  /watchdog_0/wdtisx_s_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 751   DFF  /watchdog_0/wdtisx_s_reg_0_/U$1
+  (R) + 751   DFF  /watchdog_0/wdtisx_s_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 752   DFF  /watchdog_0/wdtisx_ss_reg_1_/U$1
+  (R) + 752   DFF  /watchdog_0/wdtisx_ss_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 753   DFF  /watchdog_0/wdtcnt_reg_0_/U$1
+  (R) + 753   DFF  /watchdog_0/wdtcnt_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 754   DFF  /watchdog_0/wdtcnt_reg_1_/U$1
+  (R) + 754   DFF  /watchdog_0/wdtcnt_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 755   DFF  /watchdog_0/wdtcnt_reg_2_/U$1
+  (R) + 755   DFF  /watchdog_0/wdtcnt_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 756   DFF  /watchdog_0/wdtcnt_reg_3_/U$1
+  (R) + 756   DFF  /watchdog_0/wdtcnt_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 757   DFF  /watchdog_0/wdtcnt_reg_4_/U$1
+  (R) + 757   DFF  /watchdog_0/wdtcnt_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 758   DFF  /watchdog_0/wdtcnt_reg_5_/U$1
+  (R) + 758   DFF  /watchdog_0/wdtcnt_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 759   DFF  /watchdog_0/wdtcnt_reg_6_/U$1
+  (R) + 759   DFF  /watchdog_0/wdtcnt_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 760   DFF  /watchdog_0/wdtcnt_reg_7_/U$1
+  (R) + 760   DFF  /watchdog_0/wdtcnt_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 761   DFF  /watchdog_0/wdtcnt_reg_8_/U$1
+  (R) + 761   DFF  /watchdog_0/wdtcnt_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 762   DFF  /watchdog_0/wdtcnt_reg_9_/U$1
+  (R) + 762   DFF  /watchdog_0/wdtcnt_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 763   DFF  /watchdog_0/wdtcnt_reg_10_/U$1
+  (R) + 763   DFF  /watchdog_0/wdtcnt_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 764   DFF  /watchdog_0/wdtcnt_reg_11_/U$1
+  (R) + 764   DFF  /watchdog_0/wdtcnt_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 765   DFF  /watchdog_0/wdtcnt_reg_12_/U$1
+  (R) + 765   DFF  /watchdog_0/wdtcnt_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 766   DFF  /watchdog_0/wdtcnt_reg_13_/U$1
+  (R) + 766   DFF  /watchdog_0/wdtcnt_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 767   DFF  /watchdog_0/wdtcnt_reg_14_/U$1
+  (R) + 767   DFF  /watchdog_0/wdtcnt_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 768   DFF  /watchdog_0/wdtcnt_reg_15_/U$1
+  (R) + 768   DFF  /watchdog_0/wdtcnt_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 769   DFF  /watchdog_0/wdt_evt_toggle_reg/U$1
+  (R) + 769   DFF  /watchdog_0/wdt_evt_toggle_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 770   DFF  /watchdog_0/wdt_evt_toggle_sync_dly_reg/U$1
+  (R) + 770   DFF  /watchdog_0/wdt_evt_toggle_sync_dly_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 771   DFF  /watchdog_0/wdtqn_edge_reg_reg/U$1
+  (R) + 771   DFF  /watchdog_0/wdtqn_edge_reg_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 772   DFF  /watchdog_0/wdt_wkup_en_reg/U$1
+  (R) + 772   DFF  /watchdog_0/wdt_wkup_en_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 773   DFF  /watchdog_0/wdtifg_reg/U$1
+  (R) + 773   DFF  /watchdog_0/wdtifg_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 774   DFF  /watchdog_0/wdt_reset_reg/U$1
+  (R) + 774   DFF  /watchdog_0/wdt_reset_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 775   DFF  /watchdog_0/wdtcnt_clr_toggle_reg/U$1
+  (R) + 775   DFF  /watchdog_0/wdtcnt_clr_toggle_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 776   DFF  /watchdog_0/wdtifg_clr_reg_reg/U$1
+  (R) + 776   DFF  /watchdog_0/wdtifg_clr_reg_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 777   DFF  /watchdog_0/wdtctl_reg_7_/U$1
+  (R) + 777   DFF  /watchdog_0/wdtctl_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 778   DFF  /watchdog_0/wdtctl_reg_4_/U$1
+  (R) + 778   DFF  /watchdog_0/wdtctl_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 779   DFF  /watchdog_0/wdtctl_reg_0_/U$1
+  (R) + 779   DFF  /watchdog_0/wdtctl_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 780   DFF  /watchdog_0/wdtctl_reg_6_/U$1
+  (R) + 780   DFF  /watchdog_0/wdtctl_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 781   DFF  /watchdog_0/wdtctl_reg_1_/U$1
+  (R) + 781   DFF  /watchdog_0/wdtctl_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 782   DFF  /multiplier_0/op1_reg_15_/U$1
+  (R) + 782   DFF  /multiplier_0/op1_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 783   DFF  /multiplier_0/op1_reg_14_/U$1
+  (R) + 783   DFF  /multiplier_0/op1_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 784   DFF  /multiplier_0/op1_reg_13_/U$1
+  (R) + 784   DFF  /multiplier_0/op1_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 785   DFF  /multiplier_0/op1_reg_12_/U$1
+  (R) + 785   DFF  /multiplier_0/op1_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 786   DFF  /multiplier_0/op1_reg_11_/U$1
+  (R) + 786   DFF  /multiplier_0/op1_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 787   DFF  /multiplier_0/op1_reg_10_/U$1
+  (R) + 787   DFF  /multiplier_0/op1_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 788   DFF  /multiplier_0/op1_reg_9_/U$1
+  (R) + 788   DFF  /multiplier_0/op1_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 789   DFF  /multiplier_0/op1_reg_8_/U$1
+  (R) + 789   DFF  /multiplier_0/op1_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 790   DFF  /multiplier_0/op1_reg_7_/U$1
+  (R) + 790   DFF  /multiplier_0/op1_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 791   DFF  /multiplier_0/op1_reg_3_/U$1
+  (R) + 791   DFF  /multiplier_0/op1_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 792   DFF  /multiplier_0/op2_reg_15_/U$1
+  (R) + 792   DFF  /multiplier_0/op2_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 793   DFF  /multiplier_0/op2_reg_14_/U$1
+  (R) + 793   DFF  /multiplier_0/op2_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 794   DFF  /multiplier_0/op2_reg_13_/U$1
+  (R) + 794   DFF  /multiplier_0/op2_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 795   DFF  /multiplier_0/op2_reg_12_/U$1
+  (R) + 795   DFF  /multiplier_0/op2_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 796   DFF  /multiplier_0/op2_reg_11_/U$1
+  (R) + 796   DFF  /multiplier_0/op2_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 797   DFF  /multiplier_0/op2_reg_10_/U$1
+  (R) + 797   DFF  /multiplier_0/op2_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 798   DFF  /multiplier_0/op2_reg_9_/U$1
+  (R) + 798   DFF  /multiplier_0/op2_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 799   DFF  /multiplier_0/op2_reg_8_/U$1
+  (R) + 799   DFF  /multiplier_0/op2_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 800   DFF  /multiplier_0/sign_sel_reg/U$1
+  (R) + 800   DFF  /multiplier_0/sign_sel_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 801   DFF  /multiplier_0/acc_sel_reg/U$1
+  (R) + 801   DFF  /multiplier_0/acc_sel_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 802   DFF  /multiplier_0/cycle_reg_1_/U$1
+  (R) + 802   DFF  /multiplier_0/cycle_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 803   DFF  /multiplier_0/reslo_reg_15_/U$1
+  (R) + 803   DFF  /multiplier_0/reslo_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 804   DFF  /multiplier_0/reslo_reg_14_/U$1
+  (R) + 804   DFF  /multiplier_0/reslo_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 805   DFF  /multiplier_0/reslo_reg_13_/U$1
+  (R) + 805   DFF  /multiplier_0/reslo_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 806   DFF  /multiplier_0/reslo_reg_12_/U$1
+  (R) + 806   DFF  /multiplier_0/reslo_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 807   DFF  /multiplier_0/reslo_reg_11_/U$1
+  (R) + 807   DFF  /multiplier_0/reslo_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 808   DFF  /multiplier_0/reslo_reg_10_/U$1
+  (R) + 808   DFF  /multiplier_0/reslo_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 809   DFF  /multiplier_0/reslo_reg_9_/U$1
+  (R) + 809   DFF  /multiplier_0/reslo_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 810   DFF  /multiplier_0/reslo_reg_8_/U$1
+  (R) + 810   DFF  /multiplier_0/reslo_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 811   DFF  /multiplier_0/reslo_reg_7_/U$1
+  (R) + 811   DFF  /multiplier_0/reslo_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 812   DFF  /multiplier_0/reslo_reg_6_/U$1
+  (R) + 812   DFF  /multiplier_0/reslo_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 813   DFF  /multiplier_0/reslo_reg_5_/U$1
+  (R) + 813   DFF  /multiplier_0/reslo_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 814   DFF  /multiplier_0/reslo_reg_4_/U$1
+  (R) + 814   DFF  /multiplier_0/reslo_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 815   DFF  /multiplier_0/reslo_reg_3_/U$1
+  (R) + 815   DFF  /multiplier_0/reslo_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 816   DFF  /multiplier_0/reslo_reg_2_/U$1
+  (R) + 816   DFF  /multiplier_0/reslo_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 817   DFF  /multiplier_0/reslo_reg_1_/U$1
+  (R) + 817   DFF  /multiplier_0/reslo_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 818   DFF  /multiplier_0/reslo_reg_0_/U$1
+  (R) + 818   DFF  /multiplier_0/reslo_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 819   DFF  /multiplier_0/reshi_reg_15_/U$1
+  (R) + 819   DFF  /multiplier_0/reshi_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 820   DFF  /multiplier_0/reshi_reg_14_/U$1
+  (R) + 820   DFF  /multiplier_0/reshi_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 821   DFF  /multiplier_0/reshi_reg_13_/U$1
+  (R) + 821   DFF  /multiplier_0/reshi_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 822   DFF  /multiplier_0/reshi_reg_12_/U$1
+  (R) + 822   DFF  /multiplier_0/reshi_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 823   DFF  /multiplier_0/reshi_reg_11_/U$1
+  (R) + 823   DFF  /multiplier_0/reshi_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 824   DFF  /multiplier_0/reshi_reg_10_/U$1
+  (R) + 824   DFF  /multiplier_0/reshi_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 825   DFF  /multiplier_0/reshi_reg_9_/U$1
+  (R) + 825   DFF  /multiplier_0/reshi_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 826   DFF  /multiplier_0/reshi_reg_8_/U$1
+  (R) + 826   DFF  /multiplier_0/reshi_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 827   DFF  /multiplier_0/reshi_reg_7_/U$1
+  (R) + 827   DFF  /multiplier_0/reshi_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 828   DFF  /multiplier_0/reshi_reg_6_/U$1
+  (R) + 828   DFF  /multiplier_0/reshi_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 829   DFF  /multiplier_0/reshi_reg_5_/U$1
+  (R) + 829   DFF  /multiplier_0/reshi_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 830   DFF  /multiplier_0/reshi_reg_4_/U$1
+  (R) + 830   DFF  /multiplier_0/reshi_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 831   DFF  /multiplier_0/reshi_reg_3_/U$1
+  (R) + 831   DFF  /multiplier_0/reshi_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 832   DFF  /multiplier_0/reshi_reg_2_/U$1
+  (R) + 832   DFF  /multiplier_0/reshi_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 833   DFF  /multiplier_0/reshi_reg_1_/U$1
+  (R) + 833   DFF  /multiplier_0/reshi_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 834   DFF  /multiplier_0/reshi_reg_0_/U$1
+  (R) + 834   DFF  /multiplier_0/reshi_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 835   DFF  /multiplier_0/sumext_s_reg_0_/U$1
+  (R) + 835   DFF  /multiplier_0/sumext_s_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 836   DFF  /multiplier_0/sumext_s_reg_1_/U$1
+  (R) + 836   DFF  /multiplier_0/sumext_s_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 837   DFF  /multiplier_0/op2_reg_7_/U$1
+  (R) + 837   DFF  /multiplier_0/op2_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 838   DFF  /multiplier_0/op2_reg_6_/U$1
+  (R) + 838   DFF  /multiplier_0/op2_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 839   DFF  /multiplier_0/op2_reg_5_/U$1
+  (R) + 839   DFF  /multiplier_0/op2_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 840   DFF  /multiplier_0/op2_reg_0_/U$1
+  (R) + 840   DFF  /multiplier_0/op2_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 841   DFF  /multiplier_0/op2_reg_4_/U$1
+  (R) + 841   DFF  /multiplier_0/op2_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 842   DFF  /multiplier_0/op2_reg_3_/U$1
+  (R) + 842   DFF  /multiplier_0/op2_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 843   DFF  /multiplier_0/op2_reg_2_/U$1
+  (R) + 843   DFF  /multiplier_0/op2_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 844   DFF  /multiplier_0/op2_reg_1_/U$1
+  (R) + 844   DFF  /multiplier_0/op2_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 845   DFF  /multiplier_0/op1_reg_0_/U$1
+  (R) + 845   DFF  /multiplier_0/op1_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 846   DFF  /multiplier_0/op1_reg_6_/U$1
+  (R) + 846   DFF  /multiplier_0/op1_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 847   DFF  /multiplier_0/op1_reg_4_/U$1
+  (R) + 847   DFF  /multiplier_0/op1_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 848   DFF  /multiplier_0/op1_reg_2_/U$1
+  (R) + 848   DFF  /multiplier_0/op1_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 849   DFF  /multiplier_0/op1_reg_5_/U$1
+  (R) + 849   DFF  /multiplier_0/op1_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 850   DFF  /multiplier_0/op1_reg_1_/U$1
+  (R) + 850   DFF  /multiplier_0/op1_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 851   DFF  /multiplier_0/cycle_reg_0_/U$1
+  (R) + 851   DFF  /multiplier_0/cycle_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 852   DFF  /dbg_0/dbg_uart_0/sync_cell_uart_rxd/data_sync_reg_0_/U$1
+  (R) + 852   DFF  /dbg_0/dbg_uart_0/sync_cell_uart_rxd/data_sync_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 853   DFF  /dbg_0/dbg_uart_0/sync_cell_uart_rxd/data_sync_reg_1_/U$1
+  (R) + 853   DFF  /dbg_0/dbg_uart_0/sync_cell_uart_rxd/data_sync_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 854   DFF  /dbg_0/dbg_uart_0/rxd_buf_reg_0_/U$1
+  (R) + 854   DFF  /dbg_0/dbg_uart_0/rxd_buf_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 855   DFF  /dbg_0/dbg_uart_0/rxd_buf_reg_1_/U$1
+  (R) + 855   DFF  /dbg_0/dbg_uart_0/rxd_buf_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 856   DFF  /dbg_0/dbg_uart_0/rxd_maj_reg/U$1
+  (R) + 856   DFF  /dbg_0/dbg_uart_0/rxd_maj_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 857   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_3_/U$1
+  (R) + 857   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 858   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_4_/U$1
+  (R) + 858   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 859   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_5_/U$1
+  (R) + 859   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 860   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_6_/U$1
+  (R) + 860   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 861   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_7_/U$1
+  (R) + 861   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 862   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_8_/U$1
+  (R) + 862   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 863   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_9_/U$1
+  (R) + 863   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 864   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_10_/U$1
+  (R) + 864   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 865   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_11_/U$1
+  (R) + 865   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 866   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_12_/U$1
+  (R) + 866   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 867   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_13_/U$1
+  (R) + 867   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 868   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_14_/U$1
+  (R) + 868   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 869   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_15_/U$1
+  (R) + 869   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 870   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_16_/U$1
+  (R) + 870   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_16_/U$1
+
+Compared points are: Equivalent
+  (G) + 871   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_17_/U$1
+  (R) + 871   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_17_/U$1
+
+Compared points are: Equivalent
+  (G) + 872   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_18_/U$1
+  (R) + 872   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_18_/U$1
+
+Compared points are: Equivalent
+  (G) + 873   DFF  /dbg_0/dbg_uart_0/dbg_uart_txd_reg/U$1
+  (R) + 873   DFF  /dbg_0/dbg_uart_0/dbg_uart_txd_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 874   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_18_/U$1
+  (R) + 874   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_18_/U$1
+
+Compared points are: Equivalent
+  (G) + 875   DFF  /dbg_0/dbg_uart_0/uart_state_reg_0_/U$1
+  (R) + 875   DFF  /dbg_0/dbg_uart_0/uart_state_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 876   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_0_/U$1
+  (R) + 876   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 877   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_1_/U$1
+  (R) + 877   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 878   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_2_/U$1
+  (R) + 878   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 879   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_3_/U$1
+  (R) + 879   DFF  /dbg_0/dbg_uart_0/xfer_bit_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 880   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_19_/U$1
+  (R) + 880   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_19_/U$1
+
+Compared points are: Equivalent
+  (G) + 881   DFF  /dbg_0/dbg_uart_0/uart_state_reg_1_/U$1
+  (R) + 881   DFF  /dbg_0/dbg_uart_0/uart_state_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 882   DFF  /dbg_0/dbg_uart_0/sync_busy_reg/U$1
+  (R) + 882   DFF  /dbg_0/dbg_uart_0/sync_busy_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 883   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_1_/U$1
+  (R) + 883   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 884   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_0_/U$1
+  (R) + 884   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 885   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_2_/U$1
+  (R) + 885   DFF  /dbg_0/dbg_uart_0/sync_cnt_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 886   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_15_/U$1
+  (R) + 886   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 887   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_1_/U$1
+  (R) + 887   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 888   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_0_/U$1
+  (R) + 888   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 889   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_2_/U$1
+  (R) + 889   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 890   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_3_/U$1
+  (R) + 890   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 891   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_4_/U$1
+  (R) + 891   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 892   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_5_/U$1
+  (R) + 892   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 893   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_6_/U$1
+  (R) + 893   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 894   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_7_/U$1
+  (R) + 894   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 895   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_8_/U$1
+  (R) + 895   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 896   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_9_/U$1
+  (R) + 896   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 897   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_10_/U$1
+  (R) + 897   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 898   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_11_/U$1
+  (R) + 898   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 899   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_12_/U$1
+  (R) + 899   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 900   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_13_/U$1
+  (R) + 900   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 901   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_14_/U$1
+  (R) + 901   DFF  /dbg_0/dbg_uart_0/xfer_cnt_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 902   DFF  /dbg_0/dbg_uart_0/uart_state_reg_2_/U$1
+  (R) + 902   DFF  /dbg_0/dbg_uart_0/uart_state_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 903   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_17_/U$1
+  (R) + 903   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_17_/U$1
+
+Compared points are: Equivalent
+  (G) + 904   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_16_/U$1
+  (R) + 904   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_16_/U$1
+
+Compared points are: Equivalent
+  (G) + 905   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_15_/U$1
+  (R) + 905   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 906   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_14_/U$1
+  (R) + 906   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 907   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_13_/U$1
+  (R) + 907   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 908   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_12_/U$1
+  (R) + 908   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 909   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_11_/U$1
+  (R) + 909   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 910   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_10_/U$1
+  (R) + 910   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 911   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_9_/U$1
+  (R) + 911   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 912   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_8_/U$1
+  (R) + 912   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 913   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_7_/U$1
+  (R) + 913   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 914   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_6_/U$1
+  (R) + 914   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 915   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_5_/U$1
+  (R) + 915   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 916   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_4_/U$1
+  (R) + 916   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 917   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_3_/U$1
+  (R) + 917   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 918   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_2_/U$1
+  (R) + 918   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 919   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_1_/U$1
+  (R) + 919   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 920   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_0_/U$1
+  (R) + 920   DFF  /dbg_0/dbg_uart_0/xfer_buf_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 921   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_5_/U$1
+  (R) + 921   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 922   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_4_/U$1
+  (R) + 922   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 923   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_3_/U$1
+  (R) + 923   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 924   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_2_/U$1
+  (R) + 924   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 925   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_1_/U$1
+  (R) + 925   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 926   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_0_/U$1
+  (R) + 926   DFF  /dbg_0/dbg_uart_0/dbg_addr_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 927   DFF  /dbg_0/dbg_uart_0/dbg_bw_reg/U$1
+  (R) + 927   DFF  /dbg_0/dbg_uart_0/dbg_bw_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 928   DFF  /dbg_0/dbg_mem_rd_dly_reg/U$1
+  (R) + 928   DFF  /dbg_0/dbg_mem_rd_dly_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 929   DFF  /dbg_0/mem_data_reg_15_/U$1
+  (R) + 929   DFF  /dbg_0/mem_data_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 930   DFF  /dbg_0/mem_start_reg/U$1
+  (R) + 930   DFF  /dbg_0/mem_start_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 931   DFF  /dbg_0/mem_ctl_reg_1_/U$1
+  (R) + 931   DFF  /dbg_0/mem_ctl_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 932   DFF  /dbg_0/mem_ctl_reg_2_/U$1
+  (R) + 932   DFF  /dbg_0/mem_ctl_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 933   DFF  /dbg_0/dbg_rd_rdy_reg/U$1
+  (R) + 933   DFF  /dbg_0/dbg_rd_rdy_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 934   DFF  /dbg_0/mem_burst_reg/U$1
+  (R) + 934   DFF  /dbg_0/mem_burst_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 935   DFF  /dbg_0/mem_cnt_reg_0_/U$1
+  (R) + 935   DFF  /dbg_0/mem_cnt_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 936   DFF  /dbg_0/mem_cnt_reg_1_/U$1
+  (R) + 936   DFF  /dbg_0/mem_cnt_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 937   DFF  /dbg_0/mem_cnt_reg_2_/U$1
+  (R) + 937   DFF  /dbg_0/mem_cnt_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 938   DFF  /dbg_0/mem_cnt_reg_3_/U$1
+  (R) + 938   DFF  /dbg_0/mem_cnt_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 939   DFF  /dbg_0/mem_cnt_reg_4_/U$1
+  (R) + 939   DFF  /dbg_0/mem_cnt_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 940   DFF  /dbg_0/mem_cnt_reg_5_/U$1
+  (R) + 940   DFF  /dbg_0/mem_cnt_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 941   DFF  /dbg_0/mem_cnt_reg_6_/U$1
+  (R) + 941   DFF  /dbg_0/mem_cnt_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 942   DFF  /dbg_0/mem_cnt_reg_7_/U$1
+  (R) + 942   DFF  /dbg_0/mem_cnt_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 943   DFF  /dbg_0/mem_cnt_reg_8_/U$1
+  (R) + 943   DFF  /dbg_0/mem_cnt_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 944   DFF  /dbg_0/mem_cnt_reg_9_/U$1
+  (R) + 944   DFF  /dbg_0/mem_cnt_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 945   DFF  /dbg_0/mem_cnt_reg_10_/U$1
+  (R) + 945   DFF  /dbg_0/mem_cnt_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 946   DFF  /dbg_0/mem_cnt_reg_11_/U$1
+  (R) + 946   DFF  /dbg_0/mem_cnt_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 947   DFF  /dbg_0/mem_cnt_reg_12_/U$1
+  (R) + 947   DFF  /dbg_0/mem_cnt_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 948   DFF  /dbg_0/mem_cnt_reg_13_/U$1
+  (R) + 948   DFF  /dbg_0/mem_cnt_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 949   DFF  /dbg_0/mem_cnt_reg_14_/U$1
+  (R) + 949   DFF  /dbg_0/mem_cnt_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 950   DFF  /dbg_0/mem_cnt_reg_15_/U$1
+  (R) + 950   DFF  /dbg_0/mem_cnt_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 951   DFF  /dbg_0/mem_startb_reg/U$1
+  (R) + 951   DFF  /dbg_0/mem_startb_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 952   DFF  /dbg_0/mem_state_reg_0_/U$1
+  (R) + 952   DFF  /dbg_0/mem_state_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 953   DFF  /dbg_0/mem_state_reg_1_/U$1
+  (R) + 953   DFF  /dbg_0/mem_state_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 954   DFF  /dbg_0/mem_addr_reg_0_/U$1
+  (R) + 954   DFF  /dbg_0/mem_addr_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 955   DFF  /dbg_0/mem_addr_reg_2_/U$1
+  (R) + 955   DFF  /dbg_0/mem_addr_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 956   DFF  /dbg_0/mem_addr_reg_3_/U$1
+  (R) + 956   DFF  /dbg_0/mem_addr_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 957   DFF  /dbg_0/mem_addr_reg_4_/U$1
+  (R) + 957   DFF  /dbg_0/mem_addr_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 958   DFF  /dbg_0/mem_addr_reg_5_/U$1
+  (R) + 958   DFF  /dbg_0/mem_addr_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 959   DFF  /dbg_0/mem_addr_reg_6_/U$1
+  (R) + 959   DFF  /dbg_0/mem_addr_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 960   DFF  /dbg_0/mem_addr_reg_7_/U$1
+  (R) + 960   DFF  /dbg_0/mem_addr_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 961   DFF  /dbg_0/mem_addr_reg_8_/U$1
+  (R) + 961   DFF  /dbg_0/mem_addr_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 962   DFF  /dbg_0/mem_addr_reg_9_/U$1
+  (R) + 962   DFF  /dbg_0/mem_addr_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 963   DFF  /dbg_0/mem_addr_reg_10_/U$1
+  (R) + 963   DFF  /dbg_0/mem_addr_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 964   DFF  /dbg_0/mem_addr_reg_11_/U$1
+  (R) + 964   DFF  /dbg_0/mem_addr_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 965   DFF  /dbg_0/mem_addr_reg_12_/U$1
+  (R) + 965   DFF  /dbg_0/mem_addr_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 966   DFF  /dbg_0/mem_addr_reg_13_/U$1
+  (R) + 966   DFF  /dbg_0/mem_addr_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 967   DFF  /dbg_0/mem_addr_reg_14_/U$1
+  (R) + 967   DFF  /dbg_0/mem_addr_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 968   DFF  /dbg_0/mem_addr_reg_15_/U$1
+  (R) + 968   DFF  /dbg_0/mem_addr_reg_15_/U$1
+
+Compared points are: Equivalent
+  (G) + 969   DFF  /dbg_0/mem_data_reg_1_/U$1
+  (R) + 969   DFF  /dbg_0/mem_data_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 970   DFF  /dbg_0/mem_data_reg_0_/U$1
+  (R) + 970   DFF  /dbg_0/mem_data_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 971   DFF  /dbg_0/mem_data_reg_2_/U$1
+  (R) + 971   DFF  /dbg_0/mem_data_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 972   DFF  /dbg_0/mem_data_reg_3_/U$1
+  (R) + 972   DFF  /dbg_0/mem_data_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 973   DFF  /dbg_0/mem_data_reg_4_/U$1
+  (R) + 973   DFF  /dbg_0/mem_data_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 974   DFF  /dbg_0/mem_data_reg_5_/U$1
+  (R) + 974   DFF  /dbg_0/mem_data_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 975   DFF  /dbg_0/mem_data_reg_6_/U$1
+  (R) + 975   DFF  /dbg_0/mem_data_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 976   DFF  /dbg_0/mem_data_reg_7_/U$1
+  (R) + 976   DFF  /dbg_0/mem_data_reg_7_/U$1
+
+Compared points are: Equivalent
+  (G) + 977   DFF  /dbg_0/mem_data_reg_8_/U$1
+  (R) + 977   DFF  /dbg_0/mem_data_reg_8_/U$1
+
+Compared points are: Equivalent
+  (G) + 978   DFF  /dbg_0/mem_data_reg_9_/U$1
+  (R) + 978   DFF  /dbg_0/mem_data_reg_9_/U$1
+
+Compared points are: Equivalent
+  (G) + 979   DFF  /dbg_0/mem_data_reg_10_/U$1
+  (R) + 979   DFF  /dbg_0/mem_data_reg_10_/U$1
+
+Compared points are: Equivalent
+  (G) + 980   DFF  /dbg_0/mem_data_reg_11_/U$1
+  (R) + 980   DFF  /dbg_0/mem_data_reg_11_/U$1
+
+Compared points are: Equivalent
+  (G) + 981   DFF  /dbg_0/mem_data_reg_12_/U$1
+  (R) + 981   DFF  /dbg_0/mem_data_reg_12_/U$1
+
+Compared points are: Equivalent
+  (G) + 982   DFF  /dbg_0/mem_data_reg_13_/U$1
+  (R) + 982   DFF  /dbg_0/mem_data_reg_13_/U$1
+
+Compared points are: Equivalent
+  (G) + 983   DFF  /dbg_0/mem_data_reg_14_/U$1
+  (R) + 983   DFF  /dbg_0/mem_data_reg_14_/U$1
+
+Compared points are: Equivalent
+  (G) + 984   DFF  /dbg_0/cpu_stat_reg_2_/U$1
+  (R) + 984   DFF  /dbg_0/cpu_stat_reg_2_/U$1
+
+Compared points are: Equivalent
+  (G) + 985   DFF  /dbg_0/cpu_ctl_reg_3_/U$1
+  (R) + 985   DFF  /dbg_0/cpu_ctl_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 986   DFF  /dbg_0/cpu_stat_reg_3_/U$1
+  (R) + 986   DFF  /dbg_0/cpu_stat_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 987   DFF  /dbg_0/cpu_ctl_reg_6_/U$1
+  (R) + 987   DFF  /dbg_0/cpu_ctl_reg_6_/U$1
+
+Compared points are: Equivalent
+  (G) + 988   DFF  /dbg_0/inc_step_reg_0_/U$1
+  (R) + 988   DFF  /dbg_0/inc_step_reg_0_/U$1
+
+Compared points are: Equivalent
+  (G) + 989   DFF  /dbg_0/inc_step_reg_1_/U$1
+  (R) + 989   DFF  /dbg_0/inc_step_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 990   DFF  /dbg_0/halt_flag_reg/U$1
+  (R) + 990   DFF  /dbg_0/halt_flag_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 991   DFF  /dbg_0/cpu_ctl_reg_5_/U$1
+  (R) + 991   DFF  /dbg_0/cpu_ctl_reg_5_/U$1
+
+Compared points are: Equivalent
+  (G) + 992   DFF  /dbg_0/cpu_ctl_reg_4_/U$1
+  (R) + 992   DFF  /dbg_0/cpu_ctl_reg_4_/U$1
+
+Compared points are: Equivalent
+  (G) + 993   DFF  /dbg_0/mem_addr_reg_1_/U$1
+  (R) + 993   DFF  /dbg_0/mem_addr_reg_1_/U$1
+
+Compared points are: Equivalent
+  (G) + 994   DFF  /dbg_0/mem_ctl_reg_3_/U$1
+  (R) + 994   DFF  /dbg_0/mem_ctl_reg_3_/U$1
+
+Compared points are: Equivalent
+  (G) + 995   DLAT /clock_module_0/clock_gate_mclk/enable_latch_reg/U$1
+  (R) + 995   DLAT /clock_module_0/clock_gate_mclk/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 996   DLAT /clock_module_0/clock_gate_dma_mclk/enable_latch_reg/U$1
+  (R) + 996   DLAT /clock_module_0/clock_gate_dma_mclk/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 997   DLAT /clock_module_0/clock_gate_aclk/enable_latch_reg/U$1
+  (R) + 997   DLAT /clock_module_0/clock_gate_aclk/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 998   DLAT /clock_module_0/clock_gate_smclk/enable_latch_reg/U$1
+  (R) + 998   DLAT /clock_module_0/clock_gate_smclk/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 999   DLAT /clock_module_0/clock_gate_dbg_clk/enable_latch_reg/U$1
+  (R) + 999   DLAT /clock_module_0/clock_gate_dbg_clk/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1000  DLAT /frontend_0/clock_gate_irq_num/enable_latch_reg/U$1
+  (R) + 1000  DLAT /frontend_0/clock_gate_irq_num/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1001  DLAT /frontend_0/clock_gate_pc/enable_latch_reg/U$1
+  (R) + 1001  DLAT /frontend_0/clock_gate_pc/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1002  DLAT /frontend_0/clock_gate_inst_sext/enable_latch_reg/U$1
+  (R) + 1002  DLAT /frontend_0/clock_gate_inst_sext/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1003  DLAT /frontend_0/clock_gate_inst_dext/enable_latch_reg/U$1
+  (R) + 1003  DLAT /frontend_0/clock_gate_inst_dext/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1004  DLAT /frontend_0/clock_gate_decode/enable_latch_reg/U$1
+  (R) + 1004  DLAT /frontend_0/clock_gate_decode/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1005  DLAT /execution_unit_0/register_file_0/clock_gate_r1/enable_latch_reg/U$1
+  (R) + 1005  DLAT /execution_unit_0/register_file_0/clock_gate_r1/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1006  DLAT /execution_unit_0/register_file_0/clock_gate_r2/enable_latch_reg/U$1
+  (R) + 1006  DLAT /execution_unit_0/register_file_0/clock_gate_r2/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1007  DLAT /execution_unit_0/register_file_0/clock_gate_r3/enable_latch_reg/U$1
+  (R) + 1007  DLAT /execution_unit_0/register_file_0/clock_gate_r3/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1008  DLAT /execution_unit_0/register_file_0/clock_gate_r4/enable_latch_reg/U$1
+  (R) + 1008  DLAT /execution_unit_0/register_file_0/clock_gate_r4/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1009  DLAT /execution_unit_0/register_file_0/clock_gate_r5/enable_latch_reg/U$1
+  (R) + 1009  DLAT /execution_unit_0/register_file_0/clock_gate_r5/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1010  DLAT /execution_unit_0/register_file_0/clock_gate_r6/enable_latch_reg/U$1
+  (R) + 1010  DLAT /execution_unit_0/register_file_0/clock_gate_r6/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1011  DLAT /execution_unit_0/register_file_0/clock_gate_r7/enable_latch_reg/U$1
+  (R) + 1011  DLAT /execution_unit_0/register_file_0/clock_gate_r7/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1012  DLAT /execution_unit_0/register_file_0/clock_gate_r8/enable_latch_reg/U$1
+  (R) + 1012  DLAT /execution_unit_0/register_file_0/clock_gate_r8/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1013  DLAT /execution_unit_0/register_file_0/clock_gate_r9/enable_latch_reg/U$1
+  (R) + 1013  DLAT /execution_unit_0/register_file_0/clock_gate_r9/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1014  DLAT /execution_unit_0/register_file_0/clock_gate_r10/enable_latch_reg/U$1
+  (R) + 1014  DLAT /execution_unit_0/register_file_0/clock_gate_r10/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1015  DLAT /execution_unit_0/register_file_0/clock_gate_r11/enable_latch_reg/U$1
+  (R) + 1015  DLAT /execution_unit_0/register_file_0/clock_gate_r11/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1016  DLAT /execution_unit_0/register_file_0/clock_gate_r12/enable_latch_reg/U$1
+  (R) + 1016  DLAT /execution_unit_0/register_file_0/clock_gate_r12/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1017  DLAT /execution_unit_0/register_file_0/clock_gate_r13/enable_latch_reg/U$1
+  (R) + 1017  DLAT /execution_unit_0/register_file_0/clock_gate_r13/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1018  DLAT /execution_unit_0/register_file_0/clock_gate_r14/enable_latch_reg/U$1
+  (R) + 1018  DLAT /execution_unit_0/register_file_0/clock_gate_r14/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1019  DLAT /execution_unit_0/register_file_0/clock_gate_r15/enable_latch_reg/U$1
+  (R) + 1019  DLAT /execution_unit_0/register_file_0/clock_gate_r15/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1020  DLAT /execution_unit_0/clock_gate_mdb_out_nxt/enable_latch_reg/U$1
+  (R) + 1020  DLAT /execution_unit_0/clock_gate_mdb_out_nxt/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1021  DLAT /execution_unit_0/clock_gate_mdb_in_buf/enable_latch_reg/U$1
+  (R) + 1021  DLAT /execution_unit_0/clock_gate_mdb_in_buf/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1022  DLAT /mem_backbone_0/clock_gate_bckup/enable_latch_reg/U$1
+  (R) + 1022  DLAT /mem_backbone_0/clock_gate_bckup/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1023  DLAT /watchdog_0/clock_gate_wdtctl/enable_latch_reg/U$1
+  (R) + 1023  DLAT /watchdog_0/clock_gate_wdtctl/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1024  DLAT /watchdog_0/clock_gate_wdtcnt/enable_latch_reg/U$1
+  (R) + 1024  DLAT /watchdog_0/clock_gate_wdtcnt/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1025  DLAT /multiplier_0/clock_gate_op1/enable_latch_reg/U$1
+  (R) + 1025  DLAT /multiplier_0/clock_gate_op1/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1026  DLAT /multiplier_0/clock_gate_op2/enable_latch_reg/U$1
+  (R) + 1026  DLAT /multiplier_0/clock_gate_op2/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1027  DLAT /multiplier_0/clock_gate_reslo/enable_latch_reg/U$1
+  (R) + 1027  DLAT /multiplier_0/clock_gate_reslo/enable_latch_reg/U$1
+
+Compared points are: Equivalent
+  (G) + 1028  DLAT /multiplier_0/clock_gate_reshi/enable_latch_reg/U$1
+  (R) + 1028  DLAT /multiplier_0/clock_gate_reshi/enable_latch_reg/U$1
+
+904 compared point(s) reported
+================================================================================
+Compared points      PO     DFF    DLAT      Total   
+--------------------------------------------------------------------------------
+Equivalent           136    734    34        904     
+================================================================================
