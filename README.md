@@ -6,7 +6,7 @@ From this folder, you can launch Innovus in two ways: Stylus mode or legacy mode
 ```
 innovus -files ../scripts/load_design.tcl
 or
-innovus -files ../scripts/load_design.stylus.tcl -common_ui
+innovus -files ../scripts/load_design.stylus.tcl -stylus
 ```
 
 When using the Stylus mode, commands from legacy mode can be issued using the `eval_legacy` command.

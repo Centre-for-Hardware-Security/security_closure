@@ -1,0 +1,99 @@
+Weights:
+	des_issues:		0.25
+	fsp_fi_ea_c_avg:		(1/6)
+	fsp_fi_ea_c_max:		(1/3)
+	des_perf_setup_TNS:		0.5
+	fsp_fi_ea_n_avg:		(1/6)
+	ti_sts_max:		(1/3)
+	des_perf:		0.25
+	ti_fts_total:		0.5
+	des_area:		0.25
+	ti_fts_avg:		(1/6)
+	fsp_fi_ea_n:		0.5
+	fsp_fi_ea_n_total:		0.5
+	ti_sts:		0.5
+	fsp_fi_ea_n_max:		(1/3)
+	des_perf_setup_FEP:		(1/6)
+	fsp_fi_ea_c_total:		0.5
+	fsp_fi_ea_c:		0.5
+	ti_sts_avg:		(1/6)
+	ti_fts:		0.5
+	ti_sts_total:		0.5
+	ti_fts_max:		(1/3)
+	des_p_total:		0.25
+	des_perf_setup_WNS:		(1/3)
+
+Baseline metrics:
+	des_issues:		272
+	fsp_fi_ea_c_avg:		40.2171
+	fsp_fi_ea_c_max:		81.402
+	des_perf_setup_TNS:		0.000
+	fsp_fi_ea_n_avg:		57.7315
+	ti_sts_max:		537
+	ti_fts_total:		169872
+	des_area:		19697.7256
+	ti_fts_avg:		349.53
+	fsp_fi_ea_n_total:		525.72
+	fsp_fi_ea_n_max:		94.3101
+	des_perf_setup_FEP:		0
+	fsp_fi_ea_c_total:		481.933
+	ti_sts_avg:		131.83
+	ti_sts_total:		64073
+	ti_fts_max:		1173
+	des_p_total:		1.69111218
+	des_perf_setup_WNS:		1.141
+
+Submission metrics:
+	des_issues:		272
+	fsp_fi_ea_c_avg:		40.2171
+	fsp_fi_ea_c_max:		81.402
+	des_perf_setup_TNS:		0.000
+	fsp_fi_ea_n_avg:		57.7315
+	ti_sts_max:		537
+	ti_fts_total:		169872
+	des_area:		19697.7256
+	ti_fts_avg:		349.53
+	fsp_fi_ea_n_total:		525.72
+	fsp_fi_ea_n_max:		94.3101
+	des_perf_setup_FEP:		0
+	fsp_fi_ea_c_total:		481.933
+	ti_sts_avg:		131.83
+	ti_sts_total:		64073
+	ti_fts_max:		1173
+	des_p_total:		1.69111218
+	des_perf_setup_WNS:		1.141
+
+Base scores (non-weighted):
+	des_issues:		1.000000
+	fsp_fi_ea_c_avg:		1.000000
+	fsp_fi_ea_c_max:		1.000000
+	des_perf_setup_TNS:		0
+	fsp_fi_ea_n_avg:		1.000000
+	ti_sts_max:		1.000000
+	ti_fts_total:		1.000000
+	des_area:		1.000000
+	ti_fts_avg:		1.000000
+	fsp_fi_ea_n_total:		1.000000
+	fsp_fi_ea_n_max:		1.000000
+	des_perf_setup_FEP:		0
+	fsp_fi_ea_c_total:		1.000000
+	ti_sts_avg:		1.000000
+	ti_sts_total:		1.000000
+	ti_fts_max:		1.000000
+	des_p_total:		1.000000
+	des_perf_setup_WNS:		0
+
+Scores (weighted):
+	des_issues:		1.000000
+	OVERALL:		0.750000
+	des_perf:		0.000000
+	des:		0.750001
+	des_area:		1.000000
+	fsp_fi_ea_n:		1.000000
+	ti_sts:		1.000000
+	fsp_fi_ea_c:		1.000000
+	ti_fts:		1.000000
+	fsp_fi:		1.000000
+	ti:		1.000000
+	des_p_total:		1.000000
+
