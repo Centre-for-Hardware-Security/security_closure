@@ -23,7 +23,7 @@ create_rc_corner -name generic_rc_corner \
     -post_route_clock_cap {1.0 1.0 1.0}
 
 ## delay_corner
-create_delay_corner -name generic_delay_corner \
+create_delay_corner -name generic_delay_corner -library_set generic_library_set \
     -early_timing_condition { generic_timing_cond } \
     -late_timing_condition { generic_timing_cond } \
     -early_rc_corner generic_rc_corner \
