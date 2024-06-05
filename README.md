@@ -24,7 +24,7 @@ In order to improve the designs, the workflow should look like the itemized list
 1. load a design: from the terminal, issue `innovus -files ../scripts/load_design.stylus.tcl -stylus`
 2. score a design: from inside innovus, issue `source eval.stylus.tcl`
 3. reimplement the design by redoing the floorplan, placement, cts, routing, and optimization steps. create a script for this, say implement.tcl, and issue `source implement.tcl`
-3.1 in innovus stylus mode, these are the commands you will be needing: `create_floorplan` `add_rings` `route_special` `add_stripes` `place_opt_design` `ccopt_design` `route_design` `opt_design -post_route`
+	* in innovus stylus mode, these are the commands you will be needing: `create_floorplan` `add_rings` `route_special` `add_stripes` `place_opt_design` `ccopt_design` `route_design` `opt_design -post_route`
 4. rescore the design by issueing  `source eval.stylus.tcl` again
 
 Note: the scoring scripts should not be modified. The eval.stylus.tcl is the top level evaluation script, it will call a lot of other scripts automatically. You don't have to call them yourself. You can, however, look at them for learning a bit more about the TCL language. 
