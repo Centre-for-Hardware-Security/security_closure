@@ -1,6 +1,9 @@
 # this script assumes the design is already loaded and that the design is legal (does not violate competition rules like pin placement, power stripe locations, etc.)
-# this script also assumes innovus is using common_ui mode
-# and finally, the design name must be declared on the DESIGN variable
+# this script also assumes innovus is using stylus mode
+# and finally, the design name must be declared on the DESIGN variable. the load_design.tcl script already does this automatically. 
+
+#step 0 - cleanup. will delete any previous error files
+rm errors.rpt -f
 
 # step 1 - generate area.rpt
 set fl [open area.rpt w]
@@ -34,10 +37,10 @@ set lines [lrange $lines 0 end-1]
 set sc_inst_pattern [join $lines " "]
 
 #source exploit_eval_threshold.tcl
-source -quiet ../scripts/exploit_regions_6metals.tcl
+source -quiet ../scripts/exploit_regions.tcl
 
 # step 9 - find exposed assets (related to probing)
-source ../scripts/probing_execute.tcl
+source -quiet ../scripts/probing_execute.tcl
 
 # step 10 - summarize design costs into a single report
 sh design_cost.sh
