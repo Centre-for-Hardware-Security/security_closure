@@ -37,7 +37,7 @@ set lines [lrange $lines 0 end-1]
 set sc_inst_pattern [join $lines " "]
 
 #source exploit_eval_threshold.tcl
-source -quiet ../scripts/exploit_regions.tcl
+source -quiet ../scripts/exploit_regions_6metals.tcl
 
 # step 9 - find exposed assets (related to probing)
 source -quiet ../scripts/probing_execute.tcl
