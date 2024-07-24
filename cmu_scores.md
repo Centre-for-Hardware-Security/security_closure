@@ -8,7 +8,7 @@
 | MISTY	|   |   |   |   |   |   | |
 | OpenMSP430_1| |   |   |   |   |   | |
 | OpenMSP430_2| |   |   |   |   |   | |
-| PRESENT ||   |   |   |   |   | |
+| PRESENT | 38 | 240 | 0.19968 | 0.31240 | 0.38695 | 0.89143 | No security yet, M5 stripes with offset=4, s2s=14. Can probably be squeezed further |
 | SEED	| |   |   |   |   |   | |
 | SPARX	| |   |   |   |   |   | |
 | TDEA	||   |   |   |   |   | |
