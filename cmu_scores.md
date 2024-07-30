@@ -25,7 +25,7 @@
 | Camellia| 70 | 503  | 0.15319  | 0.32868  |  0.11353  | 0.81861  | No security tricks |
 | CAST	|  92 | 630  | 0.14779  |  0.34625 | 0.09264  | 0.76104  | No security tricks |
 | MISTY	|  76  |  580  |  0.23603  |  0.40176  |  0.08524  |  1.08973  |  des_perf_setup_WNS=-0.024, des_perf_setup_TNS=-0.027 |
-| OpenMSP430_1| |   |   |   |   |   | |
+| OpenMSP430_1| 67 | 495  | 0.17335  | 0.40213  |  	0.06895 | 0.79321  | |
 | OpenMSP430_2|  72  |  540 |  0.31723  |  0.51734  |  0.38659  |  0.83982  |  des_perf_setup_WNS=-0.020, des_perf_setup_TNS=-0.041  |
 | PRESENT | 38 | 240 | 0.19968 | 0.31240 | 0.38695 | 0.89143 | No security yet, M5 stripes with offset=4, s2s=14. Can probably be squeezed further |
 | SEED	|  82  |  675  |  0.60332  |  1.18682  |  0.21626  |  0.80044  |  des_perf_setup_WNS=-0.892, des_perf_setup_TNS=-33.599, placement density=95.17%  |
