@@ -29,7 +29,7 @@
 | OpenMSP430_2|  72  |  540 |  0.31723  |  0.51734  |  0.38659  |  0.83982  |  des_perf_setup_WNS=-0.020, des_perf_setup_TNS=-0.041  |
 | PRESENT | 30 | 225 | 0.15240 | 0.29586 | 0.00001 | 1.03021 | No security yet, M5 stripes with offset=4, s2s=14. |
 | SEED	|  88  |  650  |  0.16131  |  0.34430  |  0.15846  |  0.77855  |  density=93.170%  |
-| SPARX	| 136 |  530  |  0.24748  |  0.38781  |  0.11967  |  1.15663  |  des_perf_setup_WNS=1.114, placement density=97.67%  |
+| SPARX	| 100 |  720  |  0.17924  | 0.34243  |  0.13783 |  0.90906  |   |
 | TDEA	|  44  |  314  |  0.70986  |  0.62475  |  1.12269  |  1.14975  |  des_perf_setup_WNS=-0.023, des_perf_setup_TNS=-0.051  |
 
 Best scores from summer 2024 onwards (CMU) - DES (Design Score) || TI (Trojan Score) || FSP_FI (Probing Score)
