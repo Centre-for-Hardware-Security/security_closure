@@ -19,7 +19,7 @@
 ## Best Scores (w/o security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 137 | 986 | 0.16836 | 0.44179 | 0.00001 | 0.76216 | <li>density is 96.61%</li> <li>uses "advanced" reference flow</li> <li> | 
+| AES_1	| 137 | 986 | 0.16836 | 0.44179 | 0.00001 | 0.76216 | <li>density is 96.61%</li> <li>uses "advanced" reference flow</li> | 
 | AES_2	| 138 | 986 | 0.25893 | 0.42388 | 0.09199 | 1.12970 | <li>No security tricks</li> |
 | AES_3	| 138 | 986 | 0.29901 | 0.47597 | 0.41792 | 0.83853 | <li>No security tricks</li> |
 | Camellia | 70 | 503 | 0.15319 | 0.32868 |  0.11353 | 0.81861 | <li>No security tricks</li> |
