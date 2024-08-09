@@ -27,7 +27,7 @@
 | MISTY	| 76 | 580 | 0.23603 | 0.40176 | 0.08524 | 1.08973 | <li>des_perf_setup_WNS=-0.024</li> <li>des_perf_setup_TNS=-0.027</li> <li>core to inner ring offset=.095</li> |
 | OpenMSP430_1| 67 | 495 | 0.17335 | 0.40213 | 0.06895 | 0.79321 | <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
 | OpenMSP430_2 | 72 | 540 | 0.31723 | 0.51734 | 0.38659 | 0.83982 | <li>des_perf_setup_WNS=-0.020</li> <li>des_perf_setup_TNS=-0.041</li> <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
-| PRESENT | 30 | 225 | 0.15240 | 0.29586 | 0.00001 | 1.03021 | <li>M5 stripes with offset=4</li> <li>s2s=14</li> <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
+| PRESENT | 30 | 215 | 0.12775 | 0.26651 | 0.09641 | 0.86227 |  <li>s2s=14</li> <li>use of `opt_power -post_route -force` before opt_design -post_route </li> |
 | SEED | 88 | 650 | 0.16131 | 0.34430 | 0.15846 | 0.77855 | <li>density=93.170%</li> |
 | SPARX	| 100 | 720 | 0.17924 | 0.34243 | 0.13783 | 0.90906 | <li>core to inner ring offset=.095</li> |
 | TDEA |  44  | 320 | 0.38448 | 0.41732 | 0.68537 | 1.15728 | <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
