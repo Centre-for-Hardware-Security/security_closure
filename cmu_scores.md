@@ -9,7 +9,7 @@
 | MISTY	| 77 | 570 | 0.18137 | 0.31822 | 0.17791 | 0.96204 | 2 hard placement blockage |
 | OpenMSP430_1 | 67 | 495 | 0.20296 | 0.39509 | 0.21500 | 0.81241 | 3 hard placement blockage |
 | OpenMSP430_2 | 72 | 530 | 0.32075 | 0.49097 | 0.38169 | 0.92491 | 1 hard placement blockage |
-| PRESENT |   |   |   |   |   |   | |
+| PRESENT | 30 | 215 | 0.11480 | 0.26701 | 0.00001 | 0.85988 |  <li>s2s=14</li> <li>2 blockages were sufficient (maybe got lucky) </li> |
 | SEED | 88 | 650 | 0.14881 | 0.31765 | 0.15846 | 0.77848 | 5 hard placement blockage |
 | SPARX	|   |   |   |   |   |   | |
 | TDEA |   |   |   |   |   |   | |
