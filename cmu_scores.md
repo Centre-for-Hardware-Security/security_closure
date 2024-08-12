@@ -22,7 +22,7 @@
 | AES_1	| 137 | 986 | 0.16836 | 0.44179 | 0.00001 | 0.76216 | <li>density is 96.61%</li> <li>uses "advanced" reference flow</li> | 
 | AES_2	| 138 | 988 | 0.25058 | 0.39522 | 0.07074 | 1.19732 | <li>density is 94.39%. higher than that and timing closure is really hard</li> |
 | AES_3	| 138 | 989 | 0.18797 | 0.47916 | 0.00001 | 0.78457 | <li>density is 94.47%, advanced flow</li> <li>tried other similar sizes but got nearly the same score</li>|
-| Camellia | 70 | 503 | 0.15319 | 0.32868 |  0.11353 | 0.81861 | <li>No security tricks</li> |
+| Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
 | CAST | 92 | 630 | 0.14779 | 0.34625 | 0.09264 | 0.76104 | <li>No security tricks</li> |
 | MISTY	| 76 | 580 | 0.23603 | 0.40176 | 0.08524 | 1.08973 | <li>des_perf_setup_WNS=-0.024</li> <li>des_perf_setup_TNS=-0.027</li> <li>core to inner ring offset=.095</li> |
 | OpenMSP430_1| 67 | 495 | 0.17335 | 0.40213 | 0.06895 | 0.79321 | <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
