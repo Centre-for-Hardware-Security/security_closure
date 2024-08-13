@@ -14,14 +14,28 @@ connect_global_net VSS -type pg_pin -pin_base_name VSS -inst_base_name *
 # std cell height is 1.400
 # std cell pitch is  0.190
 
-if {$DESIGN=="present"} {
-	set param_rows 30
-	set param_cols 215
-} else {
-	set param_rows 137
-	set param_cols 986
-	# this seems to matter a lot for AES. A LOT!
-	set_db opt_max_density 1.0
+switch $DESIGN {
+	"present" {
+		set param_rows 30
+		set param_cols 215
+	} 
+	"camellia" {
+		set param_rows 70
+		set param_cols 498
+		set_db opt_max_density 1.0
+		# camellia can reach really high density, this helps too.		
+	}
+	"cast" {
+		set param_rows 93
+		set param_cols 619
+		set_db opt_max_density 1.0		
+	}
+	default {
+		set param_rows 138
+		set param_cols 989
+		# this seems to matter a lot for AES. A LOT!
+		set_db opt_max_density 1.0
+	}
 }
 
 set height [expr $param_rows * 1.4]
@@ -29,10 +43,10 @@ set width [expr $param_cols * 0.19]
 
 delete_all_floorplan_objs
 
-if {$DESIGN=="present"} {
-	create_floorplan -core_size $width $height 2.4 2.4 2.4 2.4 -no_snap_to_grid
-} else {
+if {$DESIGN=="AES"} {
 	create_floorplan -core_size $width $height 1.7 1.7 1.7 1.7 -no_snap_to_grid
+} else {
+	create_floorplan -core_size $width $height 2.4 2.4 2.4 2.4 -no_snap_to_grid
 }
 
 deselect_routes
@@ -40,17 +54,18 @@ select_routes -nets VDD
 select_routes -nets VSS
 delete_selected_from_floorplan
 
-if {$DESIGN=="present"} {
-	add_rings -nets {VDD VSS} -width 0.8 -spacing 0.8 -offset 0 -layer {top 5 bottom 5 left 6 right 6}
-	route_special
-	add_stripes -nets {VDD VSS} -width 0.4 -spacing 0.4 -start_offset 5.00 -set_to_set_distance 15 -layer 4 -direction vertical
-	add_stripes -nets {VDD VSS} -width 0.4 -spacing 0.4 -start_offset 4.00 -set_to_set_distance 14 -layer 5 -direction horizontal 
-} else {
+if {$DESIGN=="AES"} {
 	add_rings -nets {VDD VSS} -width 0.6 -spacing 0.5 -offset 0 -layer {top 7 bottom 7 left 6 right 6}
 	route_special
 	add_stripes -nets {VDD VSS} -width 0.4 -spacing 0.5 -start_offset 2.32 -set_to_set_distance 5 -layer 6 -direction vertical
 	add_stripes -nets {VDD VSS} -width 0.4 -spacing 0.5 -start_offset 5.06 -set_to_set_distance 5 -layer 7 -direction horizontal
+} else {
+	add_rings -nets {VDD VSS} -width 0.8 -spacing 0.8 -offset 0 -layer {top 5 bottom 5 left 6 right 6}
+	route_special
+	add_stripes -nets {VDD VSS} -width 0.4 -spacing 0.4 -start_offset 5.00 -set_to_set_distance 15 -layer 4 -direction vertical
+	add_stripes -nets {VDD VSS} -width 0.4 -spacing 0.4 -start_offset 4.00 -set_to_set_distance 14 -layer 5 -direction horizontal 
 }
+
 
 # this keeps the same pin strategy from the original design
 read_floorplan ../originals/floorplan.fp -sections {pin}
@@ -86,7 +101,7 @@ set_db place_global_activity_power_driven true
 #set_db route_design_with_timing_driven true
 
 # this does something, but messes with convergence. has to be studied further.
-#set_db design_flow_effort extreme
+set_db design_flow_effort extreme
 
 #power as a priority insted of insertion delay? seems to do nothing
 #eval_legacy "set_ccopt_mode -cts_opt_priority power"
@@ -183,7 +198,16 @@ route_design
 
 set now [exec date]
 puts $log "$now: starting post_rout opt..."
-opt_power -post_route -force
+# by default, area recovery is disabled during post_route opt. but our designs are very dense... this can help.
+set_db opt_post_route_area_reclaim setup_aware
+
+set tp [report_timing -collection]
+set slack [get_db $tp .slack]
+
+if {$slack > 0} { 
+	opt_power -post_route -force
+	# only if there is positive slack
+}
 opt_design -post_route
 # last touch up only for paths that fail timing
 set_db opt_setup_target_slack 0.0
