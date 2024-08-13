@@ -23,7 +23,7 @@
 | AES_2	| 138 | 988 | 0.25058 | 0.39522 | 0.07074 | 1.19732 | <li>density is 94.39%. higher than that and timing closure is really hard</li> |
 | AES_3	| 138 | 989 | 0.18797 | 0.47916 | 0.00001 | 0.78457 | <li>density is 94.47%, advanced flow</li> <li>tried other similar sizes but got nearly the same score</li>|
 | Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
-| CAST | 92 | 630 | 0.14779 | 0.34625 | 0.09264 | 0.76104 | <li>No security tricks</li> |
+| CAST | 93 | 619 | 0.14367 | 0.31542 | 0.09717 | 0.81380 | <li>density is 91.42%</li> <li>timing does not close. WNS=-0.019, TNS=-0.030 </li> <li>flow is "advanced" and "extreme"</li>|
 | MISTY	| 76 | 580 | 0.23603 | 0.40176 | 0.08524 | 1.08973 | <li>des_perf_setup_WNS=-0.024</li> <li>des_perf_setup_TNS=-0.027</li> <li>core to inner ring offset=.095</li> |
 | OpenMSP430_1| 67 | 495 | 0.17335 | 0.40213 | 0.06895 | 0.79321 | <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
 | OpenMSP430_2 | 72 | 540 | 0.31723 | 0.51734 | 0.38659 | 0.83982 | <li>des_perf_setup_WNS=-0.020</li> <li>des_perf_setup_TNS=-0.041</li> <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
