@@ -14,27 +14,50 @@ connect_global_net VSS -type pg_pin -pin_base_name VSS -inst_base_name *
 # std cell height is 1.400
 # std cell pitch is  0.190
 
+# this helps a lot with our super dense designs. innovus default is 0.95 (95% density)
+set_db opt_max_density 1.0
+
 switch $DESIGN {
 	"present" {
 		set param_rows 30
-		set param_cols 215
+		set param_cols 214
 	} 
 	"camellia" {
 		set param_rows 70
 		set param_cols 498
-		set_db opt_max_density 1.0
 		# camellia can reach really high density, this helps too.		
 	}
 	"cast" {
-		set param_rows 93
-		set param_cols 619
-		set_db opt_max_density 1.0		
+		set param_rows 91
+		set param_cols 617
+	}
+	"misty" {
+		set param_rows 75
+		set param_cols 574
+	}
+	"openmsp430_1" {
+		set param_rows 68
+		set param_cols 496
+	}
+	"openmsp430_2" {
+		set param_rows 72
+		set param_cols 541
+	}
+	"seed" {
+		set param_rows 88
+		set param_cols 650
+	}
+	"sparx" {
+		set param_rows 99
+		set param_cols 717
+	}
+	"tdea" {
+		set param_rows 44
+		set param_cols 319
 	}
 	default {
 		set param_rows 138
 		set param_cols 989
-		# this seems to matter a lot for AES. A LOT!
-		set_db opt_max_density 1.0
 	}
 }
 
@@ -151,6 +174,10 @@ set_db design_flow_effort extreme
 
 # advanced flow is below
 
+# maybe set a target of X ps no matter what would be beneficial here? 
+#set setup_target 0.030
+#set_db opt_setup_target_slack $setup_target
+
 set now [exec date]
 puts $log "$now: starting place_opt..."
 place_opt_design
@@ -171,7 +198,11 @@ while {$slack < 0} {
 	set round [expr $round + 1]
 }
 
-# maybe here is a place do deflate? because it never recovers later?
+if {$round == 1} {
+	# this means the slack was positive so pre cts opt was never called in the loop above
+	opt_design -pre_cts
+}
+
 set now [exec date]
 puts $log "$now: starting ccopt..."
 # these commands configure the target skew, but then it gets recomputed internally. there must be a better/guaranteed way to set this.
@@ -198,7 +229,7 @@ route_design
 
 set now [exec date]
 puts $log "$now: starting post_rout opt..."
-# by default, area recovery is disabled during post_route opt. but our designs are very dense... this can help.
+# by default, area recovery is disabled during post_route opt. but our designs are very dense... this can help?
 set_db opt_post_route_area_reclaim setup_aware
 
 set tp [report_timing -collection]
@@ -208,12 +239,30 @@ if {$slack > 0} {
 	opt_power -post_route -force
 	# only if there is positive slack
 }
-opt_design -post_route
-# last touch up only for paths that fail timing
-set_db opt_setup_target_slack 0.0
-opt_design -post_route -incremental
+
+while {1} {
+	set tp [report_timing -collection]
+	set old_slack [get_db $tp .slack]
+	opt_design -post_route
+	set tp [report_timing -collection]
+	set new_slack [get_db $tp .slack]
+	if {$new_slack == $old_slack} {
+		break
+		# got stuck, giving up
+	}
+	if {$new_slack > 0} {
+		break
+		# done :)
+	}
+}
+
+# deflate the design?
+# this disturbs the existing solution considerably by bringing the target slack back to 0. it would be wise to call the eval script here and decide whether to move on or not. but that is hard to automate...
+#set_db opt_setup_target_slack 0.0
+#opt_design -post_route
+#opt_design incremental has an odd behavior, it seems to do more harm than good. no longer using it.
 
 close $log
 
-get_db current_design .bbox.area
+#get_db current_design .bbox.area
 
