@@ -23,13 +23,13 @@
 | AES_2	| 138 | 988 | 0.25058 | 0.39522 | 0.07074 | 1.19732 | <li>density is 94.39%. higher than that and timing closure is really hard</li> |
 | AES_3	| 138 | 989 | 0.18797 | 0.47916 | 0.00001 | 0.78457 | <li>density is 94.47%, advanced flow</li> <li>tried other similar sizes but got nearly the same score</li>|
 | Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
-| CAST | 93 | 619 | 0.14367 | 0.31542 | 0.09717 | 0.81380 | <li>density is 91.42%</li> <li>timing does not close. WNS=-0.019, TNS=-0.030 </li> <li>flow is "advanced" and "extreme"</li>|
-| MISTY	| 76 | 580 | 0.23603 | 0.40176 | 0.08524 | 1.08973 | <li>des_perf_setup_WNS=-0.024</li> <li>des_perf_setup_TNS=-0.027</li> <li>core to inner ring offset=.095</li> |
-| OpenMSP430_1| 67 | 495 | 0.17335 | 0.40213 | 0.06895 | 0.79321 | <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
-| OpenMSP430_2 | 72 | 540 | 0.31723 | 0.51734 | 0.38659 | 0.83982 | <li>des_perf_setup_WNS=-0.020</li> <li>des_perf_setup_TNS=-0.041</li> <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
-| PRESENT | 30 | 215 | 0.12775 | 0.26651 | 0.09641 | 0.86227 |  <li>s2s=14</li> <li>use of `opt_power -post_route -force` before opt_design -post_route </li> |
-| SEED | 88 | 650 | 0.16131 | 0.34430 | 0.15846 | 0.77855 | <li>density=93.170%</li> |
-| SPARX	| 100 | 720 | 0.17924 | 0.34243 | 0.13783 | 0.90906 | <li>core to inner ring offset=.095</li> |
-| TDEA |  44  | 320 | 0.38448 | 0.41732 | 0.68537 | 1.15728 | <li>core to inner ring offset=.095</li> <li>outer ring to chip edge vert. offset=1.66</li> <li>outer ring to chip edge horiz. offset=1.78</li> |
+| CAST | 91 | 611 | 0.14289 | 0.30784 | 0.11054 | 0.81784 | <li>density is 94.34%</li> <li>timing closes with multiple opt calls </li> |
+| MISTY	| 75 | 574 | 0.13705 | 0.30275 | 0.11097 | 0.79441 | <li>density is 95.20%, advanced flow</li> |
+| OpenMSP430_1| 68 | 496 | 0.18306 | 0.38753 | 0.08560 | 0.85916 | <li>density is 96.85% (!).</li> <li> previous solution had better score but scripts were not valid</li> |
+| OpenMSP430_2 | 72 | 541 | 0.33122 | 0.47800 | 0.42078 | 0.96510 | <li>density is 93.43%</li> <li> previous solution had better score but scripts were not valid</li> |
+| PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>density is 97.26% (!) </li> |
+| SEED | 88 | 650 | 0.14564 | 0.30816 | 0.14392 | 0.80130 | <li>density is 92.57%, might be possible to push further</li> |
+| SPARX	| 99 | 717 | 0.17210 | 0.37311 | 0.08334 | 0.83921 | <li>density is 97.71% (!)</li> |
+| TDEA |  44  | 318 | 0.31357 | 0.38783 | 0.70153 | 0.91552 | <li>density is 95.25%</li> <li>has one DRC on a power stripe that has to be investigated how to fix</li> |
 
 Best scores from summer 2024 onwards (CMU) - DES (Design Score) || TI (Trojan Score) || FSP_FI (Probing Score)
