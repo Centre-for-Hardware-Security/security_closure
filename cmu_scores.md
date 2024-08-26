@@ -30,6 +30,6 @@
 | PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>density is 97.26% (!) </li> |
 | SEED | 88 | 650 | 0.14564 | 0.30816 | 0.14392 | 0.80130 | <li>density is 92.57%, might be possible to push further</li> |
 | SPARX	| 99 | 717 | 0.17210 | 0.37311 | 0.08334 | 0.83921 | <li>density is 97.71% (!)</li> |
-| TDEA |  44  | 318 | 0.31357 | 0.38783 | 0.70153 | 0.91552 | <li>density is 95.25%</li> <li>has one DRC on a power stripe that has to be investigated how to fix</li> |
+| TDEA |  43  | 325 | 0.26738 | 0.38699 | 0.47238 | 0.90946 | <li>density is 94.98%</li>  <li>this design is very tricky, several floorplan configurations lead to DRCs. 42r/325c gives better result w/ 1 DRC </li>|
 
 Best scores from summer 2024 onwards (CMU) - DES (Design Score) || TI (Trojan Score) || FSP_FI (Probing Score)
