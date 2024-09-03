@@ -3,7 +3,7 @@
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
 | AES_1	| 136 | 984 | 0.16627 | 0.39700 | 0.00001 | 0.83763 | <li>converges after 1 call to trojan_aware_blockage.tcl </li> | 
 | AES_2	| 135 | 991 | 0.23522 | 0.38944 | 0.06036 | 1.14762 | <li>degrades after 17 calls to trojan_aware_blockage.tcl </li> <li>1 region remains unsolved</li>|
-| AES_3	|   |   |   |   |   |   | |
+| AES_3	| 135 | 991 | 0.18582 | 0.44373 | 0.00001 | 0.83754 | <li>converges after 2 calls to trojan_aware_blockage.tcl </li>|
 | Camellia |   |   |   |   |   |   | |
 | CAST |  |   |   |   |   |   | |
 | MISTY	| 77 | 570 | 0.18137 | 0.31822 | 0.17791 | 0.96204 | 2 hard placement blockage |
@@ -21,7 +21,7 @@
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
 | AES_1	| 136 | 984 | 0.17857 | 0.39701 | 0.06178 | 0.83782 | <li>density is 95.79%</li> <li>has 1 vulnerable region</li> | 
 | AES_2	| 135 | 991 | 0.23946 | 0.38925 | 0.07616 | 1.15423 | <li>density is 95.80%</li> <li>has 3 vulnerable regions </li> |
-| AES_3	| 138 | 989 | 0.18797 | 0.47916 | 0.00001 | 0.78457 | <li>density is 94.47%, advanced flow</li> <li>tried other similar sizes but got nearly the same score</li>|
+| AES_3	| 135 | 991 | 0.27665 | 0.44362 | 0.40817 | 0.83907 | <li>density is 95.69%</li> <li>has 2 vulnerable regions</li>|
 | Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
 | CAST | 91 | 611 | 0.14289 | 0.30784 | 0.11054 | 0.81784 | <li>density is 94.34%</li> <li>timing closes with multiple opt calls </li> |
 | MISTY	| 75 | 574 | 0.13705 | 0.30275 | 0.11097 | 0.79441 | <li>density is 95.20%, advanced flow</li> |
