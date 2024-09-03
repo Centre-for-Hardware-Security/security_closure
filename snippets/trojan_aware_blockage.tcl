@@ -27,7 +27,9 @@ while {$rounds > 0} {
 			set x_diff [expr abs($centroids_x($i) - [get_db $g .rect.ll.x])]
 			set y_diff [expr abs($centroids_y($i) - [get_db $g .rect.ll.y])]
 			set total_diff [expr $x_diff + $y_diff]
-			if {$total_diff < 5} {set abort 0}
+			if {($total_diff < 8.4) && ($total_diff > 2.8)} {set abort 0}
+			# one std cell is 1.4um high. if the distance is too small, you may create bigger gaps
+			# >2 should almost always guarantee the blockage appears two rows away, above or below
 			set i [expr $i+1]
 		}		
 

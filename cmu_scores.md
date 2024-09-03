@@ -1,8 +1,8 @@
 ## Best Scores (with security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 136 | 984 | 0.16627 | 0.39700 | 0.00001 | 0.83763 | <li> converges after 1 call to </li> | 
-| AES_2	|   |   |   |   |   |   | |
+| AES_1	| 136 | 984 | 0.16627 | 0.39700 | 0.00001 | 0.83763 | <li>converges after 1 call to trojan_aware_blockage.tcl </li> | 
+| AES_2	| 135 | 991 | 0.23522 | 0.38944 | 0.06036 | 1.14762 | <li>degrades after 17 calls to trojan_aware_blockage.tcl </li> <li>1 region remains unsolved</li>|
 | AES_3	|   |   |   |   |   |   | |
 | Camellia |   |   |   |   |   |   | |
 | CAST |  |   |   |   |   |   | |
@@ -19,8 +19,8 @@
 ## Best Scores (w/o security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 136 | 984 | 0.17857 | 0.39701 | 0.06178 | 0.83782 | <li>density is 95.79%</li> <li>has one vulnerable region</li> | 
-| AES_2	| 138 | 988 | 0.25058 | 0.39522 | 0.07074 | 1.19732 | <li>density is 94.39%. higher than that and timing closure is really hard</li> |
+| AES_1	| 136 | 984 | 0.17857 | 0.39701 | 0.06178 | 0.83782 | <li>density is 95.79%</li> <li>has 1 vulnerable region</li> | 
+| AES_2	| 135 | 991 | 0.23946 | 0.38925 | 0.07616 | 1.15423 | <li>density is 95.80%</li> <li>has 3 vulnerable regions </li> |
 | AES_3	| 138 | 989 | 0.18797 | 0.47916 | 0.00001 | 0.78457 | <li>density is 94.47%, advanced flow</li> <li>tried other similar sizes but got nearly the same score</li>|
 | Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
 | CAST | 91 | 611 | 0.14289 | 0.30784 | 0.11054 | 0.81784 | <li>density is 94.34%</li> <li>timing closes with multiple opt calls </li> |
