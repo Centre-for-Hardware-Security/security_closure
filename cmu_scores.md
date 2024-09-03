@@ -1,7 +1,7 @@
 ## Best Scores (with security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	|   |   |   |   |   |   | |
+| AES_1	| 136 | 984 | 0.16627 | 0.39700 | 0.00001 | 0.83763 | <li> converges after 1 call to </li> | 
 | AES_2	|   |   |   |   |   |   | |
 | AES_3	|   |   |   |   |   |   | |
 | Camellia |   |   |   |   |   |   | |
@@ -19,7 +19,7 @@
 ## Best Scores (w/o security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 137 | 986 | 0.16836 | 0.44179 | 0.00001 | 0.76216 | <li>density is 96.61%</li> <li>uses "advanced" reference flow</li> | 
+| AES_1	| 136 | 984 | 0.17857 | 0.39701 | 0.06178 | 0.83782 | <li>density is 95.79%</li> <li>has one vulnerable region</li> | 
 | AES_2	| 138 | 988 | 0.25058 | 0.39522 | 0.07074 | 1.19732 | <li>density is 94.39%. higher than that and timing closure is really hard</li> |
 | AES_3	| 138 | 989 | 0.18797 | 0.47916 | 0.00001 | 0.78457 | <li>density is 94.47%, advanced flow</li> <li>tried other similar sizes but got nearly the same score</li>|
 | Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
