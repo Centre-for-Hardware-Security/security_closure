@@ -1,0 +1,5 @@
+- run implementation script
+- note scores 
+- note density with check_place
+- run check_drc
+- run check_connectivity 

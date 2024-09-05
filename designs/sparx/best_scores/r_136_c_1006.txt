@@ -1,0 +1,111 @@
+Weights:
+	des_issues:		0.25
+	fsp_fi_ea_c_avg:		(1/6)
+	fsp_fi_ea_c_max:		(1/3)
+	des_perf_setup_TNS:		0.5
+	fsp_fi_ea_n_avg:		(1/6)
+	ti_sts_max:		(1/3)
+	des_perf:		0.25
+	ti_fts_total:		0.5
+	des_area:		0.25
+	ti_fts_avg:		(1/6)
+	fsp_fi_ea_n:		0.5
+	fsp_fi_ea_n_total:		0.5
+	ti_sts:		0.5
+	fsp_fi_ea_n_max:		(1/3)
+	des_perf_setup_FEP:		(1/6)
+	fsp_fi_ea_c_total:		0.5
+	fsp_fi_ea_c:		0.5
+	ti_sts_avg:		(1/6)
+	ti_fts:		0.5
+	ti_sts_total:		0.5
+	ti_fts_max:		(1/3)
+	des_p_total:		0.25
+	des_perf_setup_WNS:		(1/3)
+
+Constraints:
+	des_issues:		2
+	des_perf:		20
+	des_area:		3
+	des_p_total:		10
+
+Baseline metrics:
+	des_issues:		143
+	fsp_fi_ea_c_avg:		52.8253
+	fsp_fi_ea_c_max:		75.9697
+	des_perf_setup_TNS:		0.000
+	fsp_fi_ea_n_avg:		56.2777
+	ti_sts_max:		3152
+	ti_fts_total:		307450
+	des_area:		39604.74
+	ti_fts_avg:		346.61
+	fsp_fi_ea_n_total:		282.278
+	fsp_fi_ea_n_max:		100
+	des_perf_setup_FEP:		0
+	fsp_fi_ea_c_total:		305.761
+	ti_sts_avg:		341.49
+	ti_sts_total:		302906
+	ti_fts_max:		1589
+	des_p_total:		2.25221634
+	des_perf_setup_WNS:		2.215
+
+Submission metrics:
+	des_issues:		0
+	fsp_fi_ea_c_avg:		41.3899
+	fsp_fi_ea_c_max:		68.9225
+	des_perf_setup_TNS:		0.000
+	fsp_fi_ea_n_avg:		57.7799
+	ti_sts_max:		4252
+	ti_fts_total:		342016
+	des_area:		38321.8407
+	ti_fts_avg:		403.79
+	fsp_fi_ea_n_total:		582.074
+	fsp_fi_ea_n_max:		100
+	des_perf_setup_FEP:		0
+	fsp_fi_ea_c_total:		239.572
+	ti_sts_avg:		399.52
+	ti_sts_total:		338395
+	ti_fts_max:		2947
+	des_p_total:		2.26475103
+	des_perf_setup_WNS:		2.435
+
+Base scores (non-weighted):
+	des_issues:		0
+	fsp_fi_ea_c_avg:		.78352
+	fsp_fi_ea_c_max:		.90723
+	des_perf_setup_TNS:		0
+	fsp_fi_ea_n_avg:		1.02669
+	ti_sts_max:		1.34898
+	ti_fts_total:		1.11242
+	des_area:		.96760
+	ti_fts_avg:		1.16496
+	fsp_fi_ea_n_total:		2.06205
+	fsp_fi_ea_n_max:		1.00000
+	des_perf_setup_FEP:		0
+	fsp_fi_ea_c_total:		.78352
+	ti_sts_avg:		1.16993
+	ti_sts_total:		1.11716
+	ti_fts_max:		1.85462
+	des_p_total:		1.00556
+	des_perf_setup_WNS:		0
+
+Scores (weighted):
+	des_issues:		0.00000
+	OVERALL:		0.60823
+	des_perf:		0.00001
+	des:		0.49330
+	des_area:		0.96760
+	fsp_fi_ea_n:		1.53546
+	ti_sts:		1.20321
+	fsp_fi_ea_c:		0.82474
+	ti_fts:		1.36857
+	fsp_fi:		1.18010
+	ti:		1.28589
+	des_p_total:		1.00556
+
+Constraints checks:
+Check for score component "des_issues" passed.
+Check for score component "des_perf" passed.
+Check for score component "des_area" passed.
+Check for score component "des_p_total" passed.
+

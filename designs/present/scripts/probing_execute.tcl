@@ -1,4 +1,4 @@
-source -quiet ../scripts/probing_functions.tcl
+source ../scripts/probing_functions.tcl
 
 # load assets
 set cell_asset_names [ CUHK::load_cell_assets ]
@@ -23,4 +23,6 @@ mv $rptfile nets_ea.rpt
 set rptfile $DESIGN
 append rptfile _cells_ea.rpt
 mv $rptfile cells_ea.rpt
+
+date > DONE.assets
 

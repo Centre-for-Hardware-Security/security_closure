@@ -1,0 +1,6 @@
+MacroModel pin rrg_reg_9_/CK  75.40ps 75.40ps 75.40ps 75.40ps 0pf generic_view
+MacroModel pin rrg_reg_16_/CK  85.00ps 85.00ps 85.00ps 85.00ps 0pf generic_view
+MacroModel pin rrg_reg_1_/CK  66.50ps 66.50ps 66.50ps 66.50ps 0pf generic_view
+MacroModel pin rrg_reg_2_/CK  66.80ps 66.80ps 66.80ps 66.80ps 0pf generic_view
+MacroModel pin rrg_reg_15_/CK  50.50ps 50.50ps 50.50ps 50.50ps 0pf generic_view
+MacroModel pin rrg_reg_8_/CK  49.50ps 49.50ps 49.50ps 49.50ps 0pf generic_view

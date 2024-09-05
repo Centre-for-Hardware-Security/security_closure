@@ -1,0 +1,3178 @@
+
+
+// Path 1
+Endpoint:      watchdog_0/wdt_evt_toggle_reg/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1443.7ps
+
+Node: watchdog_0/wdt_evt_toggle_reg/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 2
+Endpoint:      watchdog_0/wdtisx_s_reg_1_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1443.6ps
+
+Node: watchdog_0/wdtisx_s_reg_1_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 3
+Endpoint:      watchdog_0/wdtisx_s_reg_0_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1443.6ps
+
+Node: watchdog_0/wdtisx_s_reg_0_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 4
+Endpoint:      watchdog_0/wdtisx_ss_reg_1_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1443.0ps
+
+Node: watchdog_0/wdtisx_ss_reg_1_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 5
+Endpoint:      watchdog_0/wdtisx_ss_reg_0_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1442.8ps
+
+Node: watchdog_0/wdtisx_ss_reg_0_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 6
+Endpoint:      watchdog_0/wdtcnt_reg_15_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1442.7ps
+
+Node: watchdog_0/wdtcnt_reg_15_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.2ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 7
+Endpoint:      watchdog_0/wdtqn_edge_reg_reg/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1442.7ps
+
+Node: watchdog_0/wdtqn_edge_reg_reg/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7287.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 8
+Endpoint:      watchdog_0/wdtcnt_reg_6_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1441.4ps
+
+Node: watchdog_0/wdtcnt_reg_6_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7285.8ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 9
+Endpoint:      watchdog_0/wdtcnt_reg_0_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1441.1ps
+
+Node: watchdog_0/wdtcnt_reg_0_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7285.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 10
+Endpoint:      watchdog_0/wdtcnt_reg_8_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.7ps
+
+Node: watchdog_0/wdtcnt_reg_8_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7285.2ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 11
+Endpoint:      watchdog_0/wdtcnt_reg_2_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.5ps
+
+Node: watchdog_0/wdtcnt_reg_2_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7285.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 12
+Endpoint:      watchdog_0/wdtcnt_reg_1_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.4ps
+
+Node: watchdog_0/wdtcnt_reg_1_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7285.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 13
+Endpoint:      watchdog_0/wdtcnt_reg_7_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.4ps
+
+Node: watchdog_0/wdtcnt_reg_7_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7285.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 14
+Endpoint:      watchdog_0/wdtcnt_reg_12_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.2ps
+
+Node: watchdog_0/wdtcnt_reg_12_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 15
+Endpoint:      watchdog_0/wdtcnt_reg_3_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.1ps
+
+Node: watchdog_0/wdtcnt_reg_3_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.6ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 16
+Endpoint:      watchdog_0/wdtcnt_reg_9_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.1ps
+
+Node: watchdog_0/wdtcnt_reg_9_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 17
+Endpoint:      watchdog_0/wdtcnt_reg_13_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.1ps
+
+Node: watchdog_0/wdtcnt_reg_13_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 18
+Endpoint:      watchdog_0/wdtcnt_reg_14_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1440.1ps
+
+Node: watchdog_0/wdtcnt_reg_14_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 19
+Endpoint:      watchdog_0/wdtcnt_reg_5_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1439.9ps
+
+Node: watchdog_0/wdtcnt_reg_5_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 20
+Endpoint:      watchdog_0/wdtcnt_reg_10_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1439.9ps
+
+Node: watchdog_0/wdtcnt_reg_10_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 21
+Endpoint:      watchdog_0/wdtcnt_reg_11_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1439.9ps
+
+Node: watchdog_0/wdtcnt_reg_11_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 22
+Endpoint:      watchdog_0/wdtcnt_reg_4_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1439.8ps
+
+Node: watchdog_0/wdtcnt_reg_4_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7284.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 23
+Endpoint:      watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_0_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1331.6ps
+
+Node: watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_0_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 24
+Endpoint:      watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_0_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1331.1ps
+
+Node: watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_0_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 25
+Endpoint:      watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_1_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1331.1ps
+
+Node: watchdog_0/sync_cell_wdtcnt_clr/data_sync_reg_1_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 26
+Endpoint:      watchdog_0/wdtcnt_clr_sync_dly_reg/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1330.7ps
+
+Node: watchdog_0/wdtcnt_clr_sync_dly_reg/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 27
+Endpoint:      watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_1_/RN
+Beginpoint:    watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1330.7ps
+
+Node: watchdog_0/sync_cell_wdtcnt_incr/data_sync_reg_1_/RN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/ZN
+Net:  watchdog_0/FE_DBTN2_wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/FE_DBTC2_wdt_rst/A
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/Z
+Net:  watchdog_0/wdt_rst
+  Setup Slack:   7152.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/scan_mux_wdt_rst/U1/A
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  watchdog_0/wdt_rst_noscan
+  Setup Slack:   7675.9ps
+  Analysis View: generic_view
+  Failed Reason:
+    LegalSingleBuffer
+      IPOIgnored
+    ResizeLegal
+      InvalidResizeInst
+    ECO Safe Resize
+      InvalidResizeInst
+
+
+// Path 28
+Endpoint:      watchdog_0/wdtifg_reg/RN
+Beginpoint:    clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1323.5ps
+
+Node: watchdog_0/wdtifg_reg/RN
+Net:  watchdog_0/n27
+  Setup Slack:   7892.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/U56/ZN
+Net:  watchdog_0/n27
+  Setup Slack:   7892.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/U56/A
+Net:  por
+  Setup Slack:   7892.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/Z
+Net:  por
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/A
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 29
+Endpoint:      watchdog_0/wdt_reset_reg/RN
+Beginpoint:    clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1323.5ps
+
+Node: watchdog_0/wdt_reset_reg/RN
+Net:  watchdog_0/n27
+  Setup Slack:   7892.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/U56/ZN
+Net:  watchdog_0/n27
+  Setup Slack:   7892.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      InvalidResizeInst
+Node: watchdog_0/U56/A
+Net:  por
+  Setup Slack:   7892.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/Z
+Net:  por
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/A
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 30
+Endpoint:      clock_module_0/sync_cell_puc/data_sync_reg_0_/RN
+Beginpoint:    clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1305.4ps
+
+Node: clock_module_0/sync_cell_puc/data_sync_reg_0_/RN
+Net:  clock_module_0/sync_cell_puc/n1
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: clock_module_0/sync_cell_puc/U4/ZN
+Net:  clock_module_0/sync_cell_puc/n1
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/sync_cell_puc/U4/A
+Net:  clock_module_0/puc_a_scan
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst_a/U1/Z
+Net:  clock_module_0/puc_a_scan
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst_a/U1/A
+Net:  clock_module_0/puc_a
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/U73/ZN
+Net:  clock_module_0/puc_a
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/U73/A1
+Net:  por
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/Z
+Net:  por
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/A
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 31
+Endpoint:      clock_module_0/sync_cell_puc/data_sync_reg_1_/RN
+Beginpoint:    clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Analysis View: generic_view
+Hold Slack:    -1305.4ps
+
+Node: clock_module_0/sync_cell_puc/data_sync_reg_1_/RN
+Net:  clock_module_0/sync_cell_puc/n1
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: clock_module_0/sync_cell_puc/U4/ZN
+Net:  clock_module_0/sync_cell_puc/n1
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/sync_cell_puc/U4/A
+Net:  clock_module_0/puc_a_scan
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst_a/U1/Z
+Net:  clock_module_0/puc_a_scan
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst_a/U1/A
+Net:  clock_module_0/puc_a
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/U73/ZN
+Net:  clock_module_0/puc_a
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/U73/A1
+Net:  por
+  Setup Slack:   7448.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/Z
+Net:  por
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_por/U1/A
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/sync_reset_por/data_sync_reg_1_/Q
+Net:  clock_module_0/por_noscan
+  Setup Slack:   2039.7ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 32
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_7_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1290.9ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_7_/RN
+Net:  FE_OFN361_FE_DBTN12_puc_rst
+  Setup Slack:   7390.2ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_OFN361_FE_DBTN12_puc_rst
+  Setup Slack:   5658.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   5658.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   3160.6ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  FE_PHN913_scan_mode
+  Setup Slack:   4418.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: FE_PHC913_scan_mode/Z
+Net:  FE_PHN913_scan_mode
+  Setup Slack:   3135.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: FE_PHC913_scan_mode/A
+Net:  scan_mode
+  Setup Slack:   3135.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      FTermNode
+    ECO Safe Resize
+      FTermNode
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   3135.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      FTermNode
+    ECO Safe Resize
+      FTermNode
+
+
+// Path 33
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_5_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1290.8ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_5_/RN
+Net:  FE_OFN361_FE_DBTN12_puc_rst
+  Setup Slack:   7390.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_OFN361_FE_DBTN12_puc_rst
+  Setup Slack:   5658.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   5658.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   3160.6ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  FE_PHN913_scan_mode
+  Setup Slack:   4418.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: FE_PHC913_scan_mode/Z
+Net:  FE_PHN913_scan_mode
+  Setup Slack:   3135.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: FE_PHC913_scan_mode/A
+Net:  scan_mode
+  Setup Slack:   3135.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      FTermNode
+    ECO Safe Resize
+      FTermNode
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   3135.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      FTermNode
+    ECO Safe Resize
+      FTermNode
+
+
+// Path 34
+Endpoint:      sfr_0/wakeup_cell_nmi/wkup_out_reg/RN
+Beginpoint:    sfr_0/nmi_capture_rst_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1224.2ps
+
+Node: sfr_0/wakeup_cell_nmi/wkup_out_reg/RN
+Net:  sfr_0/wakeup_cell_nmi/n1
+  Setup Slack:   7410.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: sfr_0/wakeup_cell_nmi/U4/ZN
+Net:  sfr_0/wakeup_cell_nmi/n1
+  Setup Slack:   7410.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: sfr_0/wakeup_cell_nmi/U4/A
+Net:  sfr_0/wakeup_cell_nmi/wkup_rst
+  Setup Slack:   7410.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: sfr_0/wakeup_cell_nmi/scan_mux_rst/U1/Z
+Net:  sfr_0/wakeup_cell_nmi/wkup_rst
+  Setup Slack:   7410.0ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: sfr_0/wakeup_cell_nmi/scan_mux_rst/U1/A
+Net:  sfr_0/nmi_capture_rst
+  Setup Slack:   7870.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: sfr_0/nmi_capture_rst_reg/Q
+Net:  sfr_0/nmi_capture_rst
+  Setup Slack:   7870.0ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 35
+Endpoint:      watchdog_0/wakeup_cell_wdog/wkup_out_reg/RN
+Analysis View: generic_view
+Hold Slack:    -1215.9ps
+
+  Failed Reason: no timing path found.
+
+
+// Path 36
+Endpoint:      dbg_0/mem_data_reg_14_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1199.0ps
+
+Node: dbg_0/mem_data_reg_14_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7642.2ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 37
+Endpoint:      dbg_0/mem_data_reg_13_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1196.2ps
+
+Node: dbg_0/mem_data_reg_13_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7639.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 38
+Endpoint:      dbg_0/mem_addr_reg_9_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1193.9ps
+
+Node: dbg_0/mem_addr_reg_9_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7637.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 39
+Endpoint:      dbg_0/mem_addr_reg_10_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1193.9ps
+
+Node: dbg_0/mem_addr_reg_10_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7637.3ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 40
+Endpoint:      dbg_0/mem_addr_reg_12_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1193.9ps
+
+Node: dbg_0/mem_addr_reg_12_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7637.2ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 41
+Endpoint:      dbg_0/mem_data_reg_11_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1193.4ps
+
+Node: dbg_0/mem_data_reg_11_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7636.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 42
+Endpoint:      dbg_0/mem_data_reg_10_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1192.4ps
+
+Node: dbg_0/mem_data_reg_10_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7635.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 43
+Endpoint:      dbg_0/mem_data_reg_15_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1192.1ps
+
+Node: dbg_0/mem_data_reg_15_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7635.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 44
+Endpoint:      dbg_0/mem_addr_reg_8_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1192.1ps
+
+Node: dbg_0/mem_addr_reg_8_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7635.4ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 45
+Endpoint:      dbg_0/mem_data_reg_5_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1190.8ps
+
+Node: dbg_0/mem_data_reg_5_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7634.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 46
+Endpoint:      dbg_0/mem_data_reg_8_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1190.8ps
+
+Node: dbg_0/mem_data_reg_8_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7634.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 47
+Endpoint:      dbg_0/mem_data_reg_12_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1190.8ps
+
+Node: dbg_0/mem_data_reg_12_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7634.1ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 48
+Endpoint:      dbg_0/mem_cnt_reg_9_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1190.5ps
+
+Node: dbg_0/mem_cnt_reg_9_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7633.8ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 49
+Endpoint:      dbg_0/mem_cnt_reg_8_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1190.3ps
+
+Node: dbg_0/mem_cnt_reg_8_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7633.7ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 50
+Endpoint:      dbg_0/mem_addr_reg_5_/RN
+Beginpoint:    clock_module_0/dbg_rst_noscan_reg/Q
+Analysis View: generic_view
+Hold Slack:    -1190.2ps
+
+Node: dbg_0/mem_addr_reg_5_/RN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   7633.6ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      TooBigToFixByResize
+Node: FE_DBTC5_dbg_rst/ZN
+Net:  FE_DBTN5_dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ResizeLegal
+      TooBigToFixByResize
+    ECO Safe Resize
+      DisabledByOption
+Node: FE_DBTC5_dbg_rst/A
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/Z
+Net:  dbg_rst
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+    ECO Safe Resize
+      DisabledByOption
+Node: clock_module_0/scan_mux_dbg_rst/U1/A
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/dbg_rst_noscan_reg/Q
+Net:  clock_module_0/dbg_rst_noscan
+  Setup Slack:   6002.5ps
+  Analysis View: generic_view
+  Failed Reason:

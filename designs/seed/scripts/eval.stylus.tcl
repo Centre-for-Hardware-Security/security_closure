@@ -1,9 +1,6 @@
 # this script assumes the design is already loaded and that the design is legal (does not violate competition rules like pin placement, power stripe locations, etc.)
-# this script also assumes innovus is using stylus mode
-# and finally, the design name must be declared on the DESIGN variable. the load_design.tcl script already does this automatically. 
-
-#step 0 - cleanup. will delete any previous error files
-rm errors.rpt -f
+# this script also assumes innovus is using common_ui mode
+# and finally, the design name must be declared on the DESIGN variable
 
 # step 1 - generate area.rpt
 set fl [open area.rpt w]

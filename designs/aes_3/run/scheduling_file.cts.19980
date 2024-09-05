@@ -1,0 +1,16 @@
+MacroModel pin encdec_reg_reg/CK  200.00ps 200.00ps 200.00ps 200.00ps 0pf generic_view
+MacroModel pin core_enc_block_round_ctr_reg_reg[3]/CK  200.00ps 200.00ps 200.00ps 200.00ps 0pf generic_view
+MacroModel pin core_dec_block_round_ctr_reg_reg[3]/CK  200.00ps 200.00ps 200.00ps 200.00ps 0pf generic_view
+MacroModel pin core_dec_block_round_ctr_reg_reg[1]/CK  200.00ps 200.00ps 200.00ps 200.00ps 0pf generic_view
+MacroModel pin core_enc_block_round_ctr_reg_reg[1]/CK  200.00ps 200.00ps 200.00ps 200.00ps 0pf generic_view
+MacroModel pin init_reg_reg/CK  136.70ps 136.70ps 136.70ps 136.70ps 0pf generic_view
+MacroModel pin core_dec_block_round_ctr_reg_reg[2]/CK  155.80ps 155.80ps 155.80ps 155.80ps 0pf generic_view
+MacroModel pin core_keymem_key_mem_ctrl_reg_reg[1]/CK  150.20ps 150.20ps 150.20ps 150.20ps 0pf generic_view
+MacroModel pin core_dec_block_round_ctr_reg_reg[0]/CK  146.50ps 146.50ps 146.50ps 146.50ps 0pf generic_view
+MacroModel pin core_enc_block_round_ctr_reg_reg[0]/CK  145.20ps 145.20ps 145.20ps 145.20ps 0pf generic_view
+MacroModel pin keylen_reg_reg/CK  141.80ps 141.80ps 141.80ps 141.80ps 0pf generic_view
+MacroModel pin core_enc_block_round_ctr_reg_reg[2]/CK  133.70ps 133.70ps 133.70ps 133.70ps 0pf generic_view
+MacroModel pin core_aes_core_ctrl_reg_reg[0]/CK  127.70ps 127.70ps 127.70ps 127.70ps 0pf generic_view
+MacroModel pin core_enc_block_enc_ctrl_reg_reg[0]/CK  119.00ps 119.00ps 119.00ps 119.00ps 0pf generic_view
+MacroModel pin core_keymem_key_mem_ctrl_reg_reg[0]/CK  109.60ps 109.60ps 109.60ps 109.60ps 0pf generic_view
+MacroModel pin core_aes_core_ctrl_reg_reg[1]/CK  93.00ps 93.00ps 93.00ps 93.00ps 0pf generic_view

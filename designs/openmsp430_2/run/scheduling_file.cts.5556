@@ -1,0 +1,16 @@
+MacroModel pin frontend_0/inst_so_reg_5_/CK  97.70ps 97.70ps 97.70ps 97.70ps 0pf generic_view
+MacroModel pin frontend_0/inst_so_reg_4_/CK  97.60ps 97.60ps 97.60ps 97.60ps 0pf generic_view
+MacroModel pin frontend_0/e_state_reg_3_/CK  80.70ps 80.70ps 80.70ps 80.70ps 0pf generic_view
+MacroModel pin frontend_0/e_state_reg_0_/CK  77.30ps 77.30ps 77.30ps 77.30ps 0pf generic_view
+MacroModel pin frontend_0/cpu_halt_st_reg/CK  34.90ps 34.90ps 34.90ps 34.90ps 0pf generic_view
+MacroModel pin frontend_0/inst_type_reg_1_/CK  32.50ps 32.50ps 32.50ps 32.50ps 0pf generic_view
+MacroModel pin frontend_0/inst_so_reg_5_/CK  108.10ps 108.10ps 108.10ps 108.10ps 0pf generic_view
+MacroModel pin frontend_0/inst_so_reg_4_/CK  110.70ps 110.70ps 110.70ps 110.70ps 0pf generic_view
+MacroModel pin frontend_0/e_state_reg_3_/CK  80.70ps 80.70ps 80.70ps 80.70ps 0pf generic_view
+MacroModel pin frontend_0/e_state_reg_0_/CK  100.20ps 100.20ps 100.20ps 100.20ps 0pf generic_view
+MacroModel pin frontend_0/cpu_halt_st_reg/CK  121.70ps 121.70ps 121.70ps 121.70ps 0pf generic_view
+MacroModel pin frontend_0/inst_type_reg_1_/CK  76.60ps 76.60ps 76.60ps 76.60ps 0pf generic_view
+MacroModel pin dbg_0/mem_addr_reg_3_/CK  144.30ps 144.30ps 144.30ps 144.30ps 0pf generic_view
+MacroModel pin dbg_0/mem_addr_reg_0_/CK  98.40ps 98.40ps 98.40ps 98.40ps 0pf generic_view
+MacroModel pin dbg_0/mem_addr_reg_1_/CK  92.20ps 92.20ps 92.20ps 92.20ps 0pf generic_view
+MacroModel pin dbg_0/mem_addr_reg_2_/CK  33.30ps 33.30ps 33.30ps 33.30ps 0pf generic_view

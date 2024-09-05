@@ -1,0 +1,1900 @@
+
+
+// Path 1
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_8_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1359.0ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_8_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26979.6ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 2
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_6_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1346.1ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_6_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26966.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 3
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_0_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1343.6ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_0_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26963.8ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 4
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_11_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1343.5ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_11_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26963.6ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 5
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_14_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1343.5ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_14_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26963.6ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 6
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_10_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1325.5ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_10_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26945.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 7
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_9_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1314.7ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_9_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26934.4ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 8
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_15_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1300.6ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_15_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26920.4ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 9
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_7_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1285.9ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_7_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26906.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 10
+Endpoint:      clock_module_0/sync_cell_puc_lfxt/data_sync_reg_1_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1281.4ps
+
+Node: clock_module_0/sync_cell_puc_lfxt/data_sync_reg_1_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 11
+Endpoint:      clock_module_0/sync_cell_puc_lfxt/data_sync_reg_0_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1281.3ps
+
+Node: clock_module_0/sync_cell_puc_lfxt/data_sync_reg_0_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 12
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_3_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1269.8ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_3_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26890.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 13
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_5_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1260.7ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_5_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26881.6ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 14
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_13_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1255.6ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_13_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26876.6ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 15
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_12_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1228.9ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_12_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26851.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 16
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_2_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1228.5ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_2_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26850.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 17
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_4_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1228.5ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_4_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26850.8ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 18
+Endpoint:      clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_0_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1224.6ps
+
+Node: clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_0_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26766.4ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 19
+Endpoint:      clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_1_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1224.5ps
+
+Node: clock_module_0/sync_cell_smclk_dma_wkup/data_sync_reg_1_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26766.2ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 20
+Endpoint:      execution_unit_0/mdb_out_nxt_reg_1_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1215.5ps
+
+Node: execution_unit_0/mdb_out_nxt_reg_1_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26838.4ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 21
+Endpoint:      frontend_0/pc_reg_8_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1213.8ps
+
+Node: frontend_0/pc_reg_8_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26842.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 22
+Endpoint:      frontend_0/pc_reg_2_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1213.6ps
+
+Node: frontend_0/pc_reg_2_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26842.2ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 23
+Endpoint:      frontend_0/pc_reg_1_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1213.1ps
+
+Node: frontend_0/pc_reg_1_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26841.8ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 24
+Endpoint:      frontend_0/pc_reg_7_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1213.0ps
+
+Node: frontend_0/pc_reg_7_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26841.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 25
+Endpoint:      frontend_0/pc_reg_3_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1213.0ps
+
+Node: frontend_0/pc_reg_3_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26841.8ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 26
+Endpoint:      frontend_0/pc_reg_14_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1212.9ps
+
+Node: frontend_0/pc_reg_14_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26841.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 27
+Endpoint:      frontend_0/pc_reg_13_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1212.9ps
+
+Node: frontend_0/pc_reg_13_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26841.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 28
+Endpoint:      frontend_0/pc_reg_15_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1212.9ps
+
+Node: frontend_0/pc_reg_15_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26841.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 29
+Endpoint:      frontend_0/inst_alu_reg_10_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1154.4ps
+
+Node: frontend_0/inst_alu_reg_10_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26768.2ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 30
+Endpoint:      frontend_0/inst_alu_reg_0_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1154.4ps
+
+Node: frontend_0/inst_alu_reg_0_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26768.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 31
+Endpoint:      frontend_0/inst_alu_reg_7_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1154.3ps
+
+Node: frontend_0/inst_alu_reg_7_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26768.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 32
+Endpoint:      execution_unit_0/mdb_in_buf_reg_8_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1153.0ps
+
+Node: execution_unit_0/mdb_in_buf_reg_8_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 33
+Endpoint:      execution_unit_0/mdb_in_buf_reg_11_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.9ps
+
+Node: execution_unit_0/mdb_in_buf_reg_11_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.2ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 34
+Endpoint:      execution_unit_0/mdb_in_buf_reg_10_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.9ps
+
+Node: execution_unit_0/mdb_in_buf_reg_10_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 35
+Endpoint:      execution_unit_0/mdb_in_buf_reg_12_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.8ps
+
+Node: execution_unit_0/mdb_in_buf_reg_12_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.2ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 36
+Endpoint:      execution_unit_0/mdb_in_buf_reg_3_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.7ps
+
+Node: execution_unit_0/mdb_in_buf_reg_3_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 37
+Endpoint:      execution_unit_0/mdb_in_buf_reg_5_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.7ps
+
+Node: execution_unit_0/mdb_in_buf_reg_5_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 38
+Endpoint:      execution_unit_0/mdb_in_buf_reg_2_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.6ps
+
+Node: execution_unit_0/mdb_in_buf_reg_2_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 39
+Endpoint:      execution_unit_0/mdb_in_buf_reg_1_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.5ps
+
+Node: execution_unit_0/mdb_in_buf_reg_1_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.2ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 40
+Endpoint:      execution_unit_0/mdb_in_buf_reg_4_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1152.4ps
+
+Node: execution_unit_0/mdb_in_buf_reg_4_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26609.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 41
+Endpoint:      execution_unit_0/mdb_in_buf_reg_0_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1151.7ps
+
+Node: execution_unit_0/mdb_in_buf_reg_0_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26608.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 42
+Endpoint:      execution_unit_0/mdb_in_buf_reg_9_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1151.1ps
+
+Node: execution_unit_0/mdb_in_buf_reg_9_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26607.8ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 43
+Endpoint:      frontend_0/inst_alu_reg_1_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1137.3ps
+
+Node: frontend_0/inst_alu_reg_1_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26752.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 44
+Endpoint:      execution_unit_0/mdb_in_buf_reg_7_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1136.0ps
+
+Node: execution_unit_0/mdb_in_buf_reg_7_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26593.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 45
+Endpoint:      execution_unit_0/mdb_in_buf_reg_15_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1135.6ps
+
+Node: execution_unit_0/mdb_in_buf_reg_15_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26592.7ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 46
+Endpoint:      execution_unit_0/mdb_in_buf_reg_14_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1135.4ps
+
+Node: execution_unit_0/mdb_in_buf_reg_14_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26592.5ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 47
+Endpoint:      execution_unit_0/mdb_in_buf_reg_6_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1135.2ps
+
+Node: execution_unit_0/mdb_in_buf_reg_6_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26592.3ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 48
+Endpoint:      execution_unit_0/mdb_in_buf_reg_13_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1134.9ps
+
+Node: execution_unit_0/mdb_in_buf_reg_13_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26592.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 49
+Endpoint:      frontend_0/inst_alu_reg_5_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1131.9ps
+
+Node: frontend_0/inst_alu_reg_5_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26746.6ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:
+
+
+// Path 50
+Endpoint:      frontend_0/inst_alu_reg_3_/RN
+Beginpoint:    scan_mode
+Analysis View: generic_view
+Hold Slack:    -1131.1ps
+
+Node: frontend_0/inst_alu_reg_3_/RN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26745.8ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/ZN
+Net:  FE_DBTN12_puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/FE_DBTC12_puc_rst/A
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/Z
+Net:  puc_rst
+  Setup Slack:   26266.1ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: clock_module_0/scan_mux_puc_rst/U1/S
+Net:  scan_mode
+  Setup Slack:   26780.0ps
+  Analysis View: generic_view
+  Failed Reason:
+Node: scan_mode
+Net:  scan_mode
+  Setup Slack:   14573.5ps
+  Analysis View: generic_view
+  Failed Reason:

@@ -1,0 +1,9 @@
+MacroModel pin round_reg_reg_1_/CK  158.40ps 158.40ps 158.40ps 158.40ps 0pf generic_view
+MacroModel pin round_reg_reg_4_/CK  167.70ps 167.70ps 167.70ps 167.70ps 0pf generic_view
+MacroModel pin round_reg_reg_8_/CK  163.30ps 163.30ps 163.30ps 163.30ps 0pf generic_view
+MacroModel pin round_reg_reg_0_/CK  132.90ps 132.90ps 132.90ps 132.90ps 0pf generic_view
+MacroModel pin round_reg_reg_7_/CK  150.70ps 150.70ps 150.70ps 150.70ps 0pf generic_view
+MacroModel pin round_reg_reg_2_/CK  90.60ps 90.60ps 90.60ps 90.60ps 0pf generic_view
+MacroModel pin round_reg_reg_6_/CK  59.30ps 59.30ps 59.30ps 59.30ps 0pf generic_view
+MacroModel pin round_reg_reg_5_/CK  46.80ps 46.80ps 46.80ps 46.80ps 0pf generic_view
+MacroModel pin round_reg_reg_3_/CK  46.10ps 46.10ps 46.10ps 46.10ps 0pf generic_view

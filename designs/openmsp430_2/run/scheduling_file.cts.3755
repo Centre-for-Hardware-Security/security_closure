@@ -1,0 +1,6 @@
+MacroModel pin frontend_0/inst_type_reg_1_/CK  27.90ps 27.90ps 27.90ps 27.90ps 0pf generic_view
+MacroModel pin frontend_0/inst_so_reg_5_/CK  56.10ps 56.10ps 56.10ps 56.10ps 0pf generic_view
+MacroModel pin frontend_0/inst_so_reg_4_/CK  49.90ps 49.90ps 49.90ps 49.90ps 0pf generic_view
+MacroModel pin frontend_0/cpu_halt_st_reg/CK  37.90ps 37.90ps 37.90ps 37.90ps 0pf generic_view
+MacroModel pin dbg_0/mem_addr_reg_3_/CK  37.20ps 37.20ps 37.20ps 37.20ps 0pf generic_view
+MacroModel pin dbg_0/mem_addr_reg_0_/CK  24.80ps 24.80ps 24.80ps 24.80ps 0pf generic_view
