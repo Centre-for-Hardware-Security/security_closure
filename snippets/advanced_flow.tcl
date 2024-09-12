@@ -23,9 +23,8 @@ switch $DESIGN {
 		set param_cols 214
 	} 
 	"camellia" {
-		set param_rows 70
-		set param_cols 498
-		# camellia can reach really high density, this helps too.		
+		set param_rows 72
+		set param_cols 480
 	}
 	"cast" {
 		set param_rows 91
@@ -33,11 +32,11 @@ switch $DESIGN {
 	}
 	"misty" {
 		set param_rows 75
-		set param_cols 574
+		set param_cols 572
 	}
 	"openmsp430_1" {
-		set param_rows 68
-		set param_cols 496
+		set param_rows 69
+		set param_cols 492
 	}
 	"openmsp430_2" {
 		set param_rows 72
@@ -52,12 +51,12 @@ switch $DESIGN {
 		set param_cols 717
 	}
 	"tdea" {
-		set param_rows 44
-		set param_cols 319
+		set param_rows 43
+		set param_cols 325
 	}
 	default {
-		set param_rows 138
-		set param_cols 989
+		set param_rows 135
+		set param_cols 991
 	}
 }
 
@@ -227,6 +226,12 @@ set now [exec date]
 puts $log "$now: starting route_design..."
 route_design
 
+if {[get_db designs .markers] != ""} {
+	# meaning routing created drcs
+	route_design
+	#set_db route_design_detail_auto_stop false
+}
+
 set now [exec date]
 puts $log "$now: starting post_rout opt..."
 # by default, area recovery is disabled during post_route opt. but our designs are very dense... this can help?
@@ -263,6 +268,9 @@ while {1} {
 #opt_design incremental has an odd behavior, it seems to do more harm than good. no longer using it.
 
 close $log
+
+set STAT_ECO_RUNS 0
+set STAT_OPT_RUNS 0
 
 #get_db current_design .bbox.area
 
