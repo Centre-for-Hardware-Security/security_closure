@@ -24,8 +24,14 @@ while {$rounds > 0} {
 		while {$i < $regions} {
 			set x_diff [expr abs($centroids_x($i) - [get_db $g .rect.ll.x])]
 			set y_diff [expr abs($centroids_y($i) - [get_db $g .rect.ll.y])]
-			if {($x_diff < 8) && ($x_diff > 1)} {
-				if {($y_diff < 6.0) && ($y_diff > 2.1)} {set abort 0}
+			if {($x_diff < 7) && ($x_diff > 1)} {
+				if {($y_diff < 6.0) && ($y_diff > 1.3)} {
+					set total_diff [expr $x_diff + $y_diff]
+					# max diff is 7+6 = 13. but that is too far
+					if {($total_diff < 11)} {
+						set abort 0
+					}
+				}
 			}
 			
 			#set total_diff [expr $x_diff + $y_diff]
@@ -56,11 +62,14 @@ while {$rounds > 0} {
 	if {$absolute_worst == ""} {
 		continue;
 	}
-	create_place_blockage -type hard -rects [get_db $absolute_worst .rect] -no_cut_by_core 
+	create_place_blockage -type hard -rects [get_db $absolute_worst .rect] -no_cut_by_core
+	gui_zoom -rect [get_db $absolute_worst .rect]
+	gui_zoom -out
+	gui_zoom -out
 }
 
 place_eco
-set STAT_ECO_RUNS [expr STAT_ECO_RUNS + 1]
+set STAT_ECO_RUNS [expr $STAT_ECO_RUNS + 1]
 
 # if the placement ECO actually promote changes, opt_design outght to be called to reroute and perform timing analysis.
 #opt_design -post_route
