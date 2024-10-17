@@ -21,18 +21,18 @@ Best scores from summer 2024 onwards - DES (Design Score) || TI (Trojan Score) |
 ## Best Scores (with security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 136 | 984 | 0.16630 | 0.39699 | 0.00001 | 0.83781 | <li>requires 1|0 nudge2 on 2 cells</li> | 
-| AES_2	| 135 | 991 | 0.22454 | 0.38925 | 0.00001 | 1.15423 | <li>requires 2|0 nudges on 6 cells +</li>|
-| AES_3	| 135 | 991 | 0.18562 | 0.44377 | 0.00001 | 0.83657 | <li>requires 2|0 nudges on 2 cells </li>|
-| Camellia | 72 | 480 | 0.13375 | 0.31770 | 0.00001 | 0.84198 | <li> requires 14|1 nudges on 4 cells </li> |
-| CAST | 91 | 617 | 0.12552 | 0.30692 | 0.00001 | 0.81791 | <li>requires 10|0 nudges on 8 cells +</li> |
-| MISTY	| 74 | 578 | 0.12198 | 0.30204 | 0.00001 | 0.80768 | <li>requires 20|0 nudges on 12 cells +</li> |
-| OpenMSP430_1 | 69 | 492 | 0.16538 | 0.38591 | 0.00001 | 0.85709 | <li>requires 8|0 nudges on 5 cells </li> |
-| OpenMSP430_2 | 70 | 550 | 0.22917 | 0.47352 | 0.00001 | 0.96796 | <li>requires 4|0 nudges on 5 cells </li> |
+| AES_1	| 136 | 984 | 0.16630 | 0.39699 | 0.00001 | 0.83781 | <li>requires 1H0V nudges on 2 cells</li> | 
+| AES_2	| 135 | 991 | 0.22454 | 0.38925 | 0.00001 | 1.15423 | <li>requires 2H0V nudges on 6 cells +</li>|
+| AES_3	| 135 | 991 | 0.18562 | 0.44377 | 0.00001 | 0.83657 | <li>requires 2H0V nudges on 2 cells </li>|
+| Camellia | 72 | 480 | 0.13375 | 0.31770 | 0.00001 | 0.84198 | <li> requires 14H1V nudges on 4 cells </li> |
+| CAST | 91 | 617 | 0.12552 | 0.30692 | 0.00001 | 0.81791 | <li>requires 10H0V nudges on 8 cells +</li> |
+| MISTY	| 74 | 578 | 0.12198 | 0.30204 | 0.00001 | 0.80768 | <li>requires 20H0V nudges on 12 cells +</li> |
+| OpenMSP430_1 | 69 | 492 | 0.16538 | 0.38591 | 0.00001 | 0.85709 | <li>requires 8H0V nudges on 5 cells </li> |
+| OpenMSP430_2 | 70 | 550 | 0.22917 | 0.47352 | 0.00001 | 0.96796 | <li>requires 4H0V nudges on 5 cells </li> |
 | PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>nothing to do</li> |
-| SEED | 87 | 647 | 0.12036 | 0.30571 | 0.00001 | 0.78741 | <li>requires 59|4 nudges on 39 cells +</li> |
-| SPARX	| 99 | 717 | 0.16269 | 0.37094 | 0.00001 | 0.87717 | <li>requires 66|6 nudges on 61 cells </li> |
-| TDEA | 43 | 325 | 0.17602 | 0.38689 | 0.00001 | 0.90994 | <li>requires 5|0 nudges on 5 cells  </li>|
+| SEED | 87 | 647 | 0.12036 | 0.30571 | 0.00001 | 0.78741 | <li>requires 59H4V nudges on 39 cells +</li> |
+| SPARX	| 99 | 717 | 0.16269 | 0.37094 | 0.00001 | 0.87717 | <li>requires 66H6V nudges on 61 cells </li> |
+| TDEA | 43 | 325 | 0.17602 | 0.38689 | 0.00001 | 0.90994 | <li>requires 5H0V nudges on 5 cells  </li>|
 
 
 <br />
