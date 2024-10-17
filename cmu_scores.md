@@ -1,35 +1,43 @@
-## Best Scores (with security techniques):
-| DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 136 | 984 | 0.16627 | 0.39700 | 0.00001 | 0.83763 | <li>converges after 1 call to trojan_aware_blockage.tcl </li> | 
-| AES_2	| 135 | 991 | 0.23522 | 0.38944 | 0.06036 | 1.14762 | <li>degrades after 17 calls to trojan_aware_blockage.tcl </li> <li>1 region remains unsolved</li>|
-| AES_3	| 135 | 991 | 0.18582 | 0.44373 | 0.00001 | 0.83754 | <li>converges after 2 calls to trojan_aware_blockage.tcl </li>|
-| Camellia |   |   |   |   |   |   | |
-| CAST |  |   |   |   |   |   | |
-| MISTY	| 77 | 570 | 0.18137 | 0.31822 | 0.17791 | 0.96204 | 2 hard placement blockage |
-| OpenMSP430_1 | 67 | 495 | 0.20296 | 0.39509 | 0.21500 | 0.81241 | 3 hard placement blockage |
-| OpenMSP430_2 | 72 | 530 | 0.32075 | 0.49097 | 0.38169 | 0.92491 | 1 hard placement blockage |
-| PRESENT | 30 | 215 | 0.11480 | 0.26701 | 0.00001 | 0.85988 |  <li>s2s=14</li> <li>2 blockages were sufficient (maybe got lucky) </li> |
-| SEED | 88 | 650 | 0.14881 | 0.31765 | 0.15846 | 0.77848 | 5 hard placement blockage |
-| SPARX	|   |   |   |   |   |   | |
-| TDEA |   |   |   |   |   |   | |
-
-<br />
+Best scores from summer 2024 onwards - DES (Design Score) || TI (Trojan Score) || FSP_FI (Probing Score)
 
 ## Best Scores (w/o security techniques):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
 | AES_1	| 136 | 984 | 0.17857 | 0.39701 | 0.06178 | 0.83782 | <li>density is 95.79%</li> <li>has 1 vulnerable region</li> | 
-| AES_2	| 135 | 991 | 0.23946 | 0.38925 | 0.07616 | 1.15423 | <li>density is 95.80%</li> <li>has 3 vulnerable regions </li> |
-| AES_3	| 135 | 991 | 0.27665 | 0.44362 | 0.40817 | 0.83907 | <li>density is 95.69%</li> <li>has 2 vulnerable regions</li>|
-| Camellia | 70 | 498 | 0.14737 | 0.32246 | 0.08097 | 0.83306 | <li>density is 95.71%, advanced flow</li> |
-| CAST | 91 | 611 | 0.14289 | 0.30784 | 0.11054 | 0.81784 | <li>density is 94.34%</li> <li>timing closes with multiple opt calls </li> |
-| MISTY	| 75 | 574 | 0.13705 | 0.30275 | 0.11097 | 0.79441 | <li>density is 95.20%, advanced flow</li> |
-| OpenMSP430_1| 68 | 496 | 0.18306 | 0.38753 | 0.08560 | 0.85916 | <li>density is 96.85% (!).</li> <li> previous solution had better score but scripts were not valid</li> |
-| OpenMSP430_2 | 72 | 541 | 0.33122 | 0.47800 | 0.42078 | 0.96510 | <li>density is 93.43%</li> <li> previous solution had better score but scripts were not valid</li> |
-| PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>density is 97.26% (!) </li> |
-| SEED | 88 | 650 | 0.14564 | 0.30816 | 0.14392 | 0.80130 | <li>density is 92.57%, might be possible to push further</li> |
-| SPARX	| 99 | 717 | 0.17210 | 0.37311 | 0.08334 | 0.83921 | <li>density is 97.71% (!)</li> |
+| AES_2	| 135 | 991 | 0.23946 | 0.38925 | 0.07616 | 1.15423 | <li>density is 95.80%</li> <li>has 3 vulnerable regions</li> |
+| AES_3	| 135 | 991 | 0.27686 | 0.44404 | 0.41044 | 0.83657 | <li>density is 95.77%</li> <li>has 1 vulnerable region</li>|
+| Camellia | 72 | 480 | 0.14906 | 0.31809 | 0.09304 | 0.84419 | <li>density is 96.21%</li> <li>has 2 vulnerable regions</li>|
+| CAST | 91 | 617 | 0.14289 | 0.30784 | 0.11054 | 0.81784 | <li>density is 94.34%</li> <li>has 3 vulnerable regions</li> |
+| MISTY	| 74 | 578 | 0.13320 | 0.30200 | 0.07449 | 0.80767 | <li>density is 95.54%</li> <li>has 4 vulnerable regions </li> |
+| OpenMSP430_1| 69 | 492 | 0.18068 | 0.38589 | 0.07942 | 0.85700 | <li>density is 95.91%</li> <li> has 3 vulnerable regions</li> |
+| OpenMSP430_2 | 70 | 550 | 0.29791 | 0.47349 | 0.29050 | 0.96786 | <li>density is 94.24%</li> <li>has 3 vulnerable regions</li>|
+| PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>density is 97.26% </li> <li> has 0 vulnerable regions</li> |
+| SEED | 87 | 647 | 0.14527 | 0.30673 | 0.16064 | 0.78656 | <li>density is 94.29%</li> <li>has 5 vulnerable regions </li> |
+| SPARX	| 99 | 717 | 0.17210 | 0.37311 | 0.08334 | 0.83921 | <li>density is 97.71% </li> <li>has 9 vulnerable regions </li> |
 | TDEA |  43  | 325 | 0.26738 | 0.38699 | 0.47238 | 0.90946 | <li>density is 94.98%</li>  <li>this design is very tricky, several floorplan configurations lead to DRCs. 42r/325c gives better result w/ 1 DRC </li>|
 
-Best scores from summer 2024 onwards (CMU) - DES (Design Score) || TI (Trojan Score) || FSP_FI (Probing Score)
+
+
+## Best Scores (with security techniques):
+| DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
+| AES_1	| 136 | 984 | 0.16630 | 0.39699 | 0.00001 | 0.83781 | <li>requires 1|0 nudge2 on 2 cells</li> | 
+| AES_2	| 135 | 991 | 0.22454 | 0.38925 | 0.00001 | 1.15423 | <li>requires 2|0 nudges on 6 cells +</li>|
+| AES_3	| 135 | 991 | 0.18562 | 0.44377 | 0.00001 | 0.83657 | <li>requires 2|0 nudges on 2 cells </li>|
+| Camellia | 72 | 480 | 0.13375 | 0.31770 | 0.00001 | 0.84198 | <li> requires 14|1 nudges on 4 cells </li> |
+| CAST | 91 | 617 | 0.12552 | 0.30692 | 0.00001 | 0.81791 | <li>requires 10|0 nudges on 8 cells +</li> |
+| MISTY	| 74 | 578 | 0.12198 | 0.30204 | 0.00001 | 0.80768 | <li>requires 20|0 nudges on 12 cells +</li> |
+| OpenMSP430_1 | 69 | 492 | 0.16538 | 0.38591 | 0.00001 | 0.85709 | <li>requires 8|0 nudges on 5 cells </li> |
+| OpenMSP430_2 | 70 | 550 | 0.22917 | 0.47352 | 0.00001 | 0.96796 | <li>requires 4|0 nudges on 5 cells </li> |
+| PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>nothing to do</li> |
+| SEED | 87 | 647 | 0.12036 | 0.30571 | 0.00001 | 0.78741 | <li>requires 59|4 nudges on 39 cells +</li> |
+| SPARX	| 99 | 717 | 0.16269 | 0.37094 | 0.00001 | 0.87717 | <li>requires 66|6 nudges on 61 cells </li> |
+| TDEA | 43 | 325 | 0.17602 | 0.38689 | 0.00001 | 0.90994 | <li>requires 5|0 nudges on 5 cells  </li>|
+
+
+<br />
+
+
+
+
+
