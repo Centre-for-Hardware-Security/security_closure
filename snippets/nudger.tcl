@@ -61,6 +61,10 @@ while {$rounds <= $MAX} {
 		# all done, nothing left to solve
 		opt_design -post_route
 		source ../scripts/eval.stylus.tcl
+		set setup_target [get_db opt_setup_target_slack]
+		set setup_target [expr $setup_target + 0.001]
+		set_db opt_setup_target_slack $setup_target
+		# this will add 1ps to the setup target assuming that this script will be called again to converge
 		break;
 	}
 

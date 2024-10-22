@@ -31,30 +31,31 @@ switch $DESIGN {
 		set param_cols 617
 	}
 	"misty" {
-		set param_rows 75
-		set param_cols 572
+		set param_rows 74
+		set param_cols 578
 	}
 	"openmsp430_1" {
 		set param_rows 69
 		set param_cols 492
 	}
 	"openmsp430_2" {
-		set param_rows 72
-		set param_cols 541
+		set param_rows 70
+		set param_cols 550
 	}
 	"seed" {
-		set param_rows 88
-		set param_cols 650
+		set param_rows 87
+		set param_cols 647
 	}
 	"sparx" {
 		set param_rows 99
-		set param_cols 717
+		set param_cols 711
 	}
 	"tdea" {
 		set param_rows 43
 		set param_cols 325
 	}
 	default {
+		# all AESs are named the same, so these lines have to be adjusted manually
 		set param_rows 135
 		set param_cols 991
 	}
