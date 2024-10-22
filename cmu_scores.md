@@ -18,21 +18,38 @@ Best scores from summer 2024 onwards - DES (Design Score) || TI (Trojan Score) |
 
 
 
-## Best Scores (with security techniques):
+## Best Scores (with security techniques for TI):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 136 | 984 | 0.16630 | 0.39699 | 0.00001 | 0.83781 | <li>requires 1H0V nudges on 2 cells</li> | 
-| AES_2	| 135 | 991 | 0.22454 | 0.38925 | 0.00001 | 1.15423 | <li>requires 2H0V nudges on 6 cells +</li>|
+| AES_1	| 136 | 984 | 0.16630 | 0.39699 | 0.00001 | 0.83780 | <li>requires 1H0V nudges on 2 cells</li> | 
+| AES_2	| 135 | 991 | 0.22464 | 0.38925 | 0.00001 | 1.15423 | <li>requires 2H0V nudges on 6 cells +</li>|
 | AES_3	| 135 | 991 | 0.18562 | 0.44377 | 0.00001 | 0.83657 | <li>requires 2H0V nudges on 2 cells </li>|
-| Camellia | 72 | 480 | 0.13375 | 0.31770 | 0.00001 | 0.84198 | <li> requires 14H1V nudges on 4 cells </li> |
-| CAST | 91 | 617 | 0.12552 | 0.30692 | 0.00001 | 0.81791 | <li>requires 10H0V nudges on 8 cells +</li> |
+| Camellia | 72 | 480 | 0.13336 | 0.31770 | 0.00001 | 0.83956 | <li> requires 13H0V nudges on 5 cells </li> |
+| CAST | 91 | 617 | 0.12551 | 0.30692 | 0.00001 | 0.81788 | <li>requires 10H0V nudges on 8 cells +</li> |
 | MISTY	| 74 | 578 | 0.12198 | 0.30204 | 0.00001 | 0.80768 | <li>requires 20H0V nudges on 12 cells +</li> |
 | OpenMSP430_1 | 69 | 492 | 0.16538 | 0.38591 | 0.00001 | 0.85709 | <li>requires 8H0V nudges on 5 cells </li> |
 | OpenMSP430_2 | 70 | 550 | 0.22917 | 0.47352 | 0.00001 | 0.96796 | <li>requires 4H0V nudges on 5 cells </li> |
-| PRESENT | 30 | 214 | 0.11254 | 0.26014 | 0.00001 | 0.86526 |  <li>nothing to do</li> |
-| SEED | 87 | 647 | 0.12036 | 0.30571 | 0.00001 | 0.78741 | <li>requires 59H4V nudges on 39 cells +</li> |
+| PRESENT | 30 | 214 | 0.11255 | 0.26015 | 0.00001 | 0.86526 |  <li>nothing to do</li> |
+| SEED | 87 | 647 | 0.12054 | 0.30617 | 0.00001 | 0.78741 | <li>requires 59H4V nudges on 39 cells +</li> |
 | SPARX	| 99 | 717 | 0.16269 | 0.37094 | 0.00001 | 0.87717 | <li>requires 66H6V nudges on 61 cells </li> |
 | TDEA | 43 | 325 | 0.17602 | 0.38689 | 0.00001 | 0.90994 | <li>requires 5H0V nudges on 5 cells  </li>|
+
+## Best Scores (with security techniques for TI and FSP/FI):
+| DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
+| AES_1	| 136 | 984 | 0.15259 | 0.39988 | 0.00001 | 0.76316 | <li>after 50 rounds of A. 157 nets NDRd</li> | 
+| AES_2	| 135 | 991 | 0.22086 | 0.39199 | 0.00001 | 1.12685 | <li>needs better strat</li>|
+| AES_3	| 135 | 991 | 0.xxxxx | 0.xxxxx | 0.00001 | 0.78785 | <li>needs better strat </li>|
+
+| Camellia | 72 | 480 | 0.13197 | 0.31768 | 0.00001 | 0.83087 | <li>13 nets are widened. drcs appear  </li> |
+| CAST | 91 | 617 | 0.12552 | 0.30692 | 0.00001 | 0.81791 | <li>13 nets are widened but drcs are created and gaps appear again. to be investigated</li> |
+| MISTY	| 74 | 578 | 0.08968 | 0.30246 | 0.00001 | 0.59299 | <li>70 nets are widened. has DRCs that have to be investigated ++</li> |
+| OpenMSP430_1 | 69 | 492 | 0.16490 | 0.38601 | 0.00001 | 0.85440 | <li>60 nets are widened + </li> |
+| OpenMSP430_2 | 70 | 550 | 0.22861 | 0.47419 | 0.00001 | 0.96420 | <li>105 nets are widened +</li> |
+| PRESENT | 30 | 214 | 0.11015 | 0.26018 | 0.00001 | 0.84676 |  <li>5 nets are widened</li> |
+| SEED | 87 | 647 | 0.12011 | 0.30593 | 0.00001 | 0.78523 | <li>9 nets are widened +</li> |
+| SPARX	| 99 | 717 | 0.15412 | 0.37083 | 0.00001 | 0.83122 | <li>69 nets are widened </li> |
+| TDEA | 43 | 325 | 0.14516 | 0.38733 | 0.00001 | 0.74953 | <li>160 nets are widened </li>|
 
 
 <br />
