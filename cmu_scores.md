@@ -16,8 +16,6 @@ Best scores from summer 2024 onwards - DES (Design Score) || TI (Trojan Score) |
 | SPARX	| 99 | 717 | 0.17210 | 0.37311 | 0.08334 | 0.83921 | <li>density is 97.71% </li> <li>has 9 vulnerable regions </li> |
 | TDEA |  43  | 325 | 0.26738 | 0.38699 | 0.47238 | 0.90946 | <li>density is 94.98%</li>  <li>this design is very tricky, several floorplan configurations lead to DRCs. 42r/325c gives better result w/ 1 DRC </li>|
 
-
-
 ## Best Scores (with security techniques for TI):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
@@ -37,20 +35,18 @@ Best scores from summer 2024 onwards - DES (Design Score) || TI (Trojan Score) |
 ## Best Scores (with security techniques for TI and FSP/FI):
 | DESIGN | ROWS | COLS | OVERALL | DES | TI | FSP_FI | Comments |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
-| AES_1	| 136 | 984 | 0.15259 | 0.39988 | 0.00001 | 0.76316 | <li>after 50 rounds of A. 157 nets NDRd</li> | 
-| AES_2	| 135 | 991 | 0.22086 | 0.39199 | 0.00001 | 1.12685 | <li>needs better strat</li>|
-| AES_3	| 135 | 991 | 0.xxxxx | 0.xxxxx | 0.00001 | 0.78785 | <li>needs better strat </li>|
-
-| Camellia | 72 | 480 | 0.13197 | 0.31768 | 0.00001 | 0.83087 | <li>13 nets are widened. drcs appear  </li> |
-| CAST | 91 | 617 | 0.12552 | 0.30692 | 0.00001 | 0.81791 | <li>13 nets are widened but drcs are created and gaps appear again. to be investigated</li> |
-| MISTY	| 74 | 578 | 0.08968 | 0.30246 | 0.00001 | 0.59299 | <li>70 nets are widened. has DRCs that have to be investigated ++</li> |
-| OpenMSP430_1 | 69 | 492 | 0.16490 | 0.38601 | 0.00001 | 0.85440 | <li>60 nets are widened + </li> |
-| OpenMSP430_2 | 70 | 550 | 0.22861 | 0.47419 | 0.00001 | 0.96420 | <li>105 nets are widened +</li> |
-| PRESENT | 30 | 214 | 0.11015 | 0.26018 | 0.00001 | 0.84676 |  <li>5 nets are widened</li> |
-| SEED | 87 | 647 | 0.12011 | 0.30593 | 0.00001 | 0.78523 | <li>9 nets are widened +</li> |
-| SPARX	| 99 | 717 | 0.15412 | 0.37083 | 0.00001 | 0.83122 | <li>69 nets are widened </li> |
-| TDEA | 43 | 325 | 0.14516 | 0.38733 | 0.00001 | 0.74953 | <li>160 nets are widened </li>|
-
+| AES_1	| 136 | 984 | 0.14129| 0.39701 | 0.00001 | 0.71179 | <li>50 nets are pushed down</li> | 
+| AES_2	| 135 | 991 | 0.20896 | 0.38942 | 0.00001 | 1.07319 | <li>67 nets are pushed down+</li>|
+| AES_3	| 135 | 991 | 0.17495 | 0.44368 | 0.00001 | 0.78864 | <li>28 nets are pushed down</li>|
+| Camellia | 72 | 480 | 0.13319 | 0.31772 | 0.00001 | 0.83839 | <li>3 nets are pushed down</li> |
+| CAST | 91 | 617 | 0.12278 | 0.30693 | 0.00001 | 0.80008 | <li>23 nets are pushed down+</li> |
+| MISTY	| 74 | 578 | 0.11812 | 0.30231 | 0.00001 | 0.78144 | <li>3 nets are pushed down</li> |
+| OpenMSP430_1 | 69 | 492 | 0.16518 | 0.38609 | 0.00001 | 0.85566 | <li>8 nets are pushed down</li> |
+| OpenMSP430_2 | 70 | 550 | 0.22915 | 0.47415 | 0.00001 | 0.96656 | <li>13 nets are pushed down</li> |
+| PRESENT | 30 | 214 | 0.10724 | 0.26029 | 0.00001 | 0.82400 |  <li>20 nets are pushed down</li> |
+| SEED | 87 | 647 | 0.12059 | 0.30599 | 0.00001 | 0.78819 | <li> nets are pushed down ++</li> |
+| SPARX	| 99 | 717 | 0.15878 | 0.37092 | 0.00001 | 0.85615 | <li>14 nets are pushed down </li> |
+| TDEA | 43 | 325 | 0.17006 | 0.38707 | 0.00001 | 0.87872 | <li>14 nets are pushed down</li>|
 
 <br />
 

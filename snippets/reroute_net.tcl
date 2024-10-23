@@ -1,5 +1,5 @@
 set round 1
-set MAX 50
+set MAX 999
 
 set logger [open "../run/log2.txt" w]
 
@@ -11,14 +11,28 @@ set net_factor 0
 set worst_factor 0
 set worst_net ""
 set previous_worst ""
+set prev_exp 999999
+set curr_exp 0
 set used {}
 
 while {$round <= $MAX} {
 	set worst_factor 0
 
 	set infile [open "../run/nets_ea.rpt" r]
-	# skip reading the first 5 lines 
-	for {set i 0} {$i < 5} {incr i} {gets $infile}
+	gets $infile line
+	set curr_exp [lindex $line 6]
+
+	if {$curr_exp >= $prev_exp} {
+		puts $logger "ROUND_A terminated at [expr $round -1] because exposure did not improve"	
+		break
+	} else {
+		puts $logger "ROUND_A $round: exposure was $prev_exp and now is $curr_exp"	
+		
+		set prev_exp $curr_exp
+	}
+
+	# skip reading the next 4 lines 
+	for {set i 0} {$i < 4} {incr i} {gets $infile}
 
 	while {[gets $infile line] >= 0} {
 		set net_name [lindex $line 0]
@@ -40,24 +54,17 @@ while {$round <= $MAX} {
 	}
 	close $infile
 
-	if {$previous_worst == $worst_net} {
-		puts $logger "ROUND_A $round: not executed as worst net has not changed"	
-		break
-	} else {
-		set previous_worst $worst_net
-	}
-
 	echo "worst net is $worst_net with a factor of $worst_factor"
 	puts $logger "ROUND_A $round: worst net is $worst_net with a factor of $worst_factor"
 	flush $logger
 	lappend used $worst_net
 
+	deselect_obj -all
 	select_obj $worst_net
+	delete_selected_from_floorplan
 
-	#create_route_blockage -layers {metal6 metal5} -rects [get_db  [get_nets $worst_net] .wires.rect]
 	set_db [get_nets $worst_net] .bottom_preferred_layer 1
 	set_db [get_nets $worst_net] .top_preferred_layer 3
-	delete_selected_from_floorplan
 	route_eco
 	#opt_design -post_route
 	source ../scripts/eval.fast2.stylus.tcl
@@ -70,6 +77,8 @@ set previous_worst ""
 set round 1
 set MAX 0
 
+# the B strat actually struggles a lot with short nets and IO nets. 
+
 while {$round <= $MAX} {
 	set worst_factor 0
 
@@ -81,9 +90,24 @@ while {$round <= $MAX} {
 		set net_name [lindex $line 0]
 		set net_area [lindex $line 1]
 		set net_exp [lindex $line 2]
-		if {$net_exp >= $worst_factor} {
-			set worst_factor $net_exp
-			set worst_net $net_name
+
+		set upper 0
+		set layers [get_db  [get_nets $net_name] .wires.layer]
+		foreach l $layers {
+			if {$l=="layer:metal4"} {set upper 1}
+			if {$l=="layer:metal5"} {set upper 1}
+			if {$l=="layer:metal6"} {set upper 1}
+			if {$l=="layer:metal7"} {set upper 1}
+			if {$l=="layer:metal8"} {set upper 1}
+			if {$l=="layer:metal9"} {set upper 1}
+			if {$l=="layer:metal10"} {set upper 1}
+		}
+
+		if {$upper == 1} {
+			if {$net_exp >= $worst_factor} {
+				set worst_factor $net_exp
+				set worst_net $net_name
+			}
 		}
 	}
 	close $infile
@@ -101,7 +125,11 @@ while {$round <= $MAX} {
 
 	select_obj $worst_net
 
-	create_route_blockage -layers {metal6 metal5} -rects [get_db  [get_nets $worst_net] .wires.rect]
+	if {$DESIGN == "AES" } {
+		create_route_blockage -layers {metal10 metal9 metal8 metal7 metal6} -rects [get_db  [get_nets $worst_net] .wires.rect]
+	} else {
+		create_route_blockage -layers {metal6 metal5 metal4} -rects [get_db  [get_nets $worst_net] .wires.rect]
+	}
 	set_db [get_nets $worst_net] .bottom_preferred_layer 1
 	set_db [get_nets $worst_net] .top_preferred_layer 3
 	delete_selected_from_floorplan
