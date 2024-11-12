@@ -1,4 +1,5 @@
 # this variable could be used for calling the script multiple times without returning
+# for all circuits, the max of 100 is never reached.
 set MAX 100
 set rounds 1
 
@@ -7,10 +8,7 @@ set count 0
 set bestcount 999999
 set stuck 0
 set nudgex 1
-set nudgey 0
 set push 0
-set offset 0
-
 
 proc find_obj {side x1 y1 x2 y2} {
 	set ret ""
@@ -46,12 +44,16 @@ proc find_obj {side x1 y1 x2 y2} {
 	return $ret
 }
 
-# a strategy based on nudges and pushes could work
-# a nudgex would be a horizontal thin blockage
-# a push could be a vertical fat blockage
-# maybe alternating or doing nudges until nothing changes than doing pushes... could work.
+# a strategy based on nudges and pushes works
+# nudges are small cell movements in the horizontal direction
+# pushed are vertical movements
+# the strategy is to do nudges while improvements are found. otherwise, do a push and restart
+
+set TIME_total 0
 
 while {$rounds <= $MAX} {
+	set TIME_start [clock clicks -milliseconds]
+	
 	set count 0
 	foreach rect [get_db gui_rects -if {.gui_layer_name == *abcd*}] {
 		set count [expr $count + 1]
@@ -60,10 +62,14 @@ while {$rounds <= $MAX} {
 	if {$count == 0} { 
 		# all done, nothing left to solve
 		opt_design -post_route
-		source ../scripts/eval.stylus.tcl
 		set setup_target [get_db opt_setup_target_slack]
 		set setup_target [expr $setup_target + 0.001]
 		set_db opt_setup_target_slack $setup_target
+
+		set TIME_end [clock clicks -milliseconds]
+		set TIME_taken [expr ($TIME_end - $TIME_start)]
+		set TIME_total [expr $TIME_total + $TIME_taken]
+
 		# this will add 1ps to the setup target assuming that this script will be called again to converge
 		break;
 	}
@@ -174,14 +180,16 @@ while {$rounds <= $MAX} {
 		# there is a chance that a push can create overlaps, so eco place fixes that
 		eco_place
 	}
-	#suspend
-	#eco_place
-	#suspend
-	#route_eco
-	source ../scripts/eval.fast.stylus.tcl
 
+	set TIME_end [clock clicks -milliseconds]
+	set TIME_taken [expr ($TIME_end - $TIME_start)]
+	set TIME_total [expr $TIME_total + $TIME_taken]
+
+	source ../scripts/eval.fast.stylus.tcl
 }
 
 close $logger
 
+source ../scripts/eval.stylus.tcl
 
+echo "total time is: [expr $TIME_total/1000]"

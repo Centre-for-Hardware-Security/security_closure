@@ -1,3 +1,5 @@
+set TIME_start [clock clicks -milliseconds]
+
 set round 1
 set MAX 999
 
@@ -15,7 +17,11 @@ set prev_exp 999999
 set curr_exp 0
 set used {}
 
+set TIME_total 0
+
 while {$round <= $MAX} {
+	set TIME_start [clock clicks -milliseconds]
+
 	set worst_factor 0
 
 	set infile [open "../run/nets_ea.rpt" r]
@@ -23,7 +29,11 @@ while {$round <= $MAX} {
 	set curr_exp [lindex $line 6]
 
 	if {$curr_exp >= $prev_exp} {
-		puts $logger "ROUND_A terminated at [expr $round -1] because exposure did not improve"	
+		puts $logger "ROUND_A terminated at [expr $round -1] because exposure did not improve"
+		set TIME_end [clock clicks -milliseconds]
+		set TIME_taken [expr ($TIME_end - $TIME_start)]
+		set TIME_total [expr $TIME_total + $TIME_taken]
+	
 		break
 	} else {
 		puts $logger "ROUND_A $round: exposure was $prev_exp and now is $curr_exp"	
@@ -67,6 +77,11 @@ while {$round <= $MAX} {
 	set_db [get_nets $worst_net] .top_preferred_layer 3
 	route_eco
 	#opt_design -post_route
+	
+	set TIME_end [clock clicks -milliseconds]
+	set TIME_taken [expr ($TIME_end - $TIME_start)]
+	set TIME_total [expr $TIME_total + $TIME_taken]
+
 	source ../scripts/eval.fast2.stylus.tcl
 	#delete_route_blockages -all route
 	
@@ -74,7 +89,7 @@ while {$round <= $MAX} {
 }
 
 set previous_worst ""
-set round 1
+#set round 1
 set MAX 0
 
 # the B strat actually struggles a lot with short nets and IO nets. 
@@ -141,8 +156,8 @@ while {$round <= $MAX} {
 	set round [expr $round +1]
 }
 
-set round 1
-set MAX 0
+#set round 1
+set MAX 200
 
 # if no NDR exists, then one is created with 2x width for M3-M4-M5-M6 or M5-M6-M7-M8-M9-M10
 set ret [get_db route_rules]
@@ -187,7 +202,7 @@ while {$round <= $MAX} {
 
 	lappend used $worst_net
 
-	echo "worst net is $worst_net with an expsure of $worst_factor"
+	echo "worst net is $worst_net with an exposure of $worst_factor"
 	puts $logger "ROUND_C $round: worst net is $worst_net with an exposure of $worst_factor"
 	flush $logger
 
@@ -246,6 +261,17 @@ while {$round <= $MAX} {
 	set round [expr $round +1]
 }
 
-
 close $logger
+
+set TIME_start [clock clicks -milliseconds]
+
+opt_design -post_route
+
+set TIME_end [clock clicks -milliseconds]
+set TIME_total [expr $TIME_total + $TIME_taken]
+
+set TIME_taken [expr ($TIME_end - $TIME_start)/1000]
+
+echo "total time is: [expr $TIME_total/1000]"
+
 
