@@ -37,6 +37,8 @@ set_propagated_clock [all_clocks]
 set_db timing_analysis_type ocv
 set_db timing_analysis_cppr both
 time_design -post_route
+# this is important to make the power environment match the design settings
+set_default_switching_activity -sequential_activity -1
 
 set DESIGN camellia
 
