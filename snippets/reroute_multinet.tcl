@@ -5,18 +5,52 @@ set MAX 999
 
 # good values for nets per round are 0.005~0.01 of the total number of nets
 
-# AES 1/2/3 has 19165 nets => 
-# CAMELLIA has 7200 nets => 
-# CAST has 13048 nets => 130
-# MISTY has 9800 nets => 98
-# OPENMSP1 has 781 nets => 8
-# OPENMSP2 has 794 nets => 8
-# PRESENT has 1044 nets => 10
-# SEED has 12900 nets => 130
-# SPARX has 10800 nets => 108
-# TDEA has 2651 nets => 27
-set NETS_PER_ROUND_A 26
-set ALPHA 1.05
+# with 0.02, cast takes forever to route
+# AES 1/2/3 has 19165 nets => 95
+# CAMELLIA has 7200 nets => 36
+# CAST has 13048 nets => 65
+# MISTY has 9800 nets => 49
+# OPENMSP1 has 781 nets => 4
+# OPENMSP2 has 794 nets => 4
+# PRESENT has 1044 nets => 5
+# SEED has 12900 nets => 64
+# SPARX has 10800 nets => 54
+# TDEA has 2651 nets => 13
+
+switch $DESIGN {
+	"present" {
+		set NETS_PER_ROUND 5
+	} 
+	"camellia" {
+		set NETS_PER_ROUND 36
+	}
+	"cast" {
+		set NETS_PER_ROUND 65
+	}
+	"misty" {
+		set NETS_PER_ROUND 49
+	}
+	"openmsp430_1" {
+		set NETS_PER_ROUND 4
+	}
+	"openmsp430_2" {
+		set NETS_PER_ROUND 4
+	}
+	"seed" {
+		set NETS_PER_ROUND 64
+	}
+	"sparx" {
+		set NETS_PER_ROUND 54
+	}
+	"tdea" {
+		set NETS_PER_ROUND 13
+	}
+	default {
+		set NETS_PER_ROUND 95
+	}
+}
+
+set ALPHA 1.0
 
 set logger [open "../run/log2.txt" w]
 
@@ -79,7 +113,7 @@ while {$round <= $MAX} {
 
 	set factorsl [lsort -stride 2 -index 1 -decreasing -real [array get factors]]
 
-	for {set i 0} {$i < $NETS_PER_ROUND_A} {incr i} {
+	for {set i 0} {$i < $NETS_PER_ROUND} {incr i} {
 		if {[llength $factorsl] < ($i*2 +1)} {
 			break
 			# this is for cases where number of net assets is small

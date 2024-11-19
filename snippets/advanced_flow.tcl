@@ -1,12 +1,16 @@
 set log [open log.log w]
 set now [exec date]
+
+set TIME_start [clock clicks -milliseconds]
+
 puts $log "$now: starting run..."
 
 # this will mark all assets as dont_touch
 source ../../../assets.tcl
 
 # this helps cts to succeed. otherwise it complains that there are no inv/buffs available in the library.
-set_db cts_buffer_cells {BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3}
+set_db cts_buffer_cells {CLKBUF_X1 CLKBUF_X2 CLKBUF_X3}
+#set_db cts_inverter_cells {BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3}
 
 connect_global_net VDD -type pg_pin -pin_base_name VDD -inst_base_name * -override
 connect_global_net VSS -type pg_pin -pin_base_name VSS -inst_base_name * 
@@ -15,12 +19,13 @@ connect_global_net VSS -type pg_pin -pin_base_name VSS -inst_base_name *
 # std cell pitch is  0.190
 
 # this helps a lot with our super dense designs. innovus default is 0.95 (95% density)
-set_db opt_max_density 1.0
+set_db opt_max_density 1.5
 
 switch $DESIGN {
 	"present" {
 		set param_rows 30
-		set param_cols 214
+		set param_cols 213
+		#30/214 gives good results except for power. 30/213 is better.
 	} 
 	"camellia" {
 		set param_rows 72
@@ -48,7 +53,8 @@ switch $DESIGN {
 	}
 	"sparx" {
 		set param_rows 99
-		set param_cols 711
+		set param_cols 714
+		# 711 is good for fspfi. 712 is good for power. 714 is better for power
 	}
 	"tdea" {
 		set param_rows 43
@@ -56,10 +62,14 @@ switch $DESIGN {
 	}
 	default {
 		# all AESs are named the same, so these lines have to be adjusted manually
-		set param_rows 135
-		set param_cols 991
+		set param_rows 136
+		set param_cols 988
 	}
 }
+# AES1 136 984 used to work, but doesnt pass timing. 986 works but power values are bad. will use it for now
+# AES2 135 991
+# AES3 135 991 
+
 
 set height [expr $param_rows * 1.4]
 set width [expr $param_cols * 0.19]
@@ -128,6 +138,7 @@ set_db design_flow_effort extreme
 
 #power as a priority insted of insertion delay? seems to do nothing
 #eval_legacy "set_ccopt_mode -cts_opt_priority power"
+#set_db ccopt_auto_limit_insertion_delay_factor 0.5
 
 #does nothing
 #eval_legacy  "set_ccopt_property effort high"
@@ -139,7 +150,7 @@ set_db design_flow_effort extreme
 #set_db opt_power_effort high
 #set_db opt_leakage_to_dynamic_ratio 0.01
 
-#lowest cell count!
+#lowest cell count but causes power inconsistency
 #set_db opt_drv false
 
 # this has a negative effect, apparently. might have to check against ccopt skew target
@@ -173,10 +184,6 @@ set_db design_flow_effort extreme
 #opt_design -post_route
 
 # advanced flow is below
-
-# maybe set a target of X ps no matter what would be beneficial here? 
-#set setup_target 0.030
-#set_db opt_setup_target_slack $setup_target
 
 set now [exec date]
 puts $log "$now: starting place_opt..."
@@ -270,8 +277,12 @@ while {1} {
 
 close $log
 
-set STAT_ECO_RUNS 0
-set STAT_OPT_RUNS 0
+set TIME_end [clock clicks -milliseconds]
+set TIME_taken [expr ($TIME_end - $TIME_start)/1000]
 
-#get_db current_design .bbox.area
+source ../scripts/eval.stylus.tcl
+
+echo "time taken for implementation: $TIME_taken"
+
+get_db current_design .bbox.area
 

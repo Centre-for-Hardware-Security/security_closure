@@ -2,20 +2,52 @@
 # good values for nets per round are 0.005~0.01 of the total number of nets
  
 # with 0.02, cast takes forever to route
-# AES 1/2/3 has 19165 nets => 
-# CAMELLIA has 7200 nets => 
+# AES 1/2/3 has 19165 nets => 95
+# CAMELLIA has 7200 nets => 36
 # CAST has 13048 nets => 65
 # MISTY has 9800 nets => 49
 # OPENMSP1 has 781 nets => 4
 # OPENMSP2 has 794 nets => 4
 # PRESENT has 1044 nets => 5
-# SEED has 12900 nets => 65
+# SEED has 12900 nets => 64
 # SPARX has 10800 nets => 54
 # TDEA has 2651 nets => 13
-set NETS_PER_ROUND_B 13
-set ALPHA 1.05
 
-set DEBUG 0
+switch $DESIGN {
+	"present" {
+		set NETS_PER_ROUND 5
+	} 
+	"camellia" {
+		set NETS_PER_ROUND 36
+	}
+	"cast" {
+		set NETS_PER_ROUND 65
+	}
+	"misty" {
+		set NETS_PER_ROUND 49
+	}
+	"openmsp430_1" {
+		set NETS_PER_ROUND 4
+	}
+	"openmsp430_2" {
+		set NETS_PER_ROUND 4
+	}
+	"seed" {
+		set NETS_PER_ROUND 64
+	}
+	"sparx" {
+		set NETS_PER_ROUND 54
+	}
+	"tdea" {
+		set NETS_PER_ROUND 13
+	}
+	default {
+		set NETS_PER_ROUND 95
+	}
+}
+
+set ALPHA 1.01
+set DEBUG 1
 
 # this proc finds nets on layer layer that have not been widened yet
 proc find_nets {layer net_assets nets_widened} {
@@ -161,7 +193,7 @@ while {$round <= $MAX} {
 
 	if {[find_nets $current_layer $net_assets nets_widened] == 1} { 
 		puts $logger "ROUND_B $round: found at least one net to wide in M$current_layer"	
-		apply_rule $current_layer $current_rule $net_assets $NETS_PER_ROUND_B nets_widened logger
+		apply_rule $current_layer $current_rule $net_assets $NETS_PER_ROUND nets_widened logger
 		route_detail
 		set round [expr $round +1]
 		if {$DEBUG == 1} {
