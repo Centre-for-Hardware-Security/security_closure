@@ -226,8 +226,8 @@ echo "total time is: [expr $TIME_taken]"
 puts $logger "total time is: [expr $TIME_taken]"
 
 set unique [lsort -unique $nets_widened]   
-echo "total number of nets touch in round B is [llength $unique]"
-puts $logger "total number of nets touch in round B is [llength $unique]"
+echo "total number of nets touched in round B is [llength $unique]"
+puts $logger "total number of nets touched in round B is [llength $unique]"
 
 close $logger
 
