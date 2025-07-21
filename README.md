@@ -1,3 +1,9 @@
+
+This repository is the security closure framework that is described in "A Zero-overhead Flow for Security Closure". To cite this work, please use the following reference:
+
+TBD
+
+
 # How to load a benchmark design?
 Navigate to the design of your choice and go to its run folder, e.g., `cd designs/tdea/run/`.
 
