@@ -1,7 +1,17 @@
 
-This repository is the security closure framework that is described in "A Zero-overhead Flow for Security Closure". To cite this work, please use the following reference:
+This repository contains scripts are results for the security closure framework is described in "A Zero-overhead Flow for Security Closure". To cite this work, please use the following reference:
 
-TBD
+Eslami, M., Johara, A., Park, K., & Pagliarini, S. (2025). A Zero-overhead Flow for Security Closure. arXiv preprint arXiv:2507.17385.
+
+@misc{eslami2025zerooverheadflowsecurityclosure,
+      title={A Zero-overhead Flow for Security Closure}, 
+      author={Mohammad Eslami and Ashira Johara and Kyungbin Park and Samuel Pagliarini},
+      year={2025},
+      eprint={2507.17385},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2507.17385}, 
+}
 
 
 # How to load a benchmark design?
@@ -25,7 +35,7 @@ To start the graphical interface in Stylus, the command is `gui_show`.
 A script called eval.stylus.tcl is provided. It only works in Stylus mode. To run it, you must have a design already loaded in Innovus before calling `source ../scripts/eval.stylus.tcl`. This script can be called at any time and repeatedly, if necessary. 
 
 # How to recreate results from the paper?
-Recreating the results is a 3-step process: implementation strategy, TI strategy, followed by FSPFI strategy.
+Assuming a design is already loaded, recreating the results from the paper becomes a 3-step process: implementation strategy, TI strategy, followed by FSPFI strategy.
 1. to start implementation, use script1.tcl. It works for every design and will set the floorplan sizes according to the paper results. Powerplan strategies are as in the contest setting as much possible. Since design sizes shrink, some stripes no longer fit where they should be.
 2. to start TI strategy, use nudger.tcl. It works for every design, no changes are needed. Statistics appear on the terminal as the script runs, and a summary appears in run/log.txt. 
 3. to start FSPFI strategy, use reroute_multinet.tcl followed by reroute_multinet2.tcl. Both scripts work for every design, no changes are needed. Statistics appear on the terminal as the script runs, and a summary appears in run/log2.txt. These scripts correspond to phases A and B of the FSPFI strategy described in the paper.
@@ -39,7 +49,7 @@ In order to improve the designs, the workflow should look like the itemized list
 	* in innovus stylus mode, these are the commands you will be needing: `create_floorplan` `add_rings` `route_special` `add_stripes` `place_opt_design` `ccopt_design` `route_design` `opt_design -post_route`
 4. rescore the design by issueing  `source eval.stylus.tcl` again
 
-Note: the scoring scripts should not be modified. The eval.stylus.tcl is the top level evaluation script, it will call a lot of other scripts automatically. You don't have to call them yourself. You can, however, look at them for learning a bit more about the TCL language. 
+Note: the scoring scripts should not be modified. The eval.stylus.tcl is the top level evaluation script, it will call a lot of other scripts automatically. You don't have to call them yourself. You can, however, look at them for learning a bit more about TCL and the scoring methodology. 
 
 #
 
