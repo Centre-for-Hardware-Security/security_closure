@@ -16,6 +16,7 @@ set MAX 999
 # SEED has 12900 nets => 64
 # SPARX has 10800 nets => 54
 # TDEA has 2651 nets => 13
+#
 
 switch $DESIGN {
 	"present" {
@@ -36,6 +37,9 @@ switch $DESIGN {
 	"openmsp430_2" {
 		set NETS_PER_ROUND 4
 	}
+	"openmsp430_array" {
+		set NETS_PER_ROUND 256
+	}
 	"seed" {
 		set NETS_PER_ROUND 64
 	}
@@ -46,11 +50,9 @@ switch $DESIGN {
 		set NETS_PER_ROUND 13
 	}
 	default {
-		set NETS_PER_ROUND 95
+		set NETS_PER_ROUND 105
 	}
 }
-
-set ALPHA 1.0
 
 set logger [open "../run/log2.txt" w]
 
@@ -80,21 +82,30 @@ while {$round <= $MAX} {
 	gets $infile line
 	set curr_perc [lindex $line 6]
 	
-	if {[expr $curr_exp*$ALPHA] >= $prev_exp} {
-		puts $logger "ROUND_A $round: total exposure now is $curr_exp"	
-		puts $logger "ROUND_A $round: percentage exposure of worst net now is $curr_perc"
-		puts $logger "ROUND_A terminated at $round because exposure did not improve (enough)"
-		set TIME_end [clock clicks -milliseconds]
-		set TIME_taken [expr ($TIME_end - $TIME_start)]
-		set TIME_total [expr $TIME_total + $TIME_taken]
-	
-		break
-	} else {
+	if {$round == 2} { 
+		# first comparison is being made, it often underperforms because it can't touch all assets at the same time in round 1.
+		# this is an improved trick, used for better understanding the sensitivity to NETS_PER_ROUND
 		puts $logger "ROUND_A $round: total exposure now is $curr_exp"	
 		puts $logger "ROUND_A $round: percentage exposure of worst net now is $curr_perc"
 		flush $logger
 		
 		set prev_exp $curr_exp
+	} else {
+		if {[expr $curr_exp] >= $prev_exp} {
+			puts $logger "ROUND_A $round: total exposure now is $curr_exp"	
+			puts $logger "ROUND_A $round: percentage exposure of worst net now is $curr_perc"
+			puts $logger "ROUND_A terminated at $round because exposure did not improve (enough)"
+			set TIME_end [clock clicks -milliseconds]
+			set TIME_taken [expr ($TIME_end - $TIME_start)]
+			set TIME_total [expr $TIME_total + $TIME_taken]
+			break
+		} else {
+			puts $logger "ROUND_A $round: total exposure now is $curr_exp"	
+			puts $logger "ROUND_A $round: percentage exposure of worst net now is $curr_perc"
+			flush $logger
+			
+			set prev_exp $curr_exp
+		}
 	}
 
 	# skip reading the next 2 lines 
@@ -150,8 +161,8 @@ while {$round <= $MAX} {
 }
 
 set unique [lsort -unique $used]   
-echo "total number of nets touch in round A is [llength $unique]"
-puts $logger "total number of nets touch in round A is [llength $unique]"
+echo "total number of nets touched in round A is [llength $unique]"
+puts $logger "total number of nets touched in round A is [llength $unique]"
 
 set TIME_start [clock clicks -milliseconds]
 

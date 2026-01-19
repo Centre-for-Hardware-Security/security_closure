@@ -82,7 +82,8 @@ while {$rounds <= $MAX} {
 		set stuck [expr $stuck + 1]
 	}
 
-	if {$stuck < 3} {
+	if {$stuck < 3} { 
+		# this is the STUCK MAX parameter mentioned in the paper. 3 is adopted.
 		set nudgex 1
 		set push 0
 	} else {

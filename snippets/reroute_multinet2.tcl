@@ -32,6 +32,9 @@ switch $DESIGN {
 	"openmsp430_2" {
 		set NETS_PER_ROUND 4
 	}
+	"openmsp430_array" {
+		set NETS_PER_ROUND 256
+	}
 	"seed" {
 		set NETS_PER_ROUND 64
 	}
@@ -42,11 +45,10 @@ switch $DESIGN {
 		set NETS_PER_ROUND 13
 	}
 	default {
-		set NETS_PER_ROUND 95
+		set NETS_PER_ROUND 105
 	}
 }
 
-set ALPHA 1.01
 set DEBUG 1
 
 # this proc finds nets on layer layer that have not been widened yet

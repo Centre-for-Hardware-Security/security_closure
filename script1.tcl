@@ -47,14 +47,19 @@ switch $DESIGN {
 		set param_rows 70
 		set param_cols 550
 	}
+	"openmsp430_array" {
+		set param_rows 560
+		set param_cols 4400
+	}
 	"seed" {
 		set param_rows 87
 		set param_cols 647
 	}
-	"sparx" {
+	"sparx" { 
 		set param_rows 99
 		set param_cols 714
 		# 711 is good for fspfi. 712 is good for power. 714 is better for power
+		# paper used 99 / 714
 	}
 	"tdea" {
 		set param_rows 43
@@ -102,7 +107,16 @@ if {$DESIGN=="AES"} {
 
 # this keeps the same pin strategy from the original design
 read_floorplan ../originals/floorplan.fp -sections {pin}
+
+# commands for moving the clk pin to perform additional analysis on overheads. this violates the contest rules 
+# and was not used for comparison with other works
+#edit_pin -pin_width 0.07 -pin_depth 0.07 -fix_overlap 1 -side left -layer 3  -pin clk -assign 0 5 -fixed_pin 1
+#edit_pin -pin_width 0.07 -pin_depth 0.07 -fix_overlap 1 -side right -layer 3  -pin clk -assign 0 5 -fixed_pin 1
+#edit_pin -pin_width 0.07 -pin_depth 0.07 -fix_overlap 1 -side top -layer 3  -pin clk -assign 5 0 -fixed_pin 1
+#edit_pin -pin_width 0.07 -pin_depth 0.07 -fix_overlap 1 -side bot -layer 3  -pin clk -assign 5 0 -fixed_pin 1
 legalize_pins
+
+#suspend
 
 # initial settings
 set setup_target 0.000
